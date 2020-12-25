@@ -8,6 +8,16 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "Typescript
+    Plug 'leafgarland/typescript-vim'
+    "Rainbow
+    Plug 'luochen1990/rainbow'
+    "CSS better syntax
+    Plug 'hail2u/vim-css3-syntax'
+    "CSS Color
+    Plug 'ap/vim-css-color'
+    "Angular
+    Plug 'burnettk/vim-angular'
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Change dates fast
@@ -41,7 +51,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Treesitter
-    Plug 'nvim-treesitter/nvim-treesitter'
+    Plug 'nvim-treesitter/nvim-treesitter' ,{'do': ':TSUpdate'}
     Plug 'nvim-treesitter/playground'
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
@@ -113,8 +123,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'szw/vim-maximizer'
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-    " Rainbow brackets
-    " Plug 'luochen1990/rainbow'
+    
     " Async Linting Engine
     " TODO make sure to add ale config before plugin
     " Plug 'dense-analysis/ale'
