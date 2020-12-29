@@ -8,6 +8,9 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "JSX
+    Plug 'mxw/vim-jsx'
+    Plug 'maxmellon/vim-jsx-pretty'
     "Typescript
     Plug 'leafgarland/typescript-vim'
     "Rainbow
