@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "wakaTime
+    Plug 'wakatime/vim-wakatime'
     "JSX
     Plug 'mxw/vim-jsx'
     Plug 'maxmellon/vim-jsx-pretty'
