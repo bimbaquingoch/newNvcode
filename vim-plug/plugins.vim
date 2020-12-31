@@ -55,7 +55,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Treesitter
-    Plug 'nvim-treesitter/nvim-treesitter' ,{'do': ':TSUpdate'}
+    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
     Plug 'nvim-treesitter/playground'
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'

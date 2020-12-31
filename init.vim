@@ -23,7 +23,7 @@ else
 
   " Themes
   source $HOME/.config/nvim/themes/syntax.vim
-  source $HOME/.config/nvim/themes/nvcode.vim
+  source $HOME/.config/nvim/themes/spaceline.vim
 
   " Plugin Configuration
   source $HOME/.config/nvim/keys/which-key.vim
@@ -53,10 +53,10 @@ else
   source $HOME/.config/nvim/plug-config/window-swap.vim
   source $HOME/.config/nvim/plug-config/markdown-preview.vim
   source $HOME/.config/nvim/plug-config/neovide.vim
-  luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+ " luafile $HOME/.config/nvim/lua/plug-colorizer.lua
   source $HOME/.config/nvim/plug-config/vimspector.vim
   " source $HOME/.config/nvim/plug-config/sneak.vim
-  " source $HOME/.config/nvim/plug-config/rainbow.vim
+  source $HOME/.config/nvim/plug-config/rainbow.vim
   " source $HOME/.config/nvim/plug-config/illuminate.vim
   " source $HOME/.config/nvim/plug-config/vista.vim
   " source $HOME/.config/nvim/plug-config/xtabline.vim
