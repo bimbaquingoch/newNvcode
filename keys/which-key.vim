@@ -53,6 +53,8 @@ let g:which_key_map['u'] = [ ':UndotreeToggle'                                 ,
 let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
 let g:which_key_map['W'] = [ ':call WindowSwap#EasyWindowSwap()'               , 'move window' ]
 let g:which_key_map['z'] = [ 'Goyo'                                            , 'zen' ]
+let g:which_key_map['w'] = [':w'                                               , 'save']
+let g:which_key_map['c'] = [':q'                                               , 'quit']
 
 " Group mappings
 
