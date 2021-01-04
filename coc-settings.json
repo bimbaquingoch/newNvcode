@@ -105,12 +105,12 @@
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
   },
-
   "languageserver": {
-    "lua": {
-      "command": "/home/chris/.luambenvs/neovim4/bin/lua-lsp",
-      "filetypes": ["lua"],
-      "trace.server": "verbose"
+    "bash": {
+      "command": "bash-language-server",
+      "args": ["start"],
+      "filetypes": ["sh"],
+      "ignoredRootPaths": ["~"]
     }
   },
 
