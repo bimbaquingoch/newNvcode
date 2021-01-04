@@ -18,6 +18,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'leafgarland/typescript-vim'
     "Rainbow
     Plug 'luochen1990/rainbow'
+    Plug 'kien/rainbow_parentheses.vim'
     "CSS better syntax
     Plug 'hail2u/vim-css3-syntax'
     "CSS Color
