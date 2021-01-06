@@ -8,8 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    "synthwave
-    Plug 'troyfletcher/vim-colors-synthwave'
+    "indentpython
+    Plug 'vim-scripts/indentpython.vim'
     " Prettier
     Plug 'prettier/vim-prettier'
     "wakaTime
