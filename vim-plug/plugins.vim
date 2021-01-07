@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "IONIC
+    Plug 'akz92/vim-ionic2'
     "indentpython
     Plug 'vim-scripts/indentpython.vim'
     " Prettier
@@ -16,6 +18,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'wakatime/vim-wakatime'
     "Typescript
     Plug 'leafgarland/typescript-vim'
+    Plug 'quramy/tsuquyomi'
+    Plug 'maxmellon/vim-jsx-pretty'
     "Rainbow
     Plug 'luochen1990/rainbow'
     Plug 'kien/rainbow_parentheses.vim'
