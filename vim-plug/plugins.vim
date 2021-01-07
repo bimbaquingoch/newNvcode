@@ -41,8 +41,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'unblevable/quick-scope'
     " Useful for React Commenting 
     Plug 'suy/vim-context-commentstring'
-    " highlight all matches under cursor
-    " Plug 'RRethy/vim-illuminate'
 
   if exists('g:vscode')
     " Easy motion for VSCode
@@ -135,60 +133,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
     
-    " Async Linting Engine
-    " TODO make sure to add ale config before plugin
-    " Plug 'dense-analysis/ale'
-    " Better Whitespace
-    " Plug 'ntpeters/vim-better-whitespace'
-    " Multiple Cursors
-    " TODO add this back in change from C-n
-    " Plug 'mg979/vim-visual-multi', {'branch': 'master'}
-    " Plug 'yuezk/vim-js'
-    " Plug 'maxmellon/vim-jsx-pretty'
-    " Plug 'jelera/vim-javascript-syntax'
-    " Plugin Graveyard
-
-    " Debug
-    " Plug 'mfussenegger/nvim-dap'
-    " Plug 'nvim-dap-virtual-text'
-    " Sneak
-    " Plug 'justinmk/vim-sneak'
-    " Plug 'nvim-treesitter/nvim-treesitter-refactor'
-    " Plug 'nvim-treesitter/nvim-treesitter-textobjects'
-    " Plug 'romgrk/nvim-treesitter-context'
-    " Minimap
-    " Plug 'wfxr/minimap.vim'
-    " jsx syntax support
-    " Typescript syntax
-    " Plug 'HerringtonDarkholme/yats.vim'
-    " Multiple Cursors
-    " Plug 'terryma/vim-multiple-cursors'
-    " Plug 'kaicataldo/material.vim'
-    " Plug 'tomasiser/vim-code-dark'
-    " Plug 'mg979/vim-xtabline'
-    " Files
-    " Plug 'tpope/vim-eunuch'
-    " Vim Wiki
-    " Plug 'https://github.com/vimwiki/vimwiki.git'
-    " Better Comments
-    " Plug 'jbgutierrez/vim-better-comments'
-    " Echo doc
-    " Plug 'Shougo/echodoc.vim'
-    " Plug 'hardcoreplayers/spaceline.vim'
-    " Plug 'vim-airline/vim-airline'
-    " Plug 'vim-airline/vim-airline-themes'
-    " Ranger
-    " Plug 'francoiscabrol/ranger.vim'
-    " Plug 'rbgrouleff/bclose.vim'
-    " Making stuff
-    " Plug 'neomake/neomake'
-    " Plug 'mhinz/vim-signify'
-    " Plug 'preservim/nerdcommenter'
-    " Plug 'brooth/far.vim'
-    " Plug 'atishay/far.vim'
-    " Plug 'romgrk/lib.kom'
-    " Plug 'brooth/far.vim'
-    " Debugging
   endif
 
 call plug#end()
