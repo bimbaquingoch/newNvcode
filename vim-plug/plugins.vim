@@ -76,11 +76,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Status Line
     Plug 'glepnir/galaxyline.nvim'
     Plug 'kevinhwang91/rnvimr'
-    " FZF
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
-    Plug 'junegunn/fzf.vim'
-    " Git
+   " Git
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
