@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "Json
+    Plug 'elzr/vim-json'
     "IONIC
     Plug 'akz92/vim-ionic2'
     "indentpython
