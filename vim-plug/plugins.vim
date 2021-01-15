@@ -17,6 +17,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Prettier
     Plug 'prettier/vim-prettier'
     "wakaTime
+    Plug 'tpope/vim-fireplace'
     Plug 'wakatime/vim-wakatime'
     "Typescript
     Plug 'leafgarland/typescript-vim'
