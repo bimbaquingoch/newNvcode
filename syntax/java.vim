@@ -7,7 +7,6 @@
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
-
 " gruvbox (dark)
 "let orange = "#d65d0e" "special color for numbers
 "let black = "#282828"
@@ -19,9 +18,8 @@
 "let cyan = "#689d6a"
 "let white = "#a89984"
 
-
 " one dark
-let orange = "#d19a66" "special color for numbers
+let orange = "#d65d0e" "special color for numbers
 let black = "#282c34"
 let red = "#E06C75"
 let green = "#98c379"
@@ -33,7 +31,6 @@ let white = "#ABB2BF"
 
 
 " you may chage the color according to your will :)
-
 
 " main color (for left over words)
 syn match main "\w"
@@ -147,20 +144,16 @@ execute "highlight javaBranch ctermfg=4  guifg=".purple
 " public protected private abstract
 execute "highlight javaScopeDecl ctermfg=4  guifg=".purple
 
-
 """"""""""""""""""""""""""""""""""""""'
 " java 9...
 " module transitive
 execute "highlight javaModuleStorageClass ctermfg=4  guifg=".purple
 
-
 " open requires exports opens uses provides 
 execute "highlight javaModuleStmt ctermfg=4  guifg=".yellow
 
-
 " to with
 execute "highlight javaModuleExternal ctermfg=4  guifg=".red
-
 
 """""""""""""""""""""""""""""""""""""""""
 " lambda
@@ -172,9 +165,5 @@ execute "highlight javaLambdaDef ctermfg=4  guifg=".cyan
 " notify notifyAll toString wait
 execute "highlight javaLangObject ctermfg=4  guifg=".yellow
 
-
-
-
-
-""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
