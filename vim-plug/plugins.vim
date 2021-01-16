@@ -14,8 +14,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'akz92/vim-ionic2'
     "indentpython
     Plug 'vim-scripts/indentpython.vim'
-    " Prettier
-    Plug 'prettier/vim-prettier'
     "wakaTime
     Plug 'tpope/vim-fireplace'
     Plug 'wakatime/vim-wakatime'
