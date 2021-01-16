@@ -34,8 +34,8 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 
 " Single mappings
-let g:which_key_map['/'] = [ ':call Comment()'                                 , 'comment' ]
 let g:which_key_map['.'] = [ ':e $MYVIMRC'                                     , 'open init' ]
+let g:which_key_map['/'] = [ ':call Comment()'                                 , 'comment' ]
 let g:which_key_map[';'] = [ ':Commands'                                       , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                                          , 'balance windows' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   , 'explorer' ]
@@ -43,13 +43,29 @@ let g:which_key_map['h'] = [ '<C-W>s'                                          ,
 let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
 let g:which_key_map['o'] = [ ':RnvimrToggle'                                   , 'open' ]
 let g:which_key_map['p'] = [ ':Files'                                          , 'search files' ]
-let g:which_key_map['T'] = [ ':TSHighlightCapturesUnderCursor'                 , 'treesitter highlight' ]
+let g:which_key_map['q'] = [':q'                                               , 'quit']
 let g:which_key_map['u'] = [ ':UndotreeToggle'                                 , 'undo tree']
+let g:which_key_map['T'] = [ ':TSHighlightCapturesUnderCursor'                 , 'treesitter highlight' ]
 let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
 let g:which_key_map['W'] = [ ':call WindowSwap#EasyWindowSwap()'               , 'move window' ]
 let g:which_key_map['z'] = [ 'Goyo'                                            , 'zen' ]
 let g:which_key_map['w'] = [':w'                                               , 'save']
-let g:which_key_map['q'] = [':q'                                               , 'quit']
+
+
+" Appearance
+
+let g:which_key_map.c = {
+      \ 'name':'+colores',
+      \ 'a' : [':colorscheme aurora'                        , 'aurora'],
+      \ 'b' : [':colorscheme default'                       , 'default' ],
+      \ 'c' : [':colorscheme delek'                         , 'delek'],
+      \ 'd' : [':colorscheme dracula'                       , 'dracula'],
+      \ 'e' : [':colorscheme gruvbox'                       , 'gruvbox'],
+      \ 'f' : [':colorscheme nvcode'                        , 'nvcode'],
+      \ 'g' : [':colorscheme onedark'                       , 'onedark'],
+      \ 'h' : [':colorscheme palenight'                     , 'palenight'],
+      \ 'i' : [':colorscheme snazzy'                        , 'snazzy'],
+      \}
 
 " Group mappings
 
@@ -143,11 +159,11 @@ let g:which_key_map.k = {
 " m is for mark
 let g:which_key_map.m = {
       \ 'name' : '+mark' ,
-      \ 'c' : [':CocCommand bookmark.clearForCurrentFile', 'clear file'],
-      \ 'C' : [':CocCommand bookmark.clearForAllFiles', 'clear project'],
-      \ 'j' : [':CocCommand bookmark.next', 'next bookmark'],
-      \ 'k' : [':CocCommand bookmark.prev', 'prev bookmark'],
-      \ 't' : [':CocCommand bookmark.toggle', 'toggle bookmark'],
+      \ 'c' : [':CocCommand bookmark.clearForCurrentFile'               , 'clear file'],
+      \ 'C' : [':CocCommand bookmark.clearForAllFiles'                  , 'clear project'],
+      \ 'j' : [':CocCommand bookmark.next'                              , 'next bookmark'],
+      \ 'k' : [':CocCommand bookmark.prev'                              , 'prev bookmark'],
+      \ 't' : [':CocCommand bookmark.toggle'                            , 'toggle bookmark'],
       \ }
       " CoC throws an error
       " \ 'a' : [':CocCommand bookmark.annotate', 'annotate bookmark'],
@@ -155,32 +171,31 @@ let g:which_key_map.m = {
 " s is for search
 let g:which_key_map.s = {
       \ 'name' : '+search' ,
-      \ '/' : [':History/'              , 'history'],
-      \ ';' : [':FzfPreviewCommandPalette'              , 'commands'],
-      \ 'a' : [':Ag'                    , 'text Ag'],
-      \ 'b' : [':CocCommand fzf-preview.BufferLines'                , 'current buffer'],
-      \ 'B' : [':CocCommand fzf-preview.Buffers'               , 'open buffers'],
-      \ 'c' : [':Commits'               , 'commits'],
-      \ 'C' : [':BCommits'              , 'buffer commits'],
-      \ 'd' : [':CocCommand fzf-preview.DirectoryFiles'              , 'directories'],
-      \ 'f' : [':CocCommand fzf-preview.ProjectFiles'                 , 'files'],
-      \ 'g' : [':CocCommand fzf-preview.GitFiles'                , 'git files'],
-      \ 'G' : [':GFiles?'               , 'modified git files'],
-      \ 'h' : [':History'               , 'file history'],
-      \ 'H' : [':History:'              , 'command history'],
-      \ 'l' : [':Lines'                 , 'lines'] ,
-      \ 'm' : [':CocCommand fzf-preview.Marks', 'list marks'],
-      \ 'M' : [':Maps'                  , 'normal maps'] ,
-      \ 'p' : [':Helptags'              , 'help tags'] ,
-      \ 'P' : [':Tags'                  , 'project tags'],
-      \ 'q' : [':CocCommand fzf-preview.QuickFix'                  , 'quickfix list'],
-      \ 's' : [':CocList snippets'      , 'snippets'],
-      \ 'S' : [':Colors'                , 'color schemes'],
-      \ 't' : [':Rg'                    , 'text Rg'],
-      \ 'T' : [':BTags'                 , 'buffer tags'],
-      \ 'w' : [':Windows'               , 'search windows'],
-      \ 'y' : [':Filetypes'             , 'file types'],
-      \ 'z' : [':FZF'                   , 'FZF'],
+      \ '/' : [':History/'                                        , 'history'],
+      \ ';' : [':FzfPreviewCommandPalette'                        , 'commands'],
+      \ 'a' : [':Ag'                                              , 'text Ag'],
+      \ 'b' : [':CocCommand fzf-preview.BufferLines'              , 'current buffer'],
+      \ 'B' : [':CocCommand fzf-preview.Buffers'                  , 'open buffers'],
+      \ 'c' : [':Commits'                                         , 'commits'],
+      \ 'C' : [':BCommits'                                        , 'buffer commits'],
+      \ 'd' : [':CocCommand fzf-preview.DirectoryFiles'           , 'directories'],
+      \ 'f' : [':CocCommand fzf-preview.ProjectFiles'             , 'files'],
+      \ 'g' : [':CocCommand fzf-preview.GitFiles'                 , 'git files'],
+      \ 'G' : [':GFiles?'                                         , 'modified git files'],
+      \ 'h' : [':History'                                         , 'file history'],
+      \ 'H' : [':History:'                                        , 'command history'],
+      \ 'l' : [':Lines'                                           , 'lines'] ,
+      \ 'm' : [':CocCommand fzf-preview.Marks'                    , 'list marks'],
+      \ 'M' : [':Maps'                                            , 'normal maps'] ,
+      \ 'p' : [':Helptags'                                        , 'help tags'] ,
+      \ 'P' : [':Tags'                                            , 'project tags'],
+      \ 'q' : [':CocCommand fzf-preview.QuickFix'                 , 'quickfix list'],
+      \ 's' : [':CocList snippets'                                , 'snippets'],
+      \ 't' : [':Rg'                                              , 'text Rg'],
+      \ 'T' : [':BTags'                                           , 'buffer tags'],
+      \ 'w' : [':Windows'                                         , 'search windows'],
+      \ 'y' : [':Filetypes'                                       , 'file types'],
+      \ 'z' : [':FZF'                                             , 'FZF'],
       \ }
 
 let g:which_key_map.S = {
