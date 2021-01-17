@@ -100,7 +100,7 @@ let g:which_key_map.c = {
       \ 'name':'+colors',
       \ 'a' : [':colorscheme aurora'                        , 'aurora'],
       \ 'b' : [':colorscheme default'                       , 'default' ],
-      \ 'c' : [':colorscheme delek'                         , 'delek'],
+      \ 'c' : [':colorscheme delek'                         , 'delek light'],
       \ 'd' : [':colorscheme dracula'                       , 'dracula'],
       \ 'e' : [':colorscheme gruvbox'                       , 'gruvbox'],
       \ 'f' : [':colorscheme nvcode'                        , 'nvcode'],
