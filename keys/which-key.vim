@@ -107,6 +107,9 @@ let g:which_key_map.c = {
       \ 'g' : [':colorscheme onedark'                       , 'onedark'],
       \ 'h' : [':colorscheme palenight'                     , 'palenight'],
       \ 'i' : [':colorscheme snazzy'                        , 'snazzy'],
+      \ 'j' : [':colorscheme toast'                         , 'toast dark'],
+      \ 'k' : [':colorscheme ltoast'                        , 'toast light'],
+      \ 'l' : [':colorscheme tokyonight'                    , 'tokyonight']
       \}
 
 "Plug
