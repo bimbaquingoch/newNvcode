@@ -225,7 +225,7 @@ let g:which_key_map.g = {
       \ 'b' : [':Git blame'                        , 'blame'],
       \ 'c' : [':Git commit'                       , 'commit'],
       \ 'd' : [':Git diff'                         , 'diff'],
-      \ 'e' : [':Git status'                       , 'status'],
+      \ 'e' : [':Gstatus'                          , 'status'],
       \ 'f' : [':GitGutterLineHighlightsToggle'    , 'highlight hunks'],
       \ 'g' : [':Gist -b'                          , 'post gist'],
       \ 'h' : ['<Plug>(GitGutterNextHunk)'         , 'next hunk'],
