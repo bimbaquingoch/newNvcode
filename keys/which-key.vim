@@ -223,6 +223,7 @@ let g:which_key_map.g = {
       \ 'name' : '+git' ,
       \ 'a' : [':Git add .'                        , 'add all'],
       \ 'b' : [':Git blame'                        , 'blame'],
+      \ 'B' : [':Git branch'                       , 'branches'],
       \ 'c' : [':Git commit'                       , 'commit'],
       \ 'd' : [':Git diff'                         , 'diff'],
       \ 'e' : [':Gstatus'                          , 'status'],
