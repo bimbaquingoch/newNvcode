@@ -234,7 +234,11 @@ let g:which_key_map.g = {
       \ 'k' : [':Git log --stat'                   , 'log --stat'],
       \ 'l' : [':Git log --after="today"'          , 'log --after="today"'],
       \ 'm' : [':Git show'                         , 'show'],
-      \ 'M' : [':Git checkout master'               , 'Master']
+      \ 'M' : [':Git checkout master'              , 'Master'],
+      \ 'n' : [':Git branch development'           , 'branch development'],
+      \ 'o' : [':Git branch hotfix'                , 'branch hotfix'],
+      \ 'N' : [':Git checkout development'         , 'move to development'],
+      \ 'O' : [':Git checkout hotfix'              , 'move to hotfix']
       \ }
 
 let g:which_key_map.G = {
