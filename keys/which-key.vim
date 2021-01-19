@@ -234,6 +234,7 @@ let g:which_key_map.g = {
       \ 'k' : [':Git log --stat'                   , 'log --stat'],
       \ 'l' : [':Git log --after="today"'          , 'log --after="today"'],
       \ 'm' : [':Git show'                         , 'show'],
+      \ 'M' : ['Git checkout master'               , 'Master']
       \ }
 
 let g:which_key_map.G = {
