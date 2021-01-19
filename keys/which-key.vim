@@ -222,7 +222,7 @@ let g:which_key_map.S = {
 let g:which_key_map.g = {
       \ 'name' : '+git' ,
       \ 'a' : [':Git add .'                        , 'add all'],
-      \ 'b' : [':Git show'                         , 'show'],
+      \ 'b' : [':Git blame'                        , 'blame'],
       \ 'c' : [':Git commit'                       , 'commit'],
       \ 'd' : [':Git diff'                         , 'diff'],
       \ 'e' : [':Gstatus'                          , 'status'],
@@ -232,7 +232,8 @@ let g:which_key_map.g = {
       \ 'i' : [':Git log --decorate'               , 'log --decorate'],
       \ 'j' : [':Git log --oneline'                , 'log --oneline'],
       \ 'k' : [':Git log --stat'                   , 'log --stat'],
-      \ 'l' : [':Git log --after="today"'          , 'log --after="today"']
+      \ 'l' : [':Git log --after="today"'          , 'log --after="today"'],
+      \ 'm' : [':Git show'                         , 'show'],
       \ }
 
 let g:which_key_map.G = {
