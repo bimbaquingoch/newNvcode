@@ -238,7 +238,9 @@ let g:which_key_map.g = {
       \ 'n' : [':Git branch development'           , 'branch development'],
       \ 'o' : [':Git branch hotfix'                , 'branch hotfix'],
       \ 'N' : [':Git checkout development'         , 'move to development'],
-      \ 'O' : [':Git checkout hotfix'              , 'move to hotfix']
+      \ 'O' : [':Git checkout hotfix'              , 'move to hotfix'],
+      \ 'p' : [':Git merge development'            , 'merge development'],
+      \ 'q' : [':Git merge hotfix'                 , 'merge hotfix']
       \ }
 
 let g:which_key_map.G = {
