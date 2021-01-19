@@ -222,19 +222,17 @@ let g:which_key_map.S = {
 let g:which_key_map.g = {
       \ 'name' : '+git' ,
       \ 'a' : [':Git add .'                        , 'add all'],
-      \ 'b' : [':Git blame'                        , 'blame'],
+      \ 'b' : [':Git show'                         , 'show'],
       \ 'c' : [':Git commit'                       , 'commit'],
       \ 'd' : [':Git diff'                         , 'diff'],
       \ 'e' : [':Gstatus'                          , 'status'],
-      \ 'f' : [':GitGutterLineHighlightsToggle'    , 'highlight hunks'],
-      \ 'g' : [':Gist -b'                          , 'post gist'],
-      \ 'h' : ['<Plug>(GitGutterNextHunk)'         , 'next hunk'],
-      \ 'i' : ['<Plug>(GitGutterPrevHunk)'         , 'prev hunk'],
-      \ 'j' : [':Git log'                          , 'log'],
-      \ 'k' : [':Git push'                         , 'push'],
-      \ 'l' : [':Git pull'                         , 'pull'],
-      \ 'm' : [':GV'                               , 'view commits'],
-      \ 'n' : [':GV!'                              , 'view buffer commits'],
+      \ 'f' : [':Git log'                          , 'log'],
+      \ 'g' : [':Git push'                         , 'push'],
+      \ 'h' : [':Git pull'                         , 'pull'],
+      \ 'i' : [':Git log --decorate'               , 'log --decorate'],
+      \ 'j' : [':Git log --oneline'                , 'log --oneline'],
+      \ 'k' : [':Git log --stat'                   , 'log --stat'],
+      \ 'l' : [':Git log --after="today"'          , 'log --after="today"']
       \ }
 
 let g:which_key_map.G = {
