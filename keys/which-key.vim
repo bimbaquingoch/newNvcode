@@ -232,7 +232,6 @@ let g:which_key_map.g = {
       \ 'h' : [':Gpull origin master'              , 'pull'],
       \ 'i' : [':Git log --oneline'                , 'log --oneline'],
       \ 'j' : [':Git log --stat'                   , 'log --stat'],
-      \ 'k' : [':Git log --after="today"'          , 'log --after="today"'],
       \ 'l' : [':Git show'                         , 'show'],
       \ 'm' : [':Git checkout master'              , 'move to Master'],
       \ 'n' : [':Git branch development'           , 'branch development'],
