@@ -17,7 +17,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "indentpython
     Plug 'vim-scripts/indentpython.vim'
     "wakaTime
-    Plug 'tpope/vim-fireplace'
     Plug 'wakatime/vim-wakatime'
     "Typescript
     Plug 'leafgarland/typescript-vim'
