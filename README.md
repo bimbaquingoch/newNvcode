@@ -1,6 +1,6 @@
 # NVCode
 
-![NVCode pic](./utils/images/nvim.png)
+![NVCode pic](./utils/images/theme1.png)
 
 ## Install in one command
 
