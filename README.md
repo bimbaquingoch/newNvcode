@@ -26,6 +26,30 @@ This script only supports Mac, Ubuntu and Arch
 bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/nvcode/master/utils/install.sh)
 ```
 
+## After install!!!
+
+## if you want have online statistics from your daily work
+
+![NVCode pic](./utils/images/waka.png)
+
+## first create an account here
+
+https://wakatime.com/
+
+## and then when you write in your terminal
+
+```
+nvim
+```
+
+## here put your key from the page
+
+## if you don't will use this go to
+
+![NVCode pic](./utils/images/wakaConfig.png)
+
+## and comment this line
+
 ## Install Neovim
 
 - Mac
