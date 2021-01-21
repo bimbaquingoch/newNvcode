@@ -12,6 +12,10 @@
 ![NVCode pic](./utils/images/theme9.png)
 ![NVCode pic](./utils/images/theme10.png)
 
+## Original Author
+
+https://github.com/ChristianChiarulli/nvim
+
 ## Install in one command
 
 The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
