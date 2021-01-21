@@ -42,7 +42,7 @@ https://wakatime.com/
 nvim
 ```
 
-## here put your key from the page
+## there put your key from the page
 
 ## if you don't will use this go to
 
