@@ -1,6 +1,16 @@
 # NVCode
 
+![NVCode pic](./utils/images/theme0.png)
 ![NVCode pic](./utils/images/theme1.png)
+![NVCode pic](./utils/images/theme2.png)
+![NVCode pic](./utils/images/theme3.png)
+![NVCode pic](./utils/images/theme4.png)
+![NVCode pic](./utils/images/theme5.png)
+![NVCode pic](./utils/images/theme6.png)
+![NVCode pic](./utils/images/theme7.png)
+![NVCode pic](./utils/images/theme8.png)
+![NVCode pic](./utils/images/theme9.png)
+![NVCode pic](./utils/images/theme10.png)
 
 ## Install in one command
 
@@ -9,7 +19,7 @@ The following will install this config if you have an existing config it will mo
 This script only supports Mac, Ubuntu and Arch
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/nvim/master/utils/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/nvcode/master/utils/install.sh)
 ```
 
 ## Install Neovim
