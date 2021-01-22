@@ -44,7 +44,7 @@ nvim
 
 ## there put your key from the page
 
-## if you don't will use this go to
+## if you don't will use this, go to
 
 ![NVCode pic](./utils/images/wakaConfig.png)
 
