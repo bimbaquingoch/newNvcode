@@ -23,7 +23,7 @@ The following will install this config if you have an existing config it will mo
 This script only supports Mac, Ubuntu and Arch
 
 ```
-bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/nvcode/master/utils/install.sh)
+bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
 ```
 
 ## After install!!!
@@ -79,7 +79,7 @@ nvim
 ## Clone this repo into your config
 
 ```
-git clone https://github.com/bimbaquingoch/nvcode.git
+git clone https://github.com/bimbaquingoch/newNvcode.git
 ```
 
 ## Install python & node support
