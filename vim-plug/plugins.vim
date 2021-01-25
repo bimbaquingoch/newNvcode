@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "Srcery
+    Plug 'srcery-colors/srcery-vim'
     "Json
     Plug 'elzr/vim-json'
     "IONIC
