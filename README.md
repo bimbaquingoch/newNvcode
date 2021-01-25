@@ -25,6 +25,7 @@ This script only supports Mac, Ubuntu and Arch
 ```
 bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
 ```
+
 ## After install!!!
 
 ## if you want have online statistics from your daily work
@@ -62,11 +63,9 @@ nvim
 - Ubuntu
 
   ```
-  curl -l https://github.com/neovim/neovim/releases/download/nightly/nvim.appimage > /tmp/nvim.appimage
-
-  sudo mv /tmp/nvim.appimage /usr/local/bin/nvim
-
-  chmod +x /usr/local/bin/nvim
+  sudo apt-get update
+  sudo apt-get install snapd
+  sudo snap install nvim --classic
   ```
 
 - Arch
@@ -78,7 +77,7 @@ nvim
 ## Clone this repo into your config
 
 ```
-git clone https://github.com/bimbaquingoch/newNvcode.git
+git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 ```
 
 ## Install python & node support
