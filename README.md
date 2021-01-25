@@ -64,7 +64,7 @@ nvim
 
   ```
   sudo apt-get update
-  sudo apt-get install snapd
+  sudo apt-get install snapd -y
   sudo snap install nvim --classic
   ```
 
