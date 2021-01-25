@@ -114,8 +114,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'skywind3000/asyncrun.vim'
     " Swap windows
     Plug 'wesQ3/vim-windowswap'
-    " Markdown Preview
-    Plug 'jamshedvesuna/vim-markdown-preview' { 'do': 'cd app & npm install'}
     " Easily Create Gists
     Plug 'mattn/vim-gist'
     Plug 'mattn/webapi-vim'
