@@ -8,8 +8,6 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " Toast
-    Plug 'jsit/toast.vim'
     "Json
     Plug 'elzr/vim-json'
     "IONIC
