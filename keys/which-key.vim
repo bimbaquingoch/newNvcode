@@ -113,15 +113,15 @@ let g:which_key_map.c = {
       \}
 
 "Plug
-let g:which_key_map.i = {
+let g:which_key_map.p = {
       \ 'name' : '+PlugConf',
-      \ 'a' : [':PlugClean','PlugClean'],
-      \ 'b' : [':PlugInstall','PlugInstall'],
-      \ 'c' : [':PlugStatus','PlugStatus'],
-      \ 'd' : [':PlugUpdate','PlugUpdate'],
-      \ 'e' : [':PlugUpgrade','PlugUpgrade'],
-      \ 'f' : [':PlugSnapshot','PlugSnapshot'],
-      \ 'g' : [':PlugDiff', 'PlugDiff']
+      \ 'a' : [':PlugClean'                     ,'PlugClean'],
+      \ 'b' : [':PlugInstall'                   ,'PlugInstall'],
+      \ 'c' : [':PlugStatus'                    ,'PlugStatus'],
+      \ 'd' : [':PlugUpdate'                    ,'PlugUpdate'],
+      \ 'e' : [':PlugUpgrade'                   ,'PlugUpgrade'],
+      \ 'f' : [':PlugSnapshot'                  ,'PlugSnapshot'],
+      \ 'g' : [':PlugDiff'                      , 'PlugDiff']
       \}
 
 
@@ -143,13 +143,6 @@ let g:which_key_map.d = {
       \ 's' : ['<Plug>VimspectorStop'                          , 'stop'],
       \ }
 
-" f is for find and replace
-let g:which_key_map.f = {
-      \ 'name' : '+find & replace' ,
-      \ 'f' : [':Farr --source=vimgrep'    , 'file'],
-      \ 'p' : [':Farr --source=rgnvim'     , 'project'],
-      \ }
-
 " k is for task
 let g:which_key_map.k = {
       \ 'name' : '+task' ,
@@ -166,7 +159,6 @@ let g:which_key_map.k = {
       \ 'p' : [':AsyncTask project-run'       , 'run project'],
       \ 'x' : [':cclose'                      , 'close task view'],
       \ }
-      " \ 'l' : [':AsyncTaskList'               , 'list tasks'],
 
 " m is for mark
 let g:which_key_map.m = {
@@ -177,8 +169,6 @@ let g:which_key_map.m = {
       \ 'k' : [':CocCommand bookmark.prev'                              , 'prev bookmark'],
       \ 't' : [':CocCommand bookmark.toggle'                            , 'toggle bookmark'],
       \ }
-      " CoC throws an error
-      " \ 'a' : [':CocCommand bookmark.annotate', 'annotate bookmark'],
 
 " s is for search
 let g:which_key_map.s = {
@@ -294,12 +284,11 @@ let g:which_key_map.l = {
       \ 'z' : [':CocDisable'                         , 'disable CoC'],
       \ 'Z' : [':CocEnable'                          , 'enable CoC'],
       \ }
-      " \ 'o' : ['<Plug>(coc-openlink)'                , 'open link'],
 
 " t is for terminal
 let g:which_key_map.t = {
       \ 'name' : '+terminal' ,
-      \ ';' : [':FloatermNew --wintype=normal --height=6'        , 'terminal'],
+      \ ';' : [':FloatermNew --wintype=normal --height=6'       , 'terminal'],
       \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
       \ 'g' : [':FloatermNew lazygit'                           , 'git'],
       \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
