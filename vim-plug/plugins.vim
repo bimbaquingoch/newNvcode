@@ -8,8 +8,10 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    "Srcery
-    Plug 'srcery-colors/srcery-vim'
+    "Toast colorscheme
+    Plug 'jsit/toast.vim'
+    "Tokyo colorscheme
+    Plug 'ghifarit53/tokyonight-vim'
     "Json
     Plug 'elzr/vim-json'
     "IONIC
