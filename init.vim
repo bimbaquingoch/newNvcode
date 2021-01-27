@@ -35,8 +35,8 @@ else
   source $HOME/.config/nvim/plug-config/fzf.vim
   source $HOME/.config/nvim/plug-config/codi.vim
   source $HOME/.config/nvim/plug-config/vim-wiki.vim
-  " luafile $HOME/.config/nvim/lua/nvcodeline.lua
-  " luafile $HOME/.config/nvim/lua/treesitter.lua
+  luafile $HOME/.config/nvim/lua/nvcodeline.lua
+  luafile $HOME/.config/nvim/lua/treesitter.lua
   source $HOME/.config/nvim/plug-config/coc/coc.vim
   source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
   source $HOME/.config/nvim/plug-config/easymotion.vim
@@ -55,14 +55,15 @@ else
   source $HOME/.config/nvim/plug-config/window-swap.vim
   source $HOME/.config/nvim/plug-config/markdown-preview.vim
   source $HOME/.config/nvim/plug-config/neovide.vim
-  " luafile $HOME/.config/nvim/lua/plug-colorizer.lua
-  source $HOME/.config/nvim/plug-config/vimspector.vim
-  source $HOME/.config/nvim/plug-config/sneak.vim
-  source $HOME/.config/nvim/plug-config/rainbow.vim
-  source $HOME/.config/nvim/plug-config/illuminate.vim
-  source $HOME/.config/nvim/plug-config/vista.vim
-  source $HOME/.config/nvim/plug-config/xtabline.vim
-  source $HOME/.config/nvim/plug-config/ale.vim
+  luafile $HOME/.config/nvim/lua/plug-colorizer.lua
+  " source $HOME/.config/nvim/plug-config/vimspector.vim
+  " source $HOME/.config/nvim/plug-config/sneak.vim
+  " source $HOME/.config/nvim/plug-config/rainbow.vim
+  " source $HOME/.config/nvim/plug-config/illuminate.vim
+  " source $HOME/.config/nvim/plug-config/vista.vim
+  " source $HOME/.config/nvim/plug-config/xtabline.vim
+  " source $HOME/.config/nvim/plug-config/ale.vim
+  
 endif
 source $HOME/.config/nvim/plug-config/quickscope.vim
 
