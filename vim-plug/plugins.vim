@@ -24,9 +24,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'leafgarland/typescript-vim'
     Plug 'quramy/tsuquyomi'
     Plug 'maxmellon/vim-jsx-pretty'
-    "Rainbow
-    Plug 'luochen1990/rainbow'
-    Plug 'kien/rainbow_parentheses.vim'
     "CSS better syntax
     Plug 'hail2u/vim-css3-syntax'
     "CSS Color
@@ -80,6 +77,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Status Line
     Plug 'glepnir/galaxyline.nvim'
     Plug 'kevinhwang91/rnvimr'
+    " FZF
+    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
+    Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
+    Plug 'junegunn/fzf.vim'
    " Git
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
@@ -118,6 +119,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'skywind3000/asyncrun.vim'
     " Swap windows
     Plug 'wesQ3/vim-windowswap'
+    " Markdown Preview
+    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
     " Easily Create Gists
     Plug 'mattn/vim-gist'
     Plug 'mattn/webapi-vim'
@@ -130,7 +133,10 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'szw/vim-maximizer'
     " Neovim in Browser
     Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
-    
+     "Rainbow
+    Plug 'luochen1990/rainbow'
+    Plug 'kien/rainbow_parentheses.vim'
+   
   endif
 
 call plug#end()
