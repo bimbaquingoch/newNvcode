@@ -120,7 +120,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Swap windows
     Plug 'wesQ3/vim-windowswap'
     " Markdown Preview
-    Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
+    Plug 'davidgranstrom/nvim-markdown-preview'
+    " Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
     " Easily Create Gists
     Plug 'mattn/vim-gist'
     Plug 'mattn/webapi-vim'
