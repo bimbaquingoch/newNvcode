@@ -91,8 +91,7 @@ let g:which_key_map.b = {
       \ '?' : ['Buffers'                , 'fzf-buffer'],
       \ }
 
-" Appearance
-
+"c is for colorscheme
 let g:which_key_map.c = {
       \ 'name':'+colors',
       \ 'a' : [':colorscheme aurora'                        , 'aurora'],
@@ -110,7 +109,7 @@ let g:which_key_map.c = {
       \ 'm' : [":colorscheme material"                      , 'material']
       \}
 
-"Plug
+"p is for Plug
 let g:which_key_map.p = {
       \ 'name' : '+PlugConf',
       \ 'a' : [':PlugClean'                     ,'PlugClean'],
@@ -121,7 +120,6 @@ let g:which_key_map.p = {
       \ 'f' : [':PlugSnapshot'                  ,'PlugSnapshot'],
       \ 'g' : [':PlugDiff'                      , 'PlugDiff']
       \}
-
 
 
 " d is for debug
@@ -158,32 +156,7 @@ let g:which_key_map.k = {
       \ 'x' : [':cclose'                      , 'close task view'],
       \ }
 
-" m is for mark
-let g:which_key_map.m = {
-      \ 'name' : '+mark' ,
-      \ 'c' : [':CocCommand bookmark.clearForCurrentFile'               , 'clear file'],
-      \ 'C' : [':CocCommand bookmark.clearForAllFiles'                  , 'clear project'],
-      \ 'j' : [':CocCommand bookmark.next'                              , 'next bookmark'],
-      \ 'k' : [':CocCommand bookmark.prev'                              , 'prev bookmark'],
-      \ 't' : [':CocCommand bookmark.toggle'                            , 'toggle bookmark'],
-      \ }
-
-" s is for search
 let g:which_key_map.s = {
-      \ 'name' : '+search' ,
-      \ 'b' : [':CocCommand fzf-preview.BufferLines'              , 'current buffer'],
-      \ 'B' : [':CocCommand fzf-preview.Buffers'                  , 'open buffers'],
-      \ 'd' : [':CocCommand fzf-preview.DirectoryFiles'           , 'directories'],
-      \ 'f' : [':CocCommand fzf-preview.ProjectFiles'             , 'files'],
-      \ 'g' : [':CocCommand fzf-preview.GitFiles'                 , 'git files'],
-      \ 'G' : [':GFiles?'                                         , 'modified git files'],
-      \ 'm' : [':CocCommand fzf-preview.Marks'                    , 'list marks'],
-      \ 'p' : [':Helptags'                                        , 'help tags'] ,
-      \ 'q' : [':CocCommand fzf-preview.QuickFix'                 , 'quickfix list'],
-      \ 's' : [':CocList snippets'                                , 'snippets'],
-      \ }
-
-let g:which_key_map.S = {
       \ 'name' : '+Session' ,
       \ 'c' : [':SClose'          , 'Close Session']  ,
       \ 'd' : [':SDelete'         , 'Delete Session'] ,
