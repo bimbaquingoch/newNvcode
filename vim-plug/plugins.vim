@@ -75,12 +75,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
-    Plug 'glepnir/galaxyline.nvim'
+    Plug 'glepnir/galaxyline.nvim', {'branch': 'main'}
+    Plug 'kyazdani42/nvim-web-devicons'
     Plug 'kevinhwang91/rnvimr'
-    " FZF
-    Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-    Plug 'yuki-ycino/fzf-preview.vim', { 'branch': 'release', 'do': ':UpdateRemotePlugins' }
-    Plug 'junegunn/fzf.vim'
    " Git
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
@@ -111,17 +108,14 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
     " live server
-    Plug 'turbio/bracey.vim'
+    Plug 'shime/vim-livedown'
     " Smooth scroll
     Plug 'psliwka/vim-smoothie'
-    " " async tasks
+    " async tasks
     Plug 'skywind3000/asynctasks.vim'
     Plug 'skywind3000/asyncrun.vim'
     " Swap windows
     Plug 'wesQ3/vim-windowswap'
-    " Markdown Preview
-    Plug 'davidgranstrom/nvim-markdown-preview'
-    " Plug 'iamcco/markdown-preview.nvim', { 'do': 'cd app & npm install'  }
     " Easily Create Gists
     Plug 'mattn/vim-gist'
     Plug 'mattn/webapi-vim'

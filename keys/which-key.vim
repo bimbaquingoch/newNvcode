@@ -53,17 +53,16 @@ let g:which_key_map['w'] = [ ':w'                                              ,
 " a is for actions
 let g:which_key_map.a = {
       \ 'name' : '+actions' ,
-      \ 'c' : [':ColorizerToggle'        , 'colorizer'],
-      \ 'e' : [':CocCommand explorer'    , 'explorer'],
-      \ 'h' : [':let @/ = ""'            , 'remove search highlight'],
-      \ 'l' : [':MarkdownPreview'        , 'markdown preview'],
-      \ 'm' : [':MarkdownPreviewStop'    , 'markdown preview stop'],
-      \ 'n' : [':set nonumber!'          , 'line-numbers'],
-      \ 's' : [':s/\%V\(.*\)\%V/"\1"/'   , 'surround'],
-      \ 'r' : [':set norelativenumber!'  , 'relative line nums'],
-      \ 't' : [':FloatermToggle'         , 'terminal'],
-      \ 'v' : [':Codi'                   , 'virtual repl on'],
-      \ 'V' : [':Codi!'                  , 'virtual repl off'],
+      \ 'c' : [':ColorizerToggle'         , 'colorizer'],
+      \ 'e' : [':CocCommand explorer'     , 'explorer'],
+      \ 'l' : [':LivedownPreview'         , 'live server'],
+      \ 'k' : [':LivedownKill'            , 'kill live server'],
+      \ 'h' : [':let @/ = ""'             , 'remove search highlight'],
+      \ 'n' : [':set nonumber!'           , 'line-numbers'],
+      \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
+      \ 't' : [':FloatermToggle'          , 'terminal'],
+      \ 'v' : [':Codi'                    , 'virtual repl on'],
+      \ 'V' : [':Codi!'                   , 'virtual repl off'],
       \ }
 
 " b is for buffer
@@ -97,7 +96,7 @@ let g:which_key_map.b = {
 let g:which_key_map.c = {
       \ 'name':'+colors',
       \ 'a' : [':colorscheme aurora'                        , 'aurora'],
-      \ 'b' : [':colorscheme default'                       , 'default' ],
+      \ 'b' : [':colorscheme default'                       , 'default terminal colors' ],
       \ 'c' : [':colorscheme delek'                         , 'delek light'],
       \ 'd' : [':colorscheme dracula'                       , 'dracula'],
       \ 'e' : [':colorscheme gruvbox'                       , 'gruvbox'],
@@ -170,31 +169,16 @@ let g:which_key_map.m = {
 " s is for search
 let g:which_key_map.s = {
       \ 'name' : '+search' ,
-      \ '/' : [':History/'                                        , 'history'],
-      \ ';' : [':FzfPreviewCommandPalette'                        , 'commands'],
-      \ 'a' : [':Ag'                                              , 'text Ag'],
       \ 'b' : [':CocCommand fzf-preview.BufferLines'              , 'current buffer'],
       \ 'B' : [':CocCommand fzf-preview.Buffers'                  , 'open buffers'],
-      \ 'c' : [':Commits'                                         , 'commits'],
-      \ 'C' : [':BCommits'                                        , 'buffer commits'],
       \ 'd' : [':CocCommand fzf-preview.DirectoryFiles'           , 'directories'],
       \ 'f' : [':CocCommand fzf-preview.ProjectFiles'             , 'files'],
       \ 'g' : [':CocCommand fzf-preview.GitFiles'                 , 'git files'],
       \ 'G' : [':GFiles?'                                         , 'modified git files'],
-      \ 'h' : [':History'                                         , 'file history'],
-      \ 'H' : [':History:'                                        , 'command history'],
-      \ 'l' : [':Lines'                                           , 'lines'] ,
       \ 'm' : [':CocCommand fzf-preview.Marks'                    , 'list marks'],
-      \ 'M' : [':Maps'                                            , 'normal maps'] ,
       \ 'p' : [':Helptags'                                        , 'help tags'] ,
-      \ 'P' : [':Tags'                                            , 'project tags'],
       \ 'q' : [':CocCommand fzf-preview.QuickFix'                 , 'quickfix list'],
       \ 's' : [':CocList snippets'                                , 'snippets'],
-      \ 't' : [':Rg'                                              , 'text Rg'],
-      \ 'T' : [':BTags'                                           , 'buffer tags'],
-      \ 'w' : [':Windows'                                         , 'search windows'],
-      \ 'y' : [':Filetypes'                                       , 'file types'],
-      \ 'z' : [':FZF'                                             , 'FZF'],
       \ }
 
 let g:which_key_map.S = {
