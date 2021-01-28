@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "material
+    Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     "Toast colorscheme
     Plug 'jsit/toast.vim'
     "Tokyo colorscheme

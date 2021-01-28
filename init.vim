@@ -23,7 +23,7 @@ else
 
   " Themes
   source $HOME/.config/nvim/themes/syntax.vim
-  source $HOME/.config/nvim/themes/nord.vim
+  source $HOME/.config/nvim/themes/material.vim
   source $HOME/.config/nvim/autoload/plugged/nvcode-color-schemes.vim/colors/dracula.vim
   " source $HOME/.config/nvim/autoload/plugged/tokyonight-vim/colors/ltokyonight.vim
 
