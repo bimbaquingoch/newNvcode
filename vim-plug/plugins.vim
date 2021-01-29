@@ -8,7 +8,7 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    "airline
+    " Status Line = airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     "material
@@ -79,10 +79,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'christianchiarulli/nvcode-color-schemes.vim'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
-    " Status Line
-    " Plug 'glepnir/galaxyline.nvim', {'branch': 'main'}
-    " Plug 'kyazdani42/nvim-web-devicons'
-    " Plug 'kevinhwang91/rnvimr'
    " Git
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
@@ -125,7 +121,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mattn/vim-gist'
     Plug 'mattn/webapi-vim'
     " Colorizer
-    Plug 'norcalli/nvim-colorizer.lua'
+    " Plug 'norcalli/nvim-colorizer.lua'
     " Intuitive buffer closing
     Plug 'moll/vim-bbye'
     " Debugging
