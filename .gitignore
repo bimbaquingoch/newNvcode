@@ -2,6 +2,7 @@ dein
 tags*
 .netrwhist
 pythonpath.vim
+autoload/plugged/vim-wakatime
 nodepath.vim
 vimspector-config/gadgets/*
 paths.vim
