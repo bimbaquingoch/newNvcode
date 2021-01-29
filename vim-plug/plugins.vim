@@ -8,6 +8,9 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "airline
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
     "material
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     "Toast colorscheme
@@ -77,9 +80,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
     " Status Line
-    Plug 'glepnir/galaxyline.nvim', {'branch': 'main'}
-    Plug 'kyazdani42/nvim-web-devicons'
-    Plug 'kevinhwang91/rnvimr'
+    " Plug 'glepnir/galaxyline.nvim', {'branch': 'main'}
+    " Plug 'kyazdani42/nvim-web-devicons'
+    " Plug 'kevinhwang91/rnvimr'
    " Git
     Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'

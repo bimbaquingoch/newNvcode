@@ -94,19 +94,20 @@ let g:which_key_map.b = {
 "c is for colorscheme
 let g:which_key_map.c = {
       \ 'name':'+colors',
-      \ 'a' : [':colorscheme aurora'                        , 'aurora'],
-      \ 'b' : [':colorscheme default'                       , 'default terminal colors' ],
-      \ 'c' : [':colorscheme delek'                         , 'delek light'],
-      \ 'd' : [':colorscheme dracula'                       , 'dracula'],
-      \ 'e' : [':colorscheme gruvbox'                       , 'gruvbox'],
-      \ 'f' : [':colorscheme nvcode'                        , 'nvcode'],
-      \ 'g' : [':colorscheme onedark'                       , 'onedark'],
-      \ 'h' : [':colorscheme palenight'                     , 'palenight'],
-      \ 'i' : [':colorscheme snazzy'                        , 'snazzy'],
-      \ 'j' : [':colorscheme toast'                         , 'toast'],
-      \ 'k' : [':colorscheme tokyonight'                    , 'tokyonight night'],
-      \ 'l' : [':colorscheme stokyonight'                   , 'tokyonight storm'],
-      \ 'm' : [":colorscheme material"                      , 'material']
+      \ 'a' : [':colorscheme aurora       | :AirlineTheme ayu_mirage'               , 'aurora'],
+      \ 'b' : [':colorscheme default      | :AirlineTheme ayu_light'                , 'default terminal colors' ],
+      \ 'c' : [':colorscheme delek        | :AirlineTheme base16_adwaita'           , 'delek light'],
+      \ 'd' : [':colorscheme dracula      | :AirlineTheme base16_railscasts'        , 'dracula'],
+      \ 'e' : [':colorscheme gruvbox      | :AirlineTheme base16_default'           , 'gruvbox'],
+      \ 'f' : [':colorscheme nvcode       | :AirlineTheme base16_chalk'             , 'nvcode'],
+      \ 'g' : [':colorscheme onedark      | :AirlineTheme base16_snazzy'            , 'onedark'],
+      \ 'h' : [':colorscheme palenight    | :AirlineTheme base16'                   , 'palenight'],
+      \ 'i' : [':colorscheme snazzy       | :AirlineTheme biogoo:'                  , 'snazzy'],
+      \ 'j' : [':colorscheme toast        | :AirlineTheme seoul256'                 , 'toast dark'],
+      \ 'k' : [':colorscheme ltoast       | :AirlineTheme atomic'                   , 'toast light'],
+      \ 'l' : [':colorscheme tokyonight'                                            , 'tokyonight night'],
+      \ 'm' : [':colorscheme stokyonight'                                           , 'tokyonight storm'],
+      \ 'n' : [":colorscheme material"                                              , 'material']
       \}
 
 "p is for Plug
