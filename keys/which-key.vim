@@ -93,12 +93,12 @@ let g:which_key_map.c = {
       \ 'f' : [':colorscheme nvcode       | :AirlineTheme base16_chalk'             , 'nvcode'],
       \ 'g' : [':colorscheme onedark      | :AirlineTheme base16_snazzy'            , 'onedark'],
       \ 'h' : [':colorscheme palenight    | :AirlineTheme base16'                   , 'palenight'],
-      \ 'i' : [':colorscheme snazzy       | :AirlineTheme biogoo:'                  , 'snazzy'],
+      \ 'i' : [':colorscheme snazzy       | :AirlineTheme biogoo'                   , 'snazzy'],
       \ 'j' : [':colorscheme toast        | :AirlineTheme seoul256'                 , 'toast dark'],
       \ 'k' : [':colorscheme ltoast       | :AirlineTheme atomic'                   , 'toast light'],
-      \ 'l' : [':colorscheme tokyonight'                                            , 'tokyonight night'],
-      \ 'm' : [':colorscheme stokyonight'                                           , 'tokyonight storm'],
-      \ 'n' : [":colorscheme material"                                              , 'material']
+      \ 'l' : [':colorscheme tokyonight   | :AirlineTheme base_16chalk'             , 'tokyonight night'],
+      \ 'm' : [':colorscheme stokyonight  | :AirlineTheme ayu_mirage'               , 'tokyonight storm'],
+      \ 'n' : [':colorscheme material     | :AirlineTheme zenburn'                  , 'material']
       \}
 
 "p is for Plug
