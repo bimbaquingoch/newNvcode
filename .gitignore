@@ -2,7 +2,7 @@ dein
 tags*
 .netrwhist
 pythonpath.vim
-autoload/plugged/vim-wakatime
+autoload/plugged/*
 nodepath.vim
 vimspector-config/gadgets/*
 paths.vim
@@ -10,5 +10,4 @@ session
 wiki/
 pack/
 utils/java/*
-
 
