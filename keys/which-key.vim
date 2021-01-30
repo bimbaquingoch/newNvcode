@@ -53,16 +53,12 @@ let g:which_key_map['w'] = [ ':w'                                              ,
 " a is for actions
 let g:which_key_map.a = {
       \ 'name' : '+actions' ,
-      \ 'c' : [':ColorizerToggle'         , 'colorizer'],
-      \ 'e' : [':CocCommand explorer'     , 'explorer'],
       \ 'l' : [':LivedownPreview'         , 'live server'],
       \ 'k' : [':LivedownKill'            , 'kill live server'],
       \ 'h' : [':let @/ = ""'             , 'remove search highlight'],
       \ 'n' : [':set nonumber!'           , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
       \ 't' : [':FloatermToggle'          , 'terminal'],
-      \ 'v' : [':Codi'                    , 'virtual repl on'],
-      \ 'V' : [':Codi!'                   , 'virtual repl off'],
       \ }
 
 " b is for buffer
