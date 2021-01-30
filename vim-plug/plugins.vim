@@ -94,7 +94,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
     " Zen mode
-    Plug 'junegunn/goyo.vim'
+    " Plug 'junegunn/goyo.vim'
     " Snippets
     Plug 'honza/vim-snippets'
     Plug 'mattn/emmet-vim'
