@@ -95,7 +95,7 @@ let g:which_key_map.b = {
 let g:which_key_map.c = {
       \ 'name':'+colors',
       \ 'a' : [':colorscheme aurora       | :AirlineTheme ayu_mirage'               , 'aurora'],
-      \ 'b' : [':colorscheme default      | :AirlineTheme ayu_light'                , 'default terminal colors' ],
+      \ 'b' : [':colorscheme default      | :AirlineTheme base16_default'           , 'default terminal colors' ],
       \ 'c' : [':colorscheme delek        | :AirlineTheme base16_adwaita'           , 'delek light'],
       \ 'd' : [':colorscheme dracula      | :AirlineTheme base16_railscasts'        , 'dracula'],
       \ 'e' : [':colorscheme gruvbox      | :AirlineTheme base16_default'           , 'gruvbox'],
