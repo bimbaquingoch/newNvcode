@@ -30,6 +30,10 @@ else
   inoremap kj <Esc>
   inoremap JK <Esc>
   inoremap KJ <Esc>
+  vnoremap jk <Esc>
+  vnoremap kj <Esc>
+  vnoremap KJ <Esc>
+  vnoremap JK <Esc>
 
   " Easy CAPS
   " inoremap <c-u> <ESC>viwUi
