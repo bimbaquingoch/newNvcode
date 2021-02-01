@@ -16,6 +16,10 @@
 
 https://github.com/ChristianChiarulli/nvim
 
+## Simple guide
+
+https://vim.rtorr.com/
+
 ## Install in one command
 
 The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
