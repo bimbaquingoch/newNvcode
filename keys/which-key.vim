@@ -53,7 +53,6 @@ let g:which_key_map.a = {
       \ 'h' : [':let @/ = ""'             , 'remove search highlight'],
       \ 'n' : [':set nonumber!'           , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
-      \ 't' : [':FloatermToggle'          , 'terminal'],
       \ }
 
 " b is for buffer
