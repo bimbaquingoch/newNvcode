@@ -2,7 +2,7 @@ dein
 tags*
 .netrwhist
 pythonpath.vim
-autoload/plugged/*
+autoload/plugged/
 nodepath.vim
 vimspector-config/gadgets/*
 paths.vim
