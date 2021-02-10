@@ -1,16 +1,11 @@
 # NVCode
 
-![NVCode pic](./utils/images/theme0.png)
-![NVCode pic](./utils/images/theme1.png)
-![NVCode pic](./utils/images/theme2.png)
-![NVCode pic](./utils/images/theme3.png)
-![NVCode pic](./utils/images/theme4.png)
-![NVCode pic](./utils/images/theme5.png)
 ![NVCode pic](./utils/images/theme6.png)
-![NVCode pic](./utils/images/theme7.png)
-![NVCode pic](./utils/images/theme8.png)
-![NVCode pic](./utils/images/theme9.png)
-![NVCode pic](./utils/images/theme10.png)
+![NVCode pic](./utils/images/ts.png)
+![NVCode pic](./utils/images/java.png)
+![NVCode pic](./utils/images/htmlcss.png)
+![NVCode pic](./utils/images/py.png)
+![NVCode pic](./utils/images/term.png)
 
 ## Original Author
 
