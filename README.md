@@ -1,16 +1,27 @@
 # NVCode
 
-Init
+## Init
+
 ![NVCode pic](./utils/images/theme6.png)
-#Typescript
+
+## Typescript
+
 ![NVCode pic](./utils/images/ts.png)
-#Java
+
+## Java
+
 ![NVCode pic](./utils/images/java.png)
-#HTML and CSS
+
+## HTML and CSS
+
 ![NVCode pic](./utils/images/htmlcss.png)
-#Python
+
+## Python
+
 ![NVCode pic](./utils/images/py.png)
-#Terminal
+
+## Terminal
+
 ![NVCode pic](./utils/images/term.png)
 
 ## Original Author
