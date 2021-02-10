@@ -106,6 +106,6 @@ pip install pynvim
 npm i -g neovim
 ```
 
-## The leader key is space, this will show you a window with all functions, commands, and themes for your IDE.
+## The leader key is space, this will show you a window with all functions, commands, and themes for your Text Editor.
 
 ![NVCode pic](./utils/images/which-key.png)
