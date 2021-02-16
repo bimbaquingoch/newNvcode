@@ -8,8 +8,6 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    " window tabs
-    Plug 'romgrk/barbar.nvim'
     " Status Line = airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
