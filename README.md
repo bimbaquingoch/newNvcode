@@ -57,9 +57,9 @@ bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/
 nvim
 ```
 
-## there put your key from the page
+### there put your key from the page
 
-## if you don't will use this, go to
+### if you don't will use this, go to
 
 ```
 nvim ~/.config/nvim/vim-plug/plugins.vim
@@ -98,6 +98,12 @@ nvim ~/.config/nvim/vim-plug/plugins.vim
 ```
 git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 ```
+
+### To see all files icons you must be installed nerd font
+
+[Nerd Font](https://www.nerdfonts.com/font-downloads)
+
+### I recommend JetBrainsMono Nerd Font
 
 ## Install python & node support
 
