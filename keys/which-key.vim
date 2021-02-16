@@ -48,8 +48,6 @@ let g:which_key_map['w'] = [ ':w'                                              ,
 " a is for actions
 let g:which_key_map.a = {
       \ 'name' : '+actions' ,
-      \ 'l' : [':LivedownPreview'         , 'live server'],
-      \ 'k' : [':LivedownKill'            , 'kill live server'],
       \ 'h' : [':let @/ = ""'             , 'remove search highlight'],
       \ 'n' : [':set nonumber!'           , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
@@ -83,21 +81,19 @@ let g:which_key_map.b = {
 
 "c is for colorscheme
 let g:which_key_map.c = {
-      \ 'name':'+colors',
-      \ 'a' : [':colorscheme aurora       | :AirlineTheme ayu_mirage'               , 'aurora'],
-      \ 'b' : [':colorscheme default      | :AirlineTheme base16_default'           , 'default terminal colors' ],
-      \ 'c' : [':colorscheme delek        | :AirlineTheme base16_adwaita'           , 'delek light'],
-      \ 'd' : [':colorscheme dracula      | :AirlineTheme base16_railscasts'        , 'dracula'],
-      \ 'e' : [':colorscheme gruvbox      | :AirlineTheme base16_default'           , 'gruvbox'],
-      \ 'f' : [':colorscheme nvcode       | :AirlineTheme base16_chalk'             , 'nvcode'],
-      \ 'g' : [':colorscheme onedark      | :AirlineTheme base16_snazzy'            , 'onedark'],
-      \ 'h' : [':colorscheme palenight    | :AirlineTheme base16'                   , 'palenight'],
-      \ 'i' : [':colorscheme snazzy       | :AirlineTheme biogoo'                   , 'snazzy'],
-      \ 'j' : [':colorscheme toast        | :AirlineTheme seoul256'                 , 'toast dark'],
-      \ 'k' : [':colorscheme ltoast       | :AirlineTheme atomic'                   , 'toast light'],
-      \ 'l' : [':colorscheme tokyonight   | :AirlineTheme base_16chalk'             , 'tokyonight night'],
-      \ 'm' : [':colorscheme stokyonight  | :AirlineTheme ayu_mirage'               , 'tokyonight storm'],
-      \ 'n' : [':colorscheme material     | :AirlineTheme zenburn'                  , 'material']
+      \ 'name':'+colorschemes',
+      \ 'a' : [':colorscheme default      | :AirlineTheme base16_default'         , 'default terminal colors' ],
+      \ 'b' : [':colorscheme delek        | :AirlineTheme base16_adwaita'         , 'delek light'],
+      \ 'c' : [':colorscheme dracula      | :AirlineTheme base16_railscasts'      , 'dracula'],
+      \ 'd' : [':colorscheme nvcode       | :AirlineTheme base16_chalk'           , 'nvcode'],
+      \ 'e' : [':colorscheme onedark      | :AirlineTheme base16_snazzy'          , 'onedark'],
+      \ 'f' : [':colorscheme palenight    | :AirlineTheme base16'                 , 'palenight'],
+      \ 'g' : [':colorscheme snazzy       | :AirlineTheme biogoo'                 , 'snazzy'],
+      \ 'h' : [':colorscheme toast        | :AirlineTheme seoul256'               , 'toast dark'],
+      \ 'i' : [':colorscheme ltoast       | :AirlineTheme atomic'                 , 'toast light'],
+      \ 'j' : [':colorscheme tokyonight   | :AirlineTheme base_16chalk'           , 'tokyonight night'],
+      \ 'k' : [':colorscheme stokyonight  | :AirlineTheme ayu_mirage'             , 'tokyonight storm'],
+      \ 'l' : [':colorscheme material     | :AirlineTheme zenburn'                , 'material']
       \}
 
 "p is for Plug
