@@ -65,9 +65,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'tpope/vim-sleuth'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
-    " Treesitter
-    Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-    Plug 'nvim-treesitter/playground'
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
@@ -101,7 +98,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Interactive code
     Plug 'metakirby5/codi.vim'
     " Better tabline
-    Plug 'romgrk/barbar.nvim'
     " undo time travel
     Plug 'mbbill/undotree'
     " Find and replace
