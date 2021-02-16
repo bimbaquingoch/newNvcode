@@ -14,13 +14,11 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     "material
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     "Toast colorscheme
-    Plug 'jsit/toast.vim'
+    " Plug 'jsit/toast.vim'
     "Tokyo colorscheme
-    Plug 'ghifarit53/tokyonight-vim'
+    " Plug 'ghifarit53/tokyonight-vim'
     "Json
     Plug 'elzr/vim-json'
-    "IONIC
-    Plug 'akz92/vim-ionic2'
     "indentpython
     Plug 'vim-scripts/indentpython.vim'
     "wakaTime
@@ -104,8 +102,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ChristianChiarulli/far.vim'
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
-    " live server
-    Plug 'shime/vim-livedown'
     " Smooth scroll
     Plug 'psliwka/vim-smoothie'
     " async tasks
