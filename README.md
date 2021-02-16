@@ -2,7 +2,7 @@
 
 ## Init
 
-![NVCode pic](./utils/images/theme6.png)
+![NVCode pic](./utils/images/nvcode.png)
 
 ## Typescript
 
