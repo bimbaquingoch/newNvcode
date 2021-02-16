@@ -28,9 +28,10 @@
 
 https://github.com/ChristianChiarulli/nvim
 
-## Simple guide
+## Comands
 
-https://vim.rtorr.com/
+[Comands Vim](https://vim.rtorr.com/)
+[Comands Linux](https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/)
 
 ## Install in one command
 
@@ -42,17 +43,15 @@ This script only supports Mac, Ubuntu and Arch
 bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
 ```
 
-## After install!!!
+## IMPORTANT
 
-## if you want have online statistics from your daily work
+### if you want have online statistics from your daily work
 
 ![NVCode pic](./utils/images/waka.png)
 
-## first create an account here
+## first create an account here [Waka Time](https://wakatime.com/)
 
-https://wakatime.com/
-
-## and then when you write in your terminal
+## write in your terminal
 
 ```
 nvim
@@ -61,6 +60,10 @@ nvim
 ## there put your key from the page
 
 ## if you don't will use this, go to
+
+```
+nvim ~/.config/nvim/vim-plug/plugins.vim
+```
 
 ![NVCode pic](./utils/images/wakaConfig.png)
 
