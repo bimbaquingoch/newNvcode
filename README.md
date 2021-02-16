@@ -26,13 +26,13 @@
 
 ## Original Author
 
-https://github.com/ChristianChiarulli/nvim
+[ChristianChiarulli](https://github.com/ChristianChiarulli/nvim)
 
-## Comands
+## Commands
 
-> [Comands Vim](https://vim.rtorr.com/)
+> [Commands Vim](https://vim.rtorr.com/)
 
-> [Comands Linux](https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/)
+> [Commands Linux](https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/)
 
 ## Install in one command
 
