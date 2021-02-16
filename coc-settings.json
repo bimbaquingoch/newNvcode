@@ -7,6 +7,8 @@
     "method": "m",
     "function": ""
   },
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.fontLigatures": true,
   "snippets.priority": 1,
   //"yank.priority": 1,
   "suggest.languageSourcePriority": 99,
@@ -44,7 +46,10 @@
     "yaml",
     "json",
     "python",
-    "java"
+    "java",
+    "bash",
+    "c++",
+    "c#"
   ],
   "coc.preferences.hoverTarget": "float",
 
@@ -125,3 +130,4 @@
   // TODO b:coc_suggest_disable=1 GOYO
   // TODO add to paths.vim g:coc_node_path
 }
+
