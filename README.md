@@ -30,8 +30,9 @@ https://github.com/ChristianChiarulli/nvim
 
 ## Comands
 
-[Comands Vim](https://vim.rtorr.com/)
-[Comands Linux](https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/)
+> [Comands Vim](https://vim.rtorr.com/)
+
+> [Comands Linux](https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/)
 
 ## Install in one command
 
