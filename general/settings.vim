@@ -24,6 +24,14 @@ set autoindent                          " Good auto indent
 set laststatus=2                        " Always display the status line
 set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
+set cursorcolumn
+
+highlight Cursor guifg=white guibg=white
+highlight iCursor guifg=white guibg=steelblue
+set guicursor=n-i-v-c:block-Cursor
+set guicursor+=n-i-v-c:blinkon1
+" set guicursor+=i:blinkwait10
+
 set background=dark                     " tell vim what the background color looks like
 set showtabline=2                       " Always show tabs
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
