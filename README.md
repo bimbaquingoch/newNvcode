@@ -85,7 +85,10 @@ nvim ~/.config/nvim/vim-plug/plugins.vim
   ```
   sudo apt-get update
   sudo apt-get install snapd -y
-  sudo snap install nvim --classic
+  sudo snap install nvim --beta --classic
+  nvim -v
+
+  NVIM v0.5
   ```
 
 - Arch
@@ -105,6 +108,13 @@ git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 [Nerd Font](https://www.nerdfonts.com/font-downloads)
 
 ### I recommend JetBrainsMono Nerd Font
+
+##### Download your font
+
+```
+unzip ~/Downloads/JetBrainsMono.zip
+sudo mv *.ttf /usr/share/fonts
+```
 
 ## Install python & node support
 
