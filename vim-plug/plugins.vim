@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "font firacode
+    Plug 'tonsky/firacode'
     "bar bar
     Plug 'romgrk/barbar.nvim'
     " Status Line = airline

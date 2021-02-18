@@ -25,6 +25,8 @@ set laststatus=2                        " Always display the status line
 set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
 set cursorcolumn
+set guifont=JetBrainsMono:Nerd:Font:Bold:Mono:h22
+" set guifont=FiraCode:Nerd:Font:Mono:h22
 
 highlight Cursor guifg=white guibg=white
 highlight iCursor guifg=white guibg=steelblue
@@ -43,7 +45,6 @@ set updatetime=300                      " Faster completion
 set timeoutlen=100                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
-set guifont=JetBrainsMono\ Nerd\ Font
 
 " New stuff
 " set notimeout nottimeout
