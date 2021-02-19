@@ -160,7 +160,7 @@ let g:which_key_map.g = {
       \ 'e' : [':Gstatus'                                               , 'status'],
       \ 'f' : [':Git log --decorate'                                    , 'log'],
       \ 'g' : [':Gpush origin master'                                   , 'push Mater'],
-      \ 'h' : [':Gpull origin master'                                   , 'pull'],
+      \ 'h' : [':Gpull origin master'                                   , 'pull Mater'],
       \ 'i' : [':Git log --oneline'                                     , 'log --oneline'],
       \ 'j' : [':Git log --stat'                                        , 'log --stat'],
       \ 'k' : [':Git log --all --graph --decorate --oneline'            , 'log all graph decorate'],
