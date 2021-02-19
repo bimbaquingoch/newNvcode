@@ -126,6 +126,13 @@ pip install pynvim
 npm i -g neovim
 ```
 
+#### finally do this to enable 2 colorscheme
+
+```
+cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/colors
+cp ~/.config/nvim/themes/stokyonight.vim ~/.config/nvim/autoload/plugged/tokyonight-vim/colors/
+```
+
 ## The leader key is space, this will show you a window with all functions, commands, and themes for your Text Editor.
 
 ![NVCode pic](./utils/images/which-key.png)
