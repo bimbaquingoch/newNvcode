@@ -25,15 +25,8 @@ set laststatus=2                        " Always display the status line
 set number                              " Line numbers
 set cursorline                          " Enable highlighting of the current line
 set cursorcolumn
-set guifont=JetBrainsMono:Nerd:Font:Bold:Mono:h22
-" set guifont=FiraCode:Nerd:Font:Mono:h22
-
-highlight Cursor guifg=white guibg=white
-highlight iCursor guifg=white guibg=steelblue
-set guicursor=n-i-v-c:block-Cursor
-set guicursor+=n-i-v-c:blinkon1
-" set guicursor+=i:blinkwait10
-
+set guifont=JetBrainsMono:Nerd:Font:Bold:Mono:h22  " ligatures is not available to gnome terminal
+set guicursor+=n-v-c:blinkon1           " blinking enable
 set background=dark                     " tell vim what the background color looks like
 set showtabline=2                       " Always show tabs
 set noshowmode                          " We don't need to see things like -- INSERT -- anymore
@@ -45,22 +38,5 @@ set updatetime=300                      " Faster completion
 set timeoutlen=100                      " By default timeoutlen is 1000 ms
 set clipboard=unnamedplus               " Copy paste between vim and everything else
 set incsearch
-
-" New stuff
-" set notimeout nottimeout
-" set scrolloff=1
-" set sidescroll=1
-" set sidescrolloff=1
-" set display+=lastline
-" set backspace=eol,start,indent
-" set nostartofline
-" let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-" set mmp=1300
-" set autochdir                           " Your working directory will always be the same as your working directory
-" set foldcolumn=2                        " Folding abilities
-
-" au! BufWritePost $MYVIMRC source %      " auto source when writing to init.vm alternatively you can run :source $MYVIMRC
 autocmd FileType * setlocal formatoptions-=c formatoptions-=r formatoptions-=o
-
-" You can't stop me
 cmap w!! w !sudo tee %

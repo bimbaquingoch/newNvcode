@@ -21,8 +21,6 @@ let g:which_key_sep = '→'
 let g:which_key_use_floating_win = 0
 let g:which_key_max_size = 0
 
-" Change the colors if you want
-
 " Hide status line
 autocmd! FileType which_key
 autocmd  FileType which_key set laststatus=0 noshowmode noruler
@@ -148,7 +146,7 @@ let g:which_key_map.s = {
       \ 'd' : [':SDelete'         , 'Delete Session'] ,
       \ 'l' : [':SLoad'           , 'Load Session']     ,
       \ 's' : [':Startify'        , 'Start Page']     ,
-      \ 'S' : [':SSave'           , 'Save Session']   ,
+      \ 'g' : [':SSave'           , 'Save Session']   ,
       \ }
 
 " g is for git
