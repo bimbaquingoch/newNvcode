@@ -10,19 +10,16 @@
   "editor.fontFamily": "JetBrains Mono",
   "editor.fontLigatures": true,
   "snippets.priority": 1,
-  //"yank.priority": 1,
   "suggest.languageSourcePriority": 99,
   "coc.source.file.priority": 2,
   "coc.source.around.priority": 3,
   "coc.source.buffer.priority": 4,
 
   // diagnostics
-  "diagnostic.errorSign": " ",
-  "diagnostic.warningSign": " ",
+  "diagnostic.errorSign": "",
+  "diagnostic.warningSign": "",
   "diagnostic.infoSign": "",
   "diagnostic.hintSign": " ",
-  // "diagnostic.displayByAle": true,
-  // "diagnostic.virtualText": true, // this won't work with codelens when error on same line
 
   // codelens
   "codeLens.enable": true,
@@ -42,6 +39,7 @@
     "javascript",
     "typescript",
     "graphql",
+    "php",
     "html",
     "yaml",
     "json",
@@ -96,9 +94,9 @@
   },
 
   // CSS (disable since I'm also using stylelintplus)
-  "css.validate": false,
+  "css.validate": true,
   "less.validate": false,
-  "scss.validate": false,
+  "scss.validate": true,
   "wxss.validate": false,
 
   // explorer
@@ -106,8 +104,8 @@
   "explorer.file.root.template": "[icon] [git] [hidden & 1][root]",
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
-  "explorer.icon.enableVimDevicons": false,
-  "explorer.file.showHiddenFiles": false,
+  "explorer.icon.enableVimDevicons": true,
+  "explorer.file.showHiddenFiles": true,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
@@ -116,18 +114,6 @@
   "bookmark.sign": "",
 
   //coc-emoji
-  "coc.source.emoji.filetypes": ["markdown"]
-
-  // lua
-  //"lua.useSumnekoLs": true,
-  //"lua.commandPath": "/home/chris/.luambenvs/neovim3/bin/lua-lsp"
-  //"lua.enable": true,
-  //"Lua.completion.enable": true,
-  //"Lua.runtime.version": "Lua 5.1",
-  //"Lua.runtime.path": ["?.lua", "?/init.lua", "?/?.lua"],
-  //"lua.version": "5.1"
-
-  // TODO b:coc_suggest_disable=1 GOYO
-  // TODO add to paths.vim g:coc_node_path
+  "coc.source.emoji.filetypes": ["markdown"],
+  "coc.preferences.extensionUpdateCheck": "daily"
 }
-

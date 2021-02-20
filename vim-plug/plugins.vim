@@ -90,8 +90,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'liuchengxu/vista.vim'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
-    " Zen mode
-    " Plug 'junegunn/goyo.vim'
     " Snippets
     Plug 'honza/vim-snippets'
     Plug 'mattn/emmet-vim'
@@ -119,8 +117,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Debugging
     Plug 'puremourning/vimspector'
     Plug 'szw/vim-maximizer'
-    " Neovim in Browser
-    Plug 'glacambre/firenvim', { 'do': { _ -> firenvim#install(0) } }
      "Rainbow
     Plug 'luochen1990/rainbow'
     Plug 'kien/rainbow_parentheses.vim'
