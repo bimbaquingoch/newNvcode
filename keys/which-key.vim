@@ -39,6 +39,8 @@ let g:which_key_map['q'] = [ ':q'                                              ,
 let g:which_key_map['u'] = [ ':UndotreeToggle'                                 , 'undo tree']
 let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
 let g:which_key_map['w'] = [ ':w'                                              , 'save']
+let g:which_key_map['m'] = [ ':MarkdownPreview'                                , 'README preview']
+let g:which_key_map['M'] = [ ':MarkdownPreviewStop'                            , 'README preview stop']
 
 
 " Group mappings
@@ -49,6 +51,7 @@ let g:which_key_map.a = {
       \ 'h' : [':let @/ = ""'             , 'remove search highlight'],
       \ 'n' : [':set nonumber!'           , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
+      \ 'R' : ['<Plug>(coc-rename)'                  , 'rename'],
       \ }
 
 " b is for buffer
@@ -217,7 +220,6 @@ let g:which_key_map.l = {
       \ 'P' : ['<Plug>(coc-diagnostic-prev-error)'   , 'prev error'],
       \ 'q' : ['<Plug>(coc-fix-current)'             , 'quickfix'],
       \ 'r' : ['<Plug>(coc-references)'              , 'references'],
-      \ 'R' : ['<Plug>(coc-rename)'                  , 'rename'],
       \ 's' : [':CocList -I symbols'                 , 'references'],
       \ 'S' : [':CocList snippets'                   , 'snippets'],
       \ 't' : ['<Plug>(coc-type-definition)'         , 'type definition'],
