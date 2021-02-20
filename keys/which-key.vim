@@ -83,7 +83,6 @@ let g:which_key_map.b = {
 let g:which_key_map.c = {
       \ 'name':'+colorschemes',
       \ 'a' : [':colorscheme default      | :AirlineTheme base16_default'         , 'default terminal colors' ],
-      \ 'b' : [':colorscheme delek        | :AirlineTheme base16_adwaita'         , 'delek light'],
       \ 'c' : [':colorscheme dracula      | :AirlineTheme base16_railscasts'      , 'dracula'],
       \ 'd' : [':colorscheme nvcode       | :AirlineTheme base16_chalk'           , 'nvcode'],
       \ 'e' : [':colorscheme onedark      | :AirlineTheme base16_snazzy'          , 'onedark'],
