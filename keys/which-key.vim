@@ -51,7 +51,7 @@ let g:which_key_map.a = {
       \ 'h' : [':let @/ = ""'             , 'remove search highlight'],
       \ 'n' : [':set nonumber!'           , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
-      \ 'R' : ['<Plug>(coc-rename)'                  , 'rename'],
+      \ 'c' : ['<Plug>(coc-rename)'       , 'rename'],
       \ }
 
 " b is for buffer
