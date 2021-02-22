@@ -121,11 +121,11 @@ sudo mv *.ttf /usr/share/fonts
 ## Install python & node support
 
 ```
-pip install pynvim
+sudo pip3 install pynvim
 ```
 
 ```
-npm i -g neovim
+sudo npm i -g neovim
 ```
 
 #### finally do this to enable 2 colorscheme
