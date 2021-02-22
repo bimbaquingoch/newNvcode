@@ -138,3 +138,7 @@ cp ~/.config/nvim/themes/stokyonight.vim ~/.config/nvim/autoload/plugged/tokyoni
 ## The leader key is space, this will show you a window with all functions, commands, and themes for your Text Editor.
 
 ![NVCode pic](./utils/images/which-key.png)
+
+# SSH KEY
+
+#### To enable git push and pull commands make a [SSH key](https://github.com/bimbaquingoch/gitCommands) and connect your repositories using SSH
