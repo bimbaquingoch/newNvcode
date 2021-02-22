@@ -34,42 +34,6 @@
 
 > [Commands Linux](https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/)
 
-## Install in one command
-
-The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
-
-This script only supports Mac, Ubuntu and Arch
-
-```
-bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
-```
-
-## IMPORTANT
-
-### if you want have online statistics from your daily work
-
-![NVCode pic](./utils/images/waka.png)
-
-## first create an account here [Waka Time](https://wakatime.com/)
-
-## write in your terminal
-
-```
-nvim
-```
-
-### there put your key from the page
-
-### if you don't will use this, go to
-
-```
-nvim ~/.config/nvim/vim-plug/plugins.vim
-```
-
-![NVCode pic](./utils/images/wakaConfig.png)
-
-## and comment this line
-
 ## Install Neovim
 
 - Mac
@@ -97,11 +61,49 @@ nvim ~/.config/nvim/vim-plug/plugins.vim
   yay -S neovim-git # Latest
   ```
 
+## Install in one command
+
+The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
+
+This script only supports Mac, Ubuntu and Arch
+
+```
+bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
+```
+
+### Or
+
 ## Clone this repo into your config
 
 ```
 git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 ```
+
+## IMPORTANT
+
+### if you want have online statistics from your daily work
+
+![NVCode pic](./utils/images/waka.png)
+
+## first create an account here [Waka Time](https://wakatime.com/)
+
+## write in your terminal
+
+```
+nvim
+```
+
+### there put your key from the page
+
+### if you don't will use this, go to
+
+```
+nvim ~/.config/nvim/vim-plug/plugins.vim
+```
+
+![NVCode pic](./utils/images/wakaConfig.png)
+
+## and comment this line
 
 ### To see all files icons you must be installed nerd font
 
