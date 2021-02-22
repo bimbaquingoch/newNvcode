@@ -95,6 +95,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mattn/emmet-vim'
     " Markdown prewview
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
+    " Liver server only tested on linux
+    Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
+
     " Interactive code
     Plug 'metakirby5/codi.vim'
     " Better tabline

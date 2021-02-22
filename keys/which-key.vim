@@ -52,6 +52,9 @@ let g:which_key_map.a = {
       \ 'n' : [':set nonumber!'           , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
       \ 'c' : ['<Plug>(coc-rename)'       , 'rename'],
+      \ 'l' : [':Bracey'                  , 'live server'],
+      \ 's' : [':BraceyStop'              , 'stop live server'], 
+      \ 'd' : [':BraceyReload'            , 'reload live server'], 
       \ }
 
 " b is for buffer
