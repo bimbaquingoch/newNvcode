@@ -181,7 +181,6 @@ let g:which_key_map.g = {
       \ 'r' : [':Gpush origin development'                              , 'push development'],
       \ 's' : [':Gpush origin hotfix'                                   , 'push hotfix'],
       \ 't' : [':Git reflog'                                            , 'history(reflog)'],
-      \ 'u' : [':Git show-branch --all'                                 , 'show-branch --all']
       \ }
 
 let g:which_key_map.G = {
