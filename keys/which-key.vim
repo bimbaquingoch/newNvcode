@@ -159,8 +159,9 @@ let g:which_key_map.g = {
       \ 'name' : '+git' ,
       \ 'a' : [':Git add .'                                             , 'add all'],
       \ 'b' : [':Git blame'                                             , 'blame'],
-      \ 'B' : [':Git branch'                                            , 'branches'],
+      \ 'B' : [':Git branch -a'                                         , 'branches'],
       \ 'c' : [':Git commit'                                            , 'commit'],
+      \ 'C' : [':Git commit --amend'                                    , 'commit --amend'],
       \ 'd' : [':Git diff'                                              , 'diff'],
       \ 'e' : [':Gstatus'                                               , 'status'],
       \ 'f' : [':Git log --decorate'                                    , 'log'],
@@ -179,6 +180,8 @@ let g:which_key_map.g = {
       \ 'q' : [':Git merge hotfix'                                      , 'merge hotfix'],
       \ 'r' : [':Gpush origin development'                              , 'push development'],
       \ 's' : [':Gpush origin hotfix'                                   , 'push hotfix'],
+      \ 't' : [':Git reflog'                                            , 'history(reflog)'],
+      \ 'u' : [':Git show-branch --all'                                 , 'show-branch --all']
       \ }
 
 let g:which_key_map.G = {
