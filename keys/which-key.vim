@@ -95,7 +95,8 @@ let g:which_key_map.c = {
       \ 'i' : [':colorscheme ltoast       | :AirlineTheme atomic'                 , 'toast light'],
       \ 'j' : [':colorscheme tokyonight   | :AirlineTheme base_16chalk'           , 'tokyonight night'],
       \ 'k' : [':colorscheme stokyonight  | :AirlineTheme ayu_mirage'             , 'tokyonight storm'],
-      \ 'l' : [':colorscheme material     | :AirlineTheme zenburn'                , 'material']
+      \ 'l' : [':colorscheme material     | :AirlineTheme zenburn'                , 'material'],
+      \ 'm' : [':colorscheme daycula      | :AirlineTheme daycula'                , 'daycula']
       \}
 
 "p is for Plug

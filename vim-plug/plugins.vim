@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " daycula colorscheme
+    Plug 'ghifarit53/daycula-vim' , {'branch' : 'main'}
     "bar bar
     Plug 'romgrk/barbar.nvim'
     " Status Line = airline
