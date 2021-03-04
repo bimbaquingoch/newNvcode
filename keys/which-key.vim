@@ -48,6 +48,7 @@ let g:which_key_map['M'] = [ ':MarkdownPreviewStop'                            ,
 " a is for actions
 let g:which_key_map.a = {
       \ 'name' : '+actions' ,
+      \ 'a' : [':ColorizerAttachToBuffer' , 'Colorizer'],
       \ 'h' : [':let @/ = ""'             , 'remove search highlight'],
       \ 'n' : [':set nonumber!'           , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'   , 'relative line nums'],

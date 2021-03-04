@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " colorizer-lua
+    Plug 'norcalli/nvim-colorizer.lua'
     " daycula colorscheme
     Plug 'ghifarit53/daycula-vim' , {'branch' : 'main'}
     "bar bar
