@@ -87,17 +87,17 @@ let g:which_key_map.b = {
 let g:which_key_map.c = {
       \ 'name':'+colorschemes',
       \ 'a' : [':colorscheme default      | :AirlineTheme base16_default'         , 'default terminal colors' ],
-      \ 'c' : [':colorscheme dracula      | :AirlineTheme base16_railscasts'      , 'dracula'],
-      \ 'd' : [':colorscheme nvcode       | :AirlineTheme base16_chalk'           , 'nvcode'],
-      \ 'e' : [':colorscheme onedark      | :AirlineTheme base16_snazzy'          , 'onedark'],
-      \ 'f' : [':colorscheme palenight    | :AirlineTheme base16'                 , 'palenight'],
-      \ 'g' : [':colorscheme snazzy       | :AirlineTheme biogoo'                 , 'snazzy'],
-      \ 'h' : [':colorscheme toast        | :AirlineTheme seoul256'               , 'toast dark'],
-      \ 'i' : [':colorscheme ltoast       | :AirlineTheme atomic'                 , 'toast light'],
-      \ 'j' : [':colorscheme tokyonight   | :AirlineTheme base_16chalk'           , 'tokyonight night'],
-      \ 'k' : [':colorscheme stokyonight  | :AirlineTheme ayu_mirage'             , 'tokyonight storm'],
-      \ 'l' : [':colorscheme material     | :AirlineTheme zenburn'                , 'material'],
-      \ 'm' : [':colorscheme daycula      | :AirlineTheme daycula'                , 'daycula']
+      \ 'b' : [':colorscheme dracula      | :AirlineTheme base16_railscasts'      , 'dracula'],
+      \ 'c' : [':colorscheme nvcode       | :AirlineTheme base16_chalk'           , 'nvcode'],
+      \ 'd' : [':colorscheme onedark      | :AirlineTheme base16_snazzy'          , 'onedark'],
+      \ 'e' : [':colorscheme palenight    | :AirlineTheme base16'                 , 'palenight'],
+      \ 'f' : [':colorscheme snazzy       | :AirlineTheme biogoo'                 , 'snazzy'],
+      \ 'g' : [':colorscheme toast        | :AirlineTheme seoul256'               , 'toast dark'],
+      \ 'h' : [':colorscheme ltoast       | :AirlineTheme atomic'                 , 'toast light'],
+      \ 'i' : [':colorscheme tokyonight   | :AirlineTheme base_16chalk'           , 'tokyonight night'],
+      \ 'j' : [':colorscheme stokyonight  | :AirlineTheme ayu_mirage'             , 'tokyonight storm'],
+      \ 'k' : [':colorscheme material     | :AirlineTheme zenburn'                , 'material'],
+      \ 'l' : [':colorscheme daycula      | :AirlineTheme daycula'                , 'daycula']
       \}
 
 "p is for Plug
@@ -165,7 +165,7 @@ let g:which_key_map.g = {
       \ 'c' : [':Git commit'                                            , 'commit'],
       \ 'C' : [':Git commit --amend'                                    , 'commit --amend'],
       \ 'd' : [':Git diff'                                              , 'diff'],
-      \ 'e' : [':Gstatus'                                               , 'status'],
+      \ 'e' : [':Gstatus --long'                                        , 'status'],
       \ 'f' : [':Git log --decorate'                                    , 'log'],
       \ 'g' : [':Gpush origin master'                                   , 'push Mater'],
       \ 'h' : [':Gpull origin master'                                   , 'pull Mater'],

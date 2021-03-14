@@ -141,4 +141,4 @@ cp ~/.config/nvim/themes/stokyonight.vim ~/.config/nvim/autoload/plugged/tokyoni
 
 # SSH KEY
 
-#### To enable git push and pull commands make a [SSH key](https://github.com/bimbaquingoch/gitCommands) and connect your repositories using SSH
+#### To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH
