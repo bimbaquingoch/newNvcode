@@ -165,7 +165,7 @@ let g:which_key_map.g = {
       \ 'c' : [':Git commit'                                            , 'commit'],
       \ 'C' : [':Git commit --amend'                                    , 'commit --amend'],
       \ 'd' : [':Git diff'                                              , 'diff'],
-      \ 'e' : [':Gstatus --long'                                        , 'status'],
+      \ 'e' : [':Gstatus'                                              , 'status'],
       \ 'f' : [':Git log --decorate'                                    , 'log'],
       \ 'g' : [':Gpush origin master'                                   , 'push Mater'],
       \ 'h' : [':Gpull origin master'                                   , 'pull Mater'],
