@@ -61,9 +61,13 @@
   yay -S neovim-git # Latest
   ```
 
+## SSH KEY
+
+> To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH
+
 ## Install in one command
 
-The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
+> The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
 
 This script only supports Mac, Ubuntu and Arch
 
@@ -71,9 +75,7 @@ This script only supports Mac, Ubuntu and Arch
 bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
 ```
 
-### Or
-
-## Clone this repo into your config
+> Or Clone this repo into your config
 
 ```
 git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
@@ -87,15 +89,13 @@ git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 
 ## first create an account here [Waka Time](https://wakatime.com/)
 
-## write in your terminal
+> write in your terminal
 
 ```
 nvim
 ```
 
-### there put your key from the page
-
-### if you don't will use this, go to
+> there put your key from the page, if you don't will use this, go to
 
 ```
 nvim ~/.config/nvim/vim-plug/plugins.vim
@@ -103,13 +103,11 @@ nvim ~/.config/nvim/vim-plug/plugins.vim
 
 ![NVCode pic](./utils/images/wakaConfig.png)
 
-## and comment this line
+> and comment this line
 
-### To see all files icons you must be installed nerd font
+<hr/>
 
-[Nerd Font](https://www.nerdfonts.com/font-downloads)
-
-### I recommend JetBrainsMono Nerd Font
+> To see all files icons you must be installed nerd font [Nerd Font](https://www.nerdfonts.com/font-downloads), I recommend JetBrainsMono Nerd Font
 
 ##### Download your font
 
@@ -128,17 +126,12 @@ sudo pip3 install pynvim
 sudo npm i -g neovim
 ```
 
-#### finally do this to enable 2 colorscheme
+> enable this colorscheme
 
 ```
 cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/colors
-cp ~/.config/nvim/themes/stokyonight.vim ~/.config/nvim/autoload/plugged/tokyonight-vim/colors/
 ```
 
-## The leader key is space, this will show you a window with all functions, commands, and themes for your Text Editor.
+> The leader key is space, this will show you a window with all functions, commands, and themes for your Text Editor.
 
 ![NVCode pic](./utils/images/which-key.png)
-
-# SSH KEY
-
-#### To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH
