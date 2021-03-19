@@ -33,6 +33,7 @@ let g:which_key_map['/'] = [ ':call Comment()'                                 ,
 let g:which_key_map[';'] = [ ':command'                                        , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                                          , 'balance windows' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   , 'explorer' ]
+let g:which_key_map['f'] = [ ':RainbowParenthesesToggle'                       , 'Enable Rainbow']
 let g:which_key_map['h'] = [ '<C-W>s'                                          , 'split below']
 let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
 let g:which_key_map['q'] = [ ':q'                                              , 'quit']
@@ -86,7 +87,7 @@ let g:which_key_map.b = {
 "c is for colorscheme
 let g:which_key_map.c = {
       \ 'name':'+colorschemes',
-      \ 'a' : [':colorscheme default      | :AirlineTheme base16_default'         , 'default terminal colors' ],
+      \ 'a' : [':colorscheme default      | :AirlineTheme base16_default'         , 'terminal colors' ],
       \ 'b' : [':colorscheme dracula      | :AirlineTheme base16_railscasts'      , 'dracula'],
       \ 'c' : [':colorscheme nvcode       | :AirlineTheme base16_chalk'           , 'nvcode'],
       \ 'd' : [':colorscheme onedark      | :AirlineTheme base16_snazzy'          , 'onedark'],
@@ -94,10 +95,8 @@ let g:which_key_map.c = {
       \ 'f' : [':colorscheme snazzy       | :AirlineTheme biogoo'                 , 'snazzy'],
       \ 'g' : [':colorscheme toast        | :AirlineTheme seoul256'               , 'toast dark'],
       \ 'h' : [':colorscheme ltoast       | :AirlineTheme atomic'                 , 'toast light'],
-      \ 'i' : [':colorscheme tokyonight   | :AirlineTheme base_16chalk'           , 'tokyonight night'],
-      \ 'j' : [':colorscheme stokyonight  | :AirlineTheme ayu_mirage'             , 'tokyonight storm'],
-      \ 'k' : [':colorscheme material     | :AirlineTheme zenburn'                , 'material'],
-      \ 'l' : [':colorscheme daycula      | :AirlineTheme daycula'                , 'daycula']
+      \ 'i' : [':colorscheme material     | :AirlineTheme zenburn'                , 'material'],
+      \ 'j' : [':colorscheme daycula      | :AirlineTheme daycula'                , 'daycula']
       \}
 
 "p is for Plug

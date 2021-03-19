@@ -26,32 +26,32 @@ else
   source $HOME/.config/nvim/themes/material.vim
 
   " Plugin Configuration
-  source $HOME/.config/nvim/keys/which-key.vim
-  source $HOME/.config/nvim/plug-config/vim-commentary.vim
-  source $HOME/.config/nvim/plug-config/rnvimr.vim
+  source $HOME/.config/nvim/plug-config/asynctask.vim
+  source $HOME/.config/nvim/plug-config/barbar.vim
   source $HOME/.config/nvim/plug-config/better-whitespace.vim
-  source $HOME/.config/nvim/plug-config/fzf.vim
-  source $HOME/.config/nvim/plug-config/codi.vim
-  source $HOME/.config/nvim/plug-config/vim-wiki.vim
+  source $HOME/.config/nvim/plug-config/bracey.vim
   source $HOME/.config/nvim/plug-config/coc/coc.vim
   source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
-  source $HOME/.config/nvim/plug-config/easymotion.vim
-  source $HOME/.config/nvim/plug-config/goyo.vim
-  source $HOME/.config/nvim/plug-config/vim-rooter.vim
-  source $HOME/.config/nvim/plug-config/start-screen.vim
-  source $HOME/.config/nvim/plug-config/gitgutter.vim
-  source $HOME/.config/nvim/plug-config/git-messenger.vim
   source $HOME/.config/nvim/plug-config/closetags.vim
-  source $HOME/.config/nvim/plug-config/floaterm.vim
-  source $HOME/.config/nvim/plug-config/barbar.vim
+  source $HOME/.config/nvim/plug-config/codi.vim
+  source $HOME/.config/nvim/plug-config/easymotion.vim
   source $HOME/.config/nvim/plug-config/far.vim
-  source $HOME/.config/nvim/plug-config/tagalong.vim
-  source $HOME/.config/nvim/plug-config/bracey.vim
-  source $HOME/.config/nvim/plug-config/asynctask.vim
-  source $HOME/.config/nvim/plug-config/window-swap.vim
+  source $HOME/.config/nvim/plug-config/floaterm.vim
+  source $HOME/.config/nvim/plug-config/fzf.vim
+  source $HOME/.config/nvim/plug-config/git-messenger.vim
+  source $HOME/.config/nvim/plug-config/gitgutter.vim
+  source $HOME/.config/nvim/plug-config/goyo.vim
   source $HOME/.config/nvim/plug-config/markdown-preview.vim
-  source $HOME/.config/nvim/plug-config/neovide.vim
+  source $HOME/.config/nvim/plug-config/rnvimr.vim
+  source $HOME/.config/nvim/plug-config/start-screen.vim
+  source $HOME/.config/nvim/plug-config/tagalong.vim
+  source $HOME/.config/nvim/plug-config/vim-commentary.vim
+  source $HOME/.config/nvim/plug-config/vim-rooter.vim
+  source $HOME/.config/nvim/plug-config/vim-wiki.vim
   source $HOME/.config/nvim/plug-config/vimspector.vim
+  source $HOME/.config/nvim/plug-config/window-swap.vim
+  source $HOME/.config/nvim/keys/which-key.vim
+  " source $HOME/.config/nvim/plug-config/neovide.vim
   
 endif
 source $HOME/.config/nvim/plug-config/quickscope.vim

@@ -21,8 +21,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     "Toast colorscheme
     Plug 'jsit/toast.vim'
-    "Tokyo colorscheme
-    Plug 'ghifarit53/tokyonight-vim'
     "Json
     Plug 'elzr/vim-json'
     "indentpython
@@ -101,10 +99,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
     " Liver server only tested on linux
     Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
-
     " Interactive code
     Plug 'metakirby5/codi.vim'
-    " Better tabline
     " undo time travel
     Plug 'mbbill/undotree'
     " Find and replace
