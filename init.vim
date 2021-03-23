@@ -22,7 +22,7 @@ if exists('g:vscode')
 else
 
   " Themes
-  source $HOME/.config/nvim/themes/syntax.vim
+  " source $HOME/.config/nvim/themes/syntax.vim
   source $HOME/.config/nvim/themes/material.vim
 
   " Plugin Configuration
@@ -51,7 +51,6 @@ else
   source $HOME/.config/nvim/plug-config/vimspector.vim
   source $HOME/.config/nvim/plug-config/window-swap.vim
   source $HOME/.config/nvim/keys/which-key.vim
-  " source $HOME/.config/nvim/plug-config/neovide.vim
   
 endif
 source $HOME/.config/nvim/plug-config/quickscope.vim
