@@ -1,5 +1,3 @@
-# NVCode
-
 ![NVCode pic](./utils/images/collageNvcode.png)
 
 ![NVCode pic](./utils/images/newnvcode.png)
