@@ -12,10 +12,6 @@
 
 ![NVCode pic](./utils/images/htmlcss.png)
 
-## Python
-
-![NVCode pic](./utils/images/py.png)
-
 ## Terminal
 
 ![NVCode pic](./utils/images/term.png)
