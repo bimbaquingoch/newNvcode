@@ -18,7 +18,7 @@ let g:startify_custom_header = s:center([
     \])
 
 
-let g:startify_padding_left = 75
+let g:startify_padding_left = 55
 
 let g:startify_lists = [
           \ { 'type': 'files',     'header': startify#center(['Files'])                           },
