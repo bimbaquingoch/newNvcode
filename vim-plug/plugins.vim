@@ -8,6 +8,9 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    " Ranger
+    " Plug 'francoiscabrol/ranger.vim'
+    Plug 'kevinhwang91/rnvimr', {'do': 'make sync'}
     " colorizer-lua
     Plug 'norcalli/nvim-colorizer.lua'
     " daycula colorscheme

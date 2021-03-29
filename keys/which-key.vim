@@ -41,6 +41,7 @@ let g:which_key_map['v'] = [ '<C-W>v'                                          ,
 let g:which_key_map['w'] = [ ':w'                                              , 'save']
 let g:which_key_map['m'] = [ ':MarkdownPreview'                                , 'README preview']
 let g:which_key_map['M'] = [ ':MarkdownPreviewStop'                            , 'README preview stop']
+let g:which_key_map['r'] = [ ':RnvimrToggle'                                   , 'Ranger']
 
 
 " Group mappings

@@ -1,16 +1,12 @@
 # NVCode
 
-## Init
+![NVCode pic](./utils/images/collageNvcode.png)
 
-![NVCode pic](./utils/images/nvcode.png)
+![NVCode pic](./utils/images/newnvcode.png)
 
 ## Typescript
 
 ![NVCode pic](./utils/images/ts.png)
-
-## Java
-
-![NVCode pic](./utils/images/java.png)
 
 ## HTML and CSS
 
@@ -23,10 +19,6 @@
 ## Terminal
 
 ![NVCode pic](./utils/images/term.png)
-
-## Original Author
-
-[ChristianChiarulli](https://github.com/ChristianChiarulli/nvim)
 
 ## Commands
 
@@ -134,4 +126,4 @@ cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/co
 
 > The leader key is space, this will show you a window with all functions, commands, and themes for your Text Editor.
 
-![NVCode pic](./utils/images/which-key.png)
+![NVCode pic](./utils/images/key.png)

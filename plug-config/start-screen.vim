@@ -1,25 +1,31 @@
-let g:startify_custom_header = [
-    \'          ▀████▀▄▄              ▄█ ',
-    \'            █▀    ▀▀▄▄▄▄▄    ▄▄▀▀█ ',
-    \'    ▄        █          ▀▀▀▀▄  ▄▀      _   ___    ________          __ ',
-    \'   ▄▀ ▀▄      ▀▄              ▀▄▀     / | / / |  / / ____/___  ____/ /__',
-    \'  ▄▀    █     █▀   ▄█▀▄      ▄█      /  |/ /| | / / /   / __ \/ __  / _ \',
-    \'  ▀▄     ▀▄  █     ▀██▀     ██▄█    / /|  / | |/ / /___/ /_/ / /_/ /  __/',
-    \'   ▀▄    ▄▀ █   ▄██▄   ▄  ▄  ▀▀ █  /_/ |_/  |___/\____/\____/\____/\___/',
-    \'    █  ▄▀  █    ▀██▀    ▀▀ ▀▀  ▄▀  ',
-    \'   █   █  █      ▄▄           ▄▀   ',
-    \]
+function! s:center(lines) abort
+  let longest_line   = max(map(copy(a:lines), 'strwidth(v:val)'))
+  let centered_lines = map(copy(a:lines),
+        \ 'repeat(" ", (&columns / 2) - (longest_line / 2)) . v:val')
+  return centered_lines
+endfunction
 
-let g:startify_session_dir = '~/.config/nvim/session'
+let g:startify_custom_header = s:center([ 
+    \'          ▀████▀▄▄              ▄█                                                             █▄              ▄▄▀████▀             ',
+    \'            █▀    ▀▀▄▄▄▄▄    ▄▄▀▀█                                                             █▀▀▄▄    ▄▄▄▄▄▀▀    ▀█               ',
+    \'    ▄▄       █          ▀▀▀▀▄  ▄▀  ██╗    ██║ ██    ██║ ▄██████╗  ██████   ██████╗   ███████╗  ▀▄  ▄▀▀▀▀          █       ▄▄     ',
+    \'   ▄▀ ▀▄      ▀▄              ▀▄▀  ████╗  ██║ ██    ██║ ██╔════╝ ██╔═══██╗ ██╔═══██╗ ██╔════╝  ▀▄▀              ▄▀      ▄▀ ▀▄     ',
+    \'  ▄▀    █     █▀   ▄█▀▄      ▄█    ██╔██╗ ██║ ██╗   ██║ ██║      ██║   ██║ ██║   ██║ ██████╗     █▄      ▄▀█▄   ▀█     █    ▀▄    ',
+    \'  ▀▄     ▀▄  █     ▀██▀     ██▄█   ██║╚██╗██║ ╚██╗ ██╔╝ ██║      ██║   ██║ ██║   ██║ ██╔═══╝    █▄██     ▀██▀     █  ▄▀     ▄▀    ',
+    \'   ▀▄    ▄▀ █   ▄██▄   ▄  ▄  ▀▀ █  ██║  ╚███║  ╚████╔╝  ▀██████╗ ╚██████╔╝ ██████╔═╝ ███████╗  █ ▀▀  ▄  ▄   ▄██▄   █ ▀▄    ▄▀     ',
+    \'    █  ▄▀  █    ▀██▀    ▀▀ ▀▀  ▄▀  ╚═╝   ╚══╝   ╚═══╝   ╚══════╝  ╚═════╝  ╚═════╝   ╚══════╝  ▀▄  ▀▀ ▀▀    ▀██▀    █  ▀▄  █     ',
+    \'   █   █  █      ▄▄           ▄▀                                                                ▀▄           ▄▄      █  █   █    ',
+    \])
 
+
+let g:startify_padding_left = 75
 
 let g:startify_lists = [
-          \ { 'type': 'files',     'header': ['   Files']                        },
-          \ { 'type': 'dir',       'header': ['   Current Directory '. getcwd()] },
-          \ { 'type': 'sessions',  'header': ['   Sessions']                     },
-          \ { 'type': 'bookmarks', 'header': ['   Bookmarks']                    },
+          \ { 'type': 'files',     'header': startify#center(['Files'])                           },
+          \ { 'type': 'dir',       'header': startify#center(['Current Directory '. getcwd()])    },
+          \ { 'type': 'sessions',  'header': startify#center(['Sessions'])                        },
+          \ { 'type': 'bookmarks', 'header': startify#center(['Bookmarks'])                       },
           \ ]
-
 
 let g:startify_session_autoload = 1
 let g:startify_session_delete_buffers = 1
