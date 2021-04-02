@@ -67,6 +67,12 @@ bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/
 git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 ```
 
+### Enable this colorscheme
+
+```
+cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/colors
+```
+
 ## IMPORTANT
 
 ### if you want have online statistics from your daily work
@@ -110,12 +116,6 @@ sudo pip3 install pynvim
 
 ```
 sudo npm i -g neovim
-```
-
-> enable this colorscheme
-
-```
-cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/colors
 ```
 
 > The leader key is space, this will show you a window with all functions, commands, and themes for your Text Editor.
