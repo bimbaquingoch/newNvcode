@@ -47,31 +47,29 @@
   yay -S neovim-git # Latest
   ```
 
-## SSH KEY
+### Install in one command this script only supports Mac, Ubuntu and Arch
 
-> To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH
-
-## Install in one command
-
-> The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
-
-This script only supports Mac, Ubuntu and Arch
+- The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
 
 ```
 bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
 ```
 
-> Or Clone this repo into your config
+- Or Clone this repo into your config
 
 ```
 git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 ```
 
-### Enable this colorscheme
+- Enable light colorscheme
 
 ```
 cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/colors
 ```
+
+### SSH KEY
+
+- To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH
 
 ## IMPORTANT
 
@@ -79,27 +77,17 @@ cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/co
 
 ![NVCode pic](./utils/images/waka.png)
 
-## first create an account here [Waka Time](https://wakatime.com/)
-
-> write in your terminal
-
-```
-nvim
-```
-
-> there put your key from the page, if you don't will use this, go to
+### first create an account here [Waka Time](https://wakatime.com/)
 
 ```
 nvim ~/.config/nvim/vim-plug/plugins.vim
 ```
 
-![NVCode pic](./utils/images/wakaConfig.png)
-
-> and comment this line
-
 <hr/>
 
-> To see all files icons you must be installed nerd font [Nerd Font](https://www.nerdfonts.com/font-downloads), I recommend JetBrainsMono Nerd Font
+### Nerd Font
+
+> To see all files icons you must be installed nerd font [Nerd Font](https://www.nerdfonts.com/font-downloads), I recommend download JetBrainsMono Nerd Font
 
 ##### Download your font
 

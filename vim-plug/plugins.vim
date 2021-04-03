@@ -101,7 +101,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Markdown prewview
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
     " Liver server only tested on linux
-    Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
+    " Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
     " Interactive code
     Plug 'metakirby5/codi.vim'
     " undo time travel
