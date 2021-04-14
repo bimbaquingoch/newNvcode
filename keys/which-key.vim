@@ -54,9 +54,6 @@ let g:which_key_map.a = {
       \ 'n' : [':set nonumber!'           , 'line-numbers'],
       \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
       \ 'c' : ['<Plug>(coc-rename)'       , 'rename'],
-      \ 'l' : [':Bracey'                  , 'live server'],
-      \ 's' : [':BraceyStop'              , 'stop live server'], 
-      \ 'd' : [':BraceyReload'            , 'reload live server'], 
       \ }
 
 " b is for buffer
@@ -87,12 +84,12 @@ let g:which_key_map.b = {
 "c is for colorscheme
 let g:which_key_map.c = {
       \ 'name':'+colorschemes',
-      \ 'a' : [':colorscheme default      | :AirlineTheme base16_default      | :RainbowParenthesesActivate | :AirlineRefresh'      , 'terminal colors' ],
-      \ 'b' : [':colorscheme onedark      | :AirlineTheme base16_snazzy       | :RainbowParenthesesActivate | :AirlineRefresh'      , 'onedark'],
-      \ 'c' : [':colorscheme toast        | :AirlineTheme seoul256            | :RainbowParenthesesActivate | :AirlineRefresh'      , 'toast dark'],
-      \ 'd' : [':colorscheme ltoast       | :AirlineTheme atomic              | :RainbowParenthesesActivate | :AirlineRefresh'      , 'toast light'],
-      \ 'e' : [':colorscheme material     | :AirlineTheme zenburn             | :RainbowParenthesesActivate | :AirlineRefresh'      , 'material'],
-      \ 'f' : [':colorscheme daycula      | :AirlineTheme daycula             | :RainbowParenthesesActivate | :AirlineRefresh'      , 'daycula']
+      \ 'a' : [':colorscheme default      | :AirlineTheme base16_default      | :RainbowParenthesesActivate'      , 'terminal colors' ],
+      \ 'b' : [':colorscheme onedark      | :AirlineTheme base16_snazzy       | :RainbowParenthesesActivate'      , 'onedark'],
+      \ 'c' : [':colorscheme toast        | :AirlineTheme seoul256            | :RainbowParenthesesActivate'      , 'toast dark'],
+      \ 'd' : [':colorscheme ltoast       | :AirlineTheme atomic              | :RainbowParenthesesActivate'      , 'toast light'],
+      \ 'e' : [':colorscheme material     | :AirlineTheme zenburn             | :RainbowParenthesesActivate'      , 'material'],
+      \ 'f' : [':colorscheme daycula      | :AirlineTheme daycula             | :RainbowParenthesesActivate'      , 'daycula']
       \}
 
 "p is for Plug
@@ -142,6 +139,7 @@ let g:which_key_map.k = {
       \ 'x' : [':cclose'                      , 'close task view'],
       \ }
 
+" Session
 let g:which_key_map.s = {
       \ 'name' : '+Session' ,
       \ 'c' : [':SClose'          , 'Close Session']  ,
