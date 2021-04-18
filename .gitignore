@@ -10,3 +10,5 @@ session
 wiki/
 pack/
 utils/java/*
+node_modules/
+yarn.lock

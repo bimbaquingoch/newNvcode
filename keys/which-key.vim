@@ -42,6 +42,7 @@ let g:which_key_map['w'] = [ ':w'                                              ,
 let g:which_key_map['m'] = [ ':MarkdownPreview'                                , 'README preview']
 let g:which_key_map['M'] = [ ':MarkdownPreviewStop'                            , 'README preview stop']
 let g:which_key_map['r'] = [ ':RnvimrToggle'                                   , 'Ranger']
+let g:which_key_map['f'] = ['<Plug>(coc-format)'                               , 'format']
 
 
 " Group mappings
@@ -84,12 +85,12 @@ let g:which_key_map.b = {
 "c is for colorscheme
 let g:which_key_map.c = {
       \ 'name':'+colorschemes',
-      \ 'a' : [':colorscheme default      | :AirlineTheme base16_default      | :RainbowParenthesesActivate'      , 'terminal colors' ],
-      \ 'b' : [':colorscheme onedark      | :AirlineTheme base16_snazzy       | :RainbowParenthesesActivate'      , 'onedark'],
-      \ 'c' : [':colorscheme toast        | :AirlineTheme seoul256            | :RainbowParenthesesActivate'      , 'toast dark'],
-      \ 'd' : [':colorscheme ltoast       | :AirlineTheme atomic              | :RainbowParenthesesActivate'      , 'toast light'],
-      \ 'e' : [':colorscheme material     | :AirlineTheme zenburn             | :RainbowParenthesesActivate'      , 'material'],
-      \ 'f' : [':colorscheme daycula      | :AirlineTheme daycula             | :RainbowParenthesesActivate'      , 'daycula']
+      \ 'a' : [':colorscheme default      | :AirlineTheme base16_default'      , 'terminal colors' ],
+      \ 'b' : [':colorscheme onedark      | :AirlineTheme base16_snazzy '      , 'onedark'],
+      \ 'c' : [':colorscheme toast        | :AirlineTheme seoul256      '      , 'toast dark'],
+      \ 'd' : [':colorscheme ltoast       | :AirlineTheme atomic        '      , 'toast light'],
+      \ 'e' : [':colorscheme material     | :AirlineTheme zenburn       '      , 'material'],
+      \ 'f' : [':colorscheme daycula      | :AirlineTheme daycula       '      , 'daycula']
       \}
 
 "p is for Plug
@@ -103,7 +104,6 @@ let g:which_key_map.p = {
       \ 'f' : [':PlugSnapshot'                  ,'PlugSnapshot'],
       \ 'g' : [':PlugDiff'                      , 'PlugDiff']
       \}
-
 
 " d is for debug
 let g:which_key_map.d = {
@@ -178,18 +178,18 @@ let g:which_key_map.g = {
       \ 't' : [':Git reflog'                                            , 'history(reflog)'],
       \ }
 
-let g:which_key_map.G = {
-      \ 'name' : '+gist' ,
-      \ 'a' : [':Gist -a'                          , 'post gist anon'],
-      \ 'b' : [':Gist -b'                          , 'post gist browser'],
-      \ 'd' : [':Gist -d'                          , 'delete gist'],
-      \ 'e' : [':Gist -e'                          , 'edit gist'],
-      \ 'l' : [':Gist -l'                          , 'list public gists'],
-      \ 's' : [':Gist -ls'                         , 'list starred gists'],
-      \ 'm' : [':Gist -m'                          , 'post gist all buffers'],
-      \ 'p' : [':Gist -P'                          , 'post public gist '],
-      \ 'P' : [':Gist -p'                          , 'post private gist '],
-      \ }
+" let g:which_key_map.G = {
+"       \ 'name' : '+gist' ,
+"       \ 'a' : [':Gist -a'                          , 'post gist anon'],
+"       \ 'b' : [':Gist -b'                          , 'post gist browser'],
+"       \ 'd' : [':Gist -d'                          , 'delete gist'],
+"       \ 'e' : [':Gist -e'                          , 'edit gist'],
+"       \ 'l' : [':Gist -l'                          , 'list public gists'],
+"       \ 's' : [':Gist -ls'                         , 'list starred gists'],
+"       \ 'm' : [':Gist -m'                          , 'post gist all buffers'],
+"       \ 'p' : [':Gist -P'                          , 'post public gist '],
+"       \ 'P' : [':Gist -p'                          , 'post private gist '],
+"       \ }
 
 " l is for language server protocol
 let g:which_key_map.l = {
