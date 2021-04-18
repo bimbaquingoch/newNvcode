@@ -10,8 +10,10 @@ installnodemac() { \
 }
 
 installnodeubuntu() { \
-  sudo apt install nodejs
-  sudo apt install npm
+  sudo apt-get install nodejs
+  sudo apt-get install npm
+  sudo apt-get install ranger
+  pip3 install ueberzug
 }
 
 installnodearch() { \
@@ -66,7 +68,7 @@ installcocextensions() { \
 }
 
 cloneconfig() { \
-  echo "Cloning Nvim Mach 2 configuration"
+  echo "Cloning NewNvcode configuration"
   git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 }
 
@@ -135,7 +137,7 @@ installextrapackages() { \
 }
 
 # Welcome
-echo 'Installing Nvim Mach 2'
+echo 'Installing NewNvcode'
 
 # install pip
 which pip3 > /dev/null && echo "pip installed, moving on..." || asktoinstallpip
@@ -156,7 +158,7 @@ pip3 list | grep pynvim > /dev/null && echo "pynvim installed, moving on..." || 
 # clone config down
 cloneconfig
 
-# echo "Nvim Mach 2 is better with at least ripgrep, ueberzug and ranger"
+# echo "NewNvcode is better with at least ripgrep, ueberzug and ranger"
 # echo -n "Would you like to install these now?  (y/n)? "
 # read answer
 # [ "$answer" != "${answer#[Yy]}" ] && installextrapackages || echo "not installing extra packages"
@@ -166,6 +168,6 @@ which nvim > /dev/null && installplugins
 
 installcocextensions
 
-echo "I recommend you also install and activate a font from here: https://github.com/ryanoasis/nerd-fonts"
+echo "I recommend you also install and activate a font from here: https://www.nerdfonts.com/font-downloads"
 
 echo "I also recommend you add 'set preview_images_method ueberzug' to ~/.config/ranger/rc.conf"
