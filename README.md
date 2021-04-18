@@ -71,6 +71,41 @@ cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/co
 
 - To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH
 
+### Ranger vim
+
+```
+sudo apt install ranger
+git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
+pip install ueberzug
+mkdir ~/.config/ranger
+touch ~/.config/ranger/rc.conf
+```
+
+- Add this configuration to rc.conf
+
+  ```
+  set preview_images_method ueberzug
+
+  default_linemode devicons
+
+  set show_hidden true
+  ```
+
+- do this
+
+  ```
+  nvim ~/.config/nvim/plug-config/rnvimr.vim
+  ```
+
+  - add at the end
+
+    ```
+    " Make Ranger replace netrw and be the file explorer
+    let g:rnvimr_ex_enable = 1
+
+    nmap <space>r :RnvimrToggle<CR>
+    ```
+
 ## IMPORTANT
 
 ### if you want have online statistics from your daily work
