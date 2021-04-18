@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+    "Ranger
+    Plug 'kevinhwang91/rnvimr'
     " colorizer-lua
     Plug 'norcalli/nvim-colorizer.lua'
     " daycula colorscheme
