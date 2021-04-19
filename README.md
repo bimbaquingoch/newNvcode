@@ -2,18 +2,6 @@
 
 ![NVCode pic](./utils/images/newnvcode.png)
 
-## Typescript
-
-![NVCode pic](./utils/images/ts.png)
-
-## HTML and CSS
-
-![NVCode pic](./utils/images/htmlcss.png)
-
-## Terminal
-
-![NVCode pic](./utils/images/term.png)
-
 ## Commands
 
 > [Commands Vim](https://vim.rtorr.com/)
@@ -72,6 +60,8 @@ cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/co
 - To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH
 
 ### Ranger vim
+
+![NVCode pic](./utils/images/ranger.png)
 
 ```
 sudo apt install ranger
