@@ -1,6 +1,4 @@
-![NVCode pic](./utils/images/collageNvcode.png)
-
-![NVCode pic](./utils/images/newnvcode.png)
+![NVCode pic](./utils/images/neovim.png)
 
 ## Commands
 
@@ -59,14 +57,13 @@ cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/co
 
 - To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH
 
-### Ranger vim
+### Ranger vim (file explorer)
 
 ![NVCode pic](./utils/images/ranger.png)
 
 ```
-sudo apt install ranger
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
-pip install ueberzug
+pip3 install ueberzug
 mkdir ~/.config/ranger
 touch ~/.config/ranger/rc.conf
 ```
@@ -81,21 +78,6 @@ touch ~/.config/ranger/rc.conf
   set show_hidden true
   ```
 
-- do this
-
-  ```
-  nvim ~/.config/nvim/plug-config/rnvimr.vim
-  ```
-
-  - add at the end
-
-    ```
-    " Make Ranger replace netrw and be the file explorer
-    let g:rnvimr_ex_enable = 1
-
-    nmap <space>r :RnvimrToggle<CR>
-    ```
-
 ## IMPORTANT
 
 ### if you want have online statistics from your daily work
@@ -103,10 +85,6 @@ touch ~/.config/ranger/rc.conf
 ![NVCode pic](./utils/images/waka.png)
 
 ### first create an account here [Waka Time](https://wakatime.com/)
-
-```
-nvim ~/.config/nvim/vim-plug/plugins.vim
-```
 
 <hr/>
 
@@ -130,7 +108,3 @@ sudo pip3 install pynvim
 ```
 sudo npm i -g neovim
 ```
-
-> The leader key is space, this will show you a window with all functions, commands, and themes for your Text Editor.
-
-![NVCode pic](./utils/images/key.png)
