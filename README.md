@@ -63,6 +63,7 @@ cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/co
 ![NVCode pic](./utils/images/ranger.png)
 
 ```
+sudo apt install ranger
 git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
 pip3 install ueberzug
 mkdir ~/.config/ranger
