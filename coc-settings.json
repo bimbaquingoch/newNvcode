@@ -7,8 +7,6 @@
     "method": "m",
     "function": ""
   },
-  "editor.fontFamily": "JetBrains Mono",
-  "editor.fontLigatures": true,
   "snippets.priority": 1,
   "suggest.languageSourcePriority": 99,
   "coc.source.file.priority": 2,
@@ -38,6 +36,7 @@
     "markdown",
     "javascript",
     "typescript",
+    "jsx",
     "graphql",
     "php",
     "html",

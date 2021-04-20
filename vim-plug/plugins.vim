@@ -37,8 +37,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'hail2u/vim-css3-syntax'
     "CSS Color
     Plug 'ap/vim-css-color'
-    "Angular
-    Plug 'burnettk/vim-angular'
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Change dates fast
@@ -59,6 +57,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'machakann/vim-highlightedyank'
   else
 
+    " LSP
+    Plug 'neovim/nvim-lspconfig'
+    Plug 'hrsh7th/nvim-compe'
     " Easymotion
     Plug 'easymotion/vim-easymotion'
     " Surround
@@ -99,8 +100,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'mattn/emmet-vim'
     " Markdown prewview
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-    " Liver server only tested on linux
-    " Plug 'turbio/bracey.vim', {'do': 'npm install --prefix server'}
     " Interactive code
     Plug 'metakirby5/codi.vim'
     " undo time travel

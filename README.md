@@ -101,12 +101,12 @@ unzip ~/Downloads/JetBrainsMono.zip
 sudo mv *.ttf /usr/share/fonts
 ```
 
-## Install python & node support
+## Install python, node support and extra plugs
 
 ```
 sudo pip3 install pynvim
-```
-
-```
 sudo npm i -g neovim
+sudo npm i -g pyright
+sudo npm i -g bash-language-server
+sudo npm i -g live-server
 ```
