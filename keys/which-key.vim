@@ -14,7 +14,7 @@ vnoremap <silent> <leader> :silent <c-u> :silent WhichKeyVisual '<Space>'<CR>
 " Create map to add keys to
 let g:which_key_map =  {}
 " Define a separator
-let g:which_key_sep = '→'
+let g:which_key_sep = ' '
 " set timeoutlen=100
 
 " Not a fan of floating windows for this
@@ -30,7 +30,6 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 " Single mappings
 let g:which_key_map['.'] = [ ':e $MYVIMRC'                                     , 'open init' ]
 let g:which_key_map['/'] = [ ':call Comment()'                                 , 'comment' ]
-let g:which_key_map[';'] = [ ':command'                                        , 'commands' ]
 let g:which_key_map['='] = [ '<C-W>='                                          , 'balance windows' ]
 let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   , 'explorer' ]
 let g:which_key_map['h'] = [ '<C-W>s'                                          , 'split below']
