@@ -51,35 +51,13 @@ let g:which_key_map['f'] = ['<Plug>(coc-format)'                               ,
 let g:which_key_map.a = {
       \ 'name' : '+actions' ,
       \ 'a' : [':ColorizerAttachToBuffer' , 'Colorizer'],
+      \ 'c' : ['<Plug>(coc-rename)'       , 'rename'],
+      \ 'd' : [':Bdelete'               , 'close tab'],
       \ 'h' : [':let @/ = ""'             , 'remove search highlight'],
       \ 'n' : [':set nonumber!'           , 'line-numbers'],
+      \ 's' : [':Startify'        , 'Start Page']     ,
       \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
-      \ 'c' : ['<Plug>(coc-rename)'       , 'rename'],
-      \ }
-
-" b is for buffer
-let g:which_key_map.b = {
-      \ 'name' : '+manage-tabs' ,
-      \ '>' : [':BufferMoveNext'        , 'next tab'],
-      \ '<' : [':BufferMovePrevious'    , 'prev tab'],
-      \ '1' : [':BufferGoto 1'          , 'tab 1'],
-      \ '2' : [':BufferGoto 2'          , 'tab 2'],
-      \ '3' : [':BufferGoto 3'          , 'tab 3'],
-      \ '4' : [':BufferGoto 4'          , 'tab 4'],
-      \ '5' : [':BufferGoto 5'          , 'tab 5'],
-      \ '6' : [':BufferGoto 6'          , 'tab 6'],
-      \ '7' : [':BufferGoto 7'          , 'tab 7'],
-      \ '8' : [':BufferGoto 8'          , 'tab 8'],
-      \ '9' : [':BufferGoto 9'          , 'tab 9'],
-      \ '0' : [':BufferGoto 0'          , 'tab 0'],
-      \ 'b' : [':BufferPick'            , 'pick buffer'],
-      \ 'd' : [':Bdelete'               , 'close tab'],
-      \ 'D' : [':BufferOrderByDirectory', 'order by directory'],
-      \ 'f' : ['bfirst'                 , 'first tab'],
-      \ 'l' : ['blast'                  , 'last tab'],
-      \ 'L' : [':BufferOrderByLanguage' , 'order by language'],
-      \ 'n' : ['bnext'                  , 'next-tab'],
-      \ 'p' : ['bprevious'              , 'previous-'],
+      \ 't' : [':FloatermNew --wintype=normal --height=6'       , 'terminal'],
       \ }
 
 "c is for colorscheme
@@ -109,44 +87,13 @@ let g:which_key_map.p = {
 let g:which_key_map.d = {
       \ 'name' : '+debug' ,
       \ 'b' : ['<Plug>VimspectorToggleBreakpoint'              , 'breakpoint'],
-      \ 'B' : ['<Plug>VimspectorToggleConditionalBreakpoint'   , 'conditional breakpoint'],
-      \ 'c' : ['<Plug>VimspectorRunToCursor'                   , 'run to cursor'],
       \ 'd' : ['<Plug>VimspectorContinue'                      , 'continue'],
-      \ 'f' : ['<Plug>VimspectorAddFunctionBreakpoint'         , 'function breakpoint'],
-      \ 'm' : [':MaximizerToggle'                              , 'maximize window'],
+      \ 'i' : ['<Plug>VimspectorStepInto'                      , 'step into'],
       \ 'o' : ['<Plug>VimspectorStepOver'                      , 'step over'],
       \ 'O' : ['<Plug>VimspectorStepOut'                       , 'step out'],
-      \ 'i' : ['<Plug>VimspectorStepInto'                      , 'step into'],
       \ 'p' : ['<Plug>VimspectorPause'                         , 'pause'],
       \ 'r' : ['<Plug>VimspectorRestart'                       , 'restart'],
       \ 's' : ['<Plug>VimspectorStop'                          , 'stop'],
-      \ }
-
-" k is for task
-let g:which_key_map.k = {
-      \ 'name' : '+task' ,
-      \ 'c' : [':AsyncTask file-compile'      , 'compile file'],
-      \ 'b' : [':AsyncTask project-build'     , 'build project'],
-      \ 'e' : [':AsyncTaskEdit'               , 'edit local tasks'],
-      \ 'f' : [':AsyncTaskFzf'                , 'find task'],
-      \ 'g' : [':AsyncTaskEdit!'              , 'edit global tasks'],
-      \ 'h' : [':AsyncTaskList!'              , 'list hidden tasks'],
-      \ 'l' : [':CocList tasks'               , 'list tasks'],
-      \ 'm' : [':AsyncTaskMacro'              , 'macro help'],
-      \ 'o' : [':copen'                       , 'open task view'],
-      \ 'r' : [':AsyncTask file-run'          , 'run file'],
-      \ 'p' : [':AsyncTask project-run'       , 'run project'],
-      \ 'x' : [':cclose'                      , 'close task view'],
-      \ }
-
-" Session
-let g:which_key_map.s = {
-      \ 'name' : '+Session' ,
-      \ 'c' : [':SClose'          , 'Close Session']  ,
-      \ 'd' : [':SDelete'         , 'Delete Session'] ,
-      \ 'l' : [':SLoad'           , 'Load Session']     ,
-      \ 's' : [':Startify'        , 'Start Page']     ,
-      \ 'g' : [':SSave'           , 'Save Session']   ,
       \ }
 
 " g is for git
@@ -177,19 +124,6 @@ let g:which_key_map.g = {
       \ 's' : [':Gpush origin hotfix'                                   , 'push hotfix'],
       \ 't' : [':Git reflog'                                            , 'history(reflog)'],
       \ }
-
-" let g:which_key_map.G = {
-"       \ 'name' : '+gist' ,
-"       \ 'a' : [':Gist -a'                          , 'post gist anon'],
-"       \ 'b' : [':Gist -b'                          , 'post gist browser'],
-"       \ 'd' : [':Gist -d'                          , 'delete gist'],
-"       \ 'e' : [':Gist -e'                          , 'edit gist'],
-"       \ 'l' : [':Gist -l'                          , 'list public gists'],
-"       \ 's' : [':Gist -ls'                         , 'list starred gists'],
-"       \ 'm' : [':Gist -m'                          , 'post gist all buffers'],
-"       \ 'p' : [':Gist -P'                          , 'post public gist '],
-"       \ 'P' : [':Gist -p'                          , 'post private gist '],
-"       \ }
 
 " l is for language server protocol
 let g:which_key_map.l = {
@@ -226,23 +160,6 @@ let g:which_key_map.l = {
       \ 'U' : [':CocUpdate'                          , 'update CoC'],
       \ 'z' : [':CocDisable'                         , 'disable CoC'],
       \ 'Z' : [':CocEnable'                          , 'enable CoC'],
-      \ }
-
-" t is for terminal
-let g:which_key_map.t = {
-      \ 'name' : '+terminal' ,
-      \ ';' : [':FloatermNew --wintype=normal --height=6'       , 'terminal'],
-      \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
-      \ 'g' : [':FloatermNew lazygit'                           , 'git'],
-      \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
-      \ 'n' : [':FloatermNew node'                              , 'node'],
-      \ 'N' : [':FloatermNew nnn'                               , 'nnn'],
-      \ 'p' : [':FloatermNew python'                            , 'python'],
-      \ 'm' : [':FloatermNew lazynpm'                           , 'npm'],
-      \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
-      \ 't' : [':FloatermToggle'                                , 'toggle'],
-      \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
-      \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
       \ }
 
 call which_key#register('<Space>', "g:which_key_map")

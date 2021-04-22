@@ -22,19 +22,14 @@ if exists('g:vscode')
 else
 
   " Themes
-  " source $HOME/.config/nvim/themes/syntax.vim
   source $HOME/.config/nvim/themes/material.vim
 
   " Plugin Configuration
-  source $HOME/.config/nvim/plug-config/asynctask.vim
   source $HOME/.config/nvim/plug-config/barbar.vim
   source $HOME/.config/nvim/plug-config/better-whitespace.vim
-  source $HOME/.config/nvim/plug-config/bracey.vim
   source $HOME/.config/nvim/plug-config/coc/coc.vim
   source $HOME/.config/nvim/plug-config/coc/coc-extensions.vim
   source $HOME/.config/nvim/plug-config/closetags.vim
-  source $HOME/.config/nvim/plug-config/codi.vim
-  source $HOME/.config/nvim/plug-config/easymotion.vim
   source $HOME/.config/nvim/plug-config/far.vim
   source $HOME/.config/nvim/plug-config/floaterm.vim
   source $HOME/.config/nvim/plug-config/fzf.vim

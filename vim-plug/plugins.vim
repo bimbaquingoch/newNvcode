@@ -16,7 +16,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ghifarit53/daycula-vim' , {'branch' : 'main'}
     "bar bar
     Plug 'romgrk/barbar.nvim'
-    " Status Line = airline
+    " Status Line airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
     "material
@@ -39,10 +39,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'ap/vim-css-color'
     " Better Comments
     Plug 'tpope/vim-commentary'
-    " Change dates fast
-    Plug 'tpope/vim-speeddating'
-    " Convert binary, hex, etc..
-    Plug 'glts/vim-radical'
     " Repeat stuff
     Plug 'tpope/vim-repeat'
     " Text Navigation
@@ -51,8 +47,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'suy/vim-context-commentstring'
 
   if exists('g:vscode')
-    " Easy motion for VSCode
-    " Plug 'asvetliakov/vim-easymotion'
     Plug 'ChristianChiarulli/vscode-easymotion'
     Plug 'machakann/vim-highlightedyank'
   else
@@ -60,12 +54,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " LSP
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-compe'
-    " Easymotion
-    Plug 'easymotion/vim-easymotion'
-    " Surround
-    Plug 'tpope/vim-surround'
-    " Have the file system follow you around
-    Plug 'airblade/vim-rooter'
     " auto set indent settings
     Plug 'tpope/vim-sleuth'
     " Better Syntax Support
@@ -110,14 +98,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'AndrewRadev/tagalong.vim'
     " Smooth scroll
     Plug 'psliwka/vim-smoothie'
-    " async tasks
-    Plug 'skywind3000/asynctasks.vim'
-    Plug 'skywind3000/asyncrun.vim'
     " Swap windows
     Plug 'wesQ3/vim-windowswap'
-    " Easily Create Gists
-    Plug 'mattn/vim-gist'
-    Plug 'mattn/webapi-vim'
     " Intuitive buffer closing
     Plug 'moll/vim-bbye'
     " Debugging
