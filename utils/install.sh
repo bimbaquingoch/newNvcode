@@ -171,3 +171,18 @@ installcocextensions
 echo "I recommend you also install and activate a font from here: https://www.nerdfonts.com/font-downloads"
 
 echo "I also recommend you add 'set preview_images_method ueberzug' to ~/.config/ranger/rc.conf"
+
+echo "
+
+     ██╗    ██╗ ███████╗  ██████╗  ██╗   ██╗ ██████╗ ██╗    ██╗ 
+     ████╗  ██║ ██╔════╝ ██╔═══██╗ ██║   ██║ ╚═██╔═╝ ████╗████║ 
+     ██╔██╗ ██║ ██████╗  ██║   ██║ ██║   ██║   ██║   ██╚███╗██║ 
+     ██║╚██╗██║ ██╔═══╝  ██║   ██║ ╚██╗ ██╔╝   ██║   ██║╚══╝██║ 
+     ██║  ╚███║ ███████╗ ╚██████╔╝  ╚████╔╝  ██████╗ ██║    ██║ 
+     ╚═╝   ╚══╝ ╚══════╝  ╚═════╝    ╚═══╝   ╚═════╝ ╚═╝    ╚═╝ 
+
+    SUCCESSFULLY INSTALLED ...  
+
+    To start, write on your terminal
+    nvim
+     "
