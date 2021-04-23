@@ -8,8 +8,6 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
-    "Tabnine (autocomplete)
-    Plug 'zxqfl/tabnine-vim'
     "Ranger
     Plug 'kevinhwang91/rnvimr'
     " colorizer-lua
