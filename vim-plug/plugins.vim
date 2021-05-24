@@ -7,7 +7,12 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
-
+ 
+    " Handlebars (Mustache)
+    Plug 'mustache/vim-mustache-handlebars'
+    " Pug
+    Plug 'digitaltoad/vim-pug'
+    Plug 'dnitro/vim-pug-complete'
     "Ranger
     Plug 'kevinhwang91/rnvimr'
     " colorizer-lua
@@ -33,6 +38,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'leafgarland/typescript-vim'
     Plug 'quramy/tsuquyomi'
     Plug 'maxmellon/vim-jsx-pretty'
+    Plug 'yuezk/vim-js'
+    Plug 'HerringtonDarkholme/yats.vim'
     "CSS better syntax
     Plug 'hail2u/vim-css3-syntax'
     "CSS Color

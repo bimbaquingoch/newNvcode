@@ -49,14 +49,14 @@ let g:which_key_map['f'] = ['<Plug>(coc-format)'                               ,
 " a is for actions
 let g:which_key_map.a = {
       \ 'name' : '+actions' ,
-      \ 'a' : [':ColorizerAttachToBuffer' , 'Colorizer'],
-      \ 'c' : ['<Plug>(coc-rename)'       , 'rename'],
-      \ 'd' : [':Bdelete'               , 'close tab'],
-      \ 'h' : [':let @/ = ""'             , 'remove search highlight'],
-      \ 'n' : [':set nonumber!'           , 'line-numbers'],
-      \ 's' : [':Startify'        , 'Start Page']     ,
-      \ 'r' : [':set norelativenumber!'   , 'relative line nums'],
-      \ 't' : [':FloatermNew --wintype=normal --height=6'       , 'terminal'],
+      \ 'a' : [':ColorizerAttachToBuffer'                   , 'Colorizer'],
+      \ 'c' : ['<Plug>(coc-rename)'                         , 'rename'],
+      \ 'd' : [':Bdelete'                                   , 'close tab'],
+      \ 'h' : [':let @/ = ""'                               , 'remove search highlight'],
+      \ 'n' : [':set nonumber!'                             , 'line-numbers'],
+      \ 's' : [':Startify'                                  , 'Start Page']     ,
+      \ 'r' : [':set norelativenumber!'                     , 'relative line nums'],
+      \ 't' : [':FloatermNew --wintype=normal --height=6'   , 'terminal'],
       \ }
 
 "c is for colorscheme
@@ -79,7 +79,7 @@ let g:which_key_map.p = {
       \ 'd' : [':PlugUpdate'                    ,'PlugUpdate'],
       \ 'e' : [':PlugUpgrade'                   ,'PlugUpgrade'],
       \ 'f' : [':PlugSnapshot'                  ,'PlugSnapshot'],
-      \ 'g' : [':PlugDiff'                      , 'PlugDiff']
+      \ 'g' : [':PlugDiff'                      ,'PlugDiff']
       \}
 
 " d is for debug
@@ -104,7 +104,7 @@ let g:which_key_map.g = {
       \ 'c' : [':Git commit'                                            , 'commit'],
       \ 'C' : [':Git commit --amend'                                    , 'commit --amend'],
       \ 'd' : [':Git diff'                                              , 'diff'],
-      \ 'e' : [':Gstatus'                                              , 'status'],
+      \ 'e' : [':Gstatus'                                               , 'status'],
       \ 'f' : [':Git log --decorate'                                    , 'log'],
       \ 'g' : [':Gpush origin master'                                   , 'push Mater'],
       \ 'h' : [':Gpull origin master'                                   , 'pull Mater'],
