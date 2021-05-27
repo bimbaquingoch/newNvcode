@@ -7,13 +7,13 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
- 
+    
     " Handlebars (Mustache)
-    Plug 'mustache/vim-mustache-handlebars'
+    " Plug 'mustache/vim-mustache-handlebars'
     " Pug
-    Plug 'digitaltoad/vim-pug'
-    Plug 'dnitro/vim-pug-complete'
-    "Ranger
+    " Plug 'digitaltoad/vim-pug'
+    " Plug 'dnitro/vim-pug-complete'
+    " Ranger
     Plug 'kevinhwang91/rnvimr'
     " colorizer-lua
     Plug 'norcalli/nvim-colorizer.lua'
@@ -24,30 +24,22 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Status Line airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
-    "material
+    " Material
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-    "Toast colorscheme
+    " Toast colorscheme
     Plug 'jsit/toast.vim'
-    "Json
+    " Json
     Plug 'elzr/vim-json'
-    "indentpython
+    " indentpython
     Plug 'vim-scripts/indentpython.vim'
-    "wakaTime
+    " WakaTime
     Plug 'wakatime/vim-wakatime'
-    "Typescript
-    Plug 'leafgarland/typescript-vim'
-    Plug 'quramy/tsuquyomi'
-    Plug 'maxmellon/vim-jsx-pretty'
-    Plug 'yuezk/vim-js'
-    Plug 'HerringtonDarkholme/yats.vim'
     "CSS better syntax
     Plug 'hail2u/vim-css3-syntax'
     "CSS Color
     Plug 'ap/vim-css-color'
     " Better Comments
     Plug 'tpope/vim-commentary'
-    " Repeat stuff
-    Plug 'tpope/vim-repeat'
     " Text Navigation
     Plug 'unblevable/quick-scope'
     " Useful for React Commenting 
@@ -68,8 +60,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
-    " Auto pairs for '(' '[' '{'
-    Plug 'jiangmiao/auto-pairs'
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
@@ -86,35 +76,16 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'voldikss/vim-floaterm'
     " Start Screen
     Plug 'mhinz/vim-startify'
-    " Vista
-    Plug 'liuchengxu/vista.vim'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
-    " Snippets
-    Plug 'honza/vim-snippets'
-    Plug 'mattn/emmet-vim'
     " Markdown prewview
     Plug 'iamcco/markdown-preview.nvim', { 'do': { -> mkdp#util#install() }, 'for': ['markdown', 'vim-plug']}
-    " Interactive code
-    Plug 'metakirby5/codi.vim'
-    " undo time travel
-    Plug 'mbbill/undotree'
-    " Find and replace
-    Plug 'ChristianChiarulli/far.vim'
     " Auto change html tags
     Plug 'AndrewRadev/tagalong.vim'
     " Smooth scroll
     Plug 'psliwka/vim-smoothie'
-    " Swap windows
-    Plug 'wesQ3/vim-windowswap'
     " Intuitive buffer closing
     Plug 'moll/vim-bbye'
-    " Debugging
-    Plug 'puremourning/vimspector'
-    Plug 'szw/vim-maximizer'
-     "Rainbow
-    Plug 'luochen1990/rainbow'
-    Plug 'kien/rainbow_parentheses.vim'
    
   endif
 

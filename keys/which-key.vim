@@ -35,13 +35,12 @@ let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   ,
 let g:which_key_map['h'] = [ '<C-W>s'                                          , 'split below']
 let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
 let g:which_key_map['q'] = [ ':q'                                              , 'quit']
-let g:which_key_map['u'] = [ ':UndotreeToggle'                                 , 'undo tree']
 let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
 let g:which_key_map['w'] = [ ':w'                                              , 'save']
 let g:which_key_map['m'] = [ ':MarkdownPreview'                                , 'README preview']
 let g:which_key_map['M'] = [ ':MarkdownPreviewStop'                            , 'README preview stop']
 let g:which_key_map['r'] = [ ':RnvimrToggle'                                   , 'Ranger']
-let g:which_key_map['f'] = ['<Plug>(coc-format)'                               , 'format']
+let g:which_key_map['f'] = [ '<Plug>(coc-format)'                              , 'format']
 
 
 " Group mappings
@@ -52,12 +51,11 @@ let g:which_key_map.a = {
       \ 'a' : [':ColorizerAttachToBuffer'                   , 'Colorizer'],
       \ 'c' : ['<Plug>(coc-rename)'                         , 'rename'],
       \ 'd' : [':Bdelete'                                   , 'close tab'],
-      \ 'h' : [':let @/ = ""'                               , 'remove search highlight'],
       \ 'n' : [':set nonumber!'                             , 'line-numbers'],
       \ 's' : [':Startify'                                  , 'Start Page']     ,
       \ 'r' : [':set norelativenumber!'                     , 'relative line nums'],
-      \ 't' : [':FloatermNew --wintype=normal --height=6'   , 'terminal'],
       \ }
+      " \ 't' : [':FloatermNew --wintype=normal --height=6'   , 'terminal'],
 
 "c is for colorscheme
 let g:which_key_map.c = {
@@ -67,7 +65,8 @@ let g:which_key_map.c = {
       \ 'c' : [':colorscheme toast        | :AirlineTheme seoul256      '      , 'toast dark'],
       \ 'd' : [':colorscheme ltoast       | :AirlineTheme atomic        '      , 'toast light'],
       \ 'e' : [':colorscheme material     | :AirlineTheme zenburn       '      , 'material'],
-      \ 'f' : [':colorscheme daycula      | :AirlineTheme daycula       '      , 'daycula']
+      \ 'f' : [':colorscheme daycula      | :AirlineTheme daycula       '      , 'daycula'],
+      \ 'g' : [':colorscheme dracula      | :AirlineTheme base16_snazzy  '      , 'dracula']
       \}
 
 "p is for Plug
@@ -82,19 +81,6 @@ let g:which_key_map.p = {
       \ 'g' : [':PlugDiff'                      ,'PlugDiff']
       \}
 
-" d is for debug
-let g:which_key_map.d = {
-      \ 'name' : '+debug' ,
-      \ 'b' : ['<Plug>VimspectorToggleBreakpoint'              , 'breakpoint'],
-      \ 'd' : ['<Plug>VimspectorContinue'                      , 'continue'],
-      \ 'i' : ['<Plug>VimspectorStepInto'                      , 'step into'],
-      \ 'o' : ['<Plug>VimspectorStepOver'                      , 'step over'],
-      \ 'O' : ['<Plug>VimspectorStepOut'                       , 'step out'],
-      \ 'p' : ['<Plug>VimspectorPause'                         , 'pause'],
-      \ 'r' : ['<Plug>VimspectorRestart'                       , 'restart'],
-      \ 's' : ['<Plug>VimspectorStop'                          , 'stop'],
-      \ }
-
 " g is for git
 let g:which_key_map.g = {
       \ 'name' : '+git' ,
@@ -105,10 +91,10 @@ let g:which_key_map.g = {
       \ 'C' : [':Git commit --amend'                                    , 'commit --amend'],
       \ 'd' : [':Git diff'                                              , 'diff'],
       \ 'e' : [':Gstatus'                                               , 'status'],
-      \ 'f' : [':Git log --decorate'                                    , 'log'],
+      \ 'f' : [':GV'                                                    , 'log'],
       \ 'g' : [':Gpush origin master'                                   , 'push Mater'],
       \ 'h' : [':Gpull origin master'                                   , 'pull Mater'],
-      \ 'i' : [':Git log --oneline'                                     , 'log --oneline'],
+      \ 'i' : [':GV!'                                                   , 'log --oneline'],
       \ 'j' : [':Git log --stat'                                        , 'log --stat'],
       \ 'k' : [':Git log --all --graph --decorate --oneline'            , 'log all graph decorate'],
       \ 'l' : [':Git show'                                              , 'show'],
