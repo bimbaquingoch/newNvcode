@@ -13,6 +13,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Pug
     " Plug 'digitaltoad/vim-pug'
     " Plug 'dnitro/vim-pug-complete'
+    " Snipped JS"
+    Plug 'dominikduda/vim_es7_javascript_react_snippets'
+    Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
     " Ranger
     Plug 'kevinhwang91/rnvimr'
     " colorizer-lua
