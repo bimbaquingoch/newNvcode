@@ -8,16 +8,9 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
     
-    " Handlebars (Mustache)
-    " Plug 'mustache/vim-mustache-handlebars'
-    " Pug
-    " Plug 'digitaltoad/vim-pug'
-    " Plug 'dnitro/vim-pug-complete'
-    " Snipped JS"
+    " Snippeds JS
     Plug 'dominikduda/vim_es7_javascript_react_snippets'
     Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
-    " Ranger
-    Plug 'kevinhwang91/rnvimr'
     " colorizer-lua
     Plug 'norcalli/nvim-colorizer.lua'
     " daycula colorscheme

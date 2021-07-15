@@ -48,7 +48,7 @@ bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/
 git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 ```
 
-- Enable light colorscheme
+### Enable light colorscheme
 
 ```
 cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/colors
@@ -57,28 +57,6 @@ cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/co
 ### SSH KEY
 
 - To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH
-
-### Ranger vim (file explorer)
-
-![NVCode pic](./utils/images/ranger.png)
-
-```
-sudo apt install ranger
-git clone https://github.com/alexanderjeurissen/ranger_devicons ~/.config/ranger/plugins/ranger_devicons
-pip3 install ueberzug
-mkdir ~/.config/ranger
-touch ~/.config/ranger/rc.conf
-```
-
-- Add this configuration to rc.conf
-
-  ```
-  set preview_images_method ueberzug
-
-  default_linemode devicons
-
-  set show_hidden true
-  ```
 
 ## IMPORTANT
 
