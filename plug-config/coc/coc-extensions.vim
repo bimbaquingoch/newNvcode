@@ -28,7 +28,6 @@ let g:coc_global_extensions = [
   \ 'coc-svelte',
   \ 'coc-svg',
   \ 'coc-tasks',
-  \ 'coc-tsserver',
   \ 'coc-vimlsp',
   \ 'coc-webpack',
   \ 'coc-xml',
