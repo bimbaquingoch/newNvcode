@@ -8,6 +8,8 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
     
+    " rainbow
+    Plug 'frazrepo/vim-rainbow'
     " Snippeds JS
     Plug 'dominikduda/vim_es7_javascript_react_snippets'
     Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
