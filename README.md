@@ -21,11 +21,9 @@
 
   ```
   sudo apt-get update
-  sudo apt-get install snapd -y
-  sudo snap install nvim --beta --classic
+  bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/LunarVim/rolling/utils/bin/install-latest-neovim)
   nvim -v
 
-  NVIM v0.5
   ```
 
 - Arch
