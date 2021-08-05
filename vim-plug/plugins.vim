@@ -28,14 +28,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'jsit/toast.vim'
     " Json
     Plug 'elzr/vim-json'
-    " indentpython
-    Plug 'vim-scripts/indentpython.vim'
     " WakaTime
     Plug 'wakatime/vim-wakatime'
-    "CSS better syntax
-    Plug 'hail2u/vim-css3-syntax'
-    "CSS Color
-    Plug 'ap/vim-css-color'
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Text Navigation
