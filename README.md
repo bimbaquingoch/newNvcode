@@ -46,12 +46,6 @@ bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/
 git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 ```
 
-### Enable light colorscheme
-
-```
-cp ~/.config/nvim/themes/ltoast.vim ~/.config/nvim/autoload/plugged/toast.vim/colors
-```
-
 ### SSH KEY
 
 - To enable git push and pull commands make a [SSH key](https://gist.github.com/bimbaquingoch/f82962545ec731682cf989c582b3fd21) and connect your repositories using SSH

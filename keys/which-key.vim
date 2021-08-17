@@ -59,9 +59,9 @@ let g:which_key_map.c = {
       \ 'name':'+colorschemes',
       \ 'a' : [':colorscheme default  | :AirlineTheme base16_default' , 'termguicolors'],
       \ 'b' : [':colorscheme onedark  | :AirlineTheme base16_snazzy ' , 'onedark'],
-      \ 'c' : [':colorscheme toast    | :AirlineTheme seoul256      ' , 'toast'],
-      \ 'd' : [':colorscheme ltoast   | :AirlineTheme atomic        ' , 'light'],
-      \ 'e' : [':colorscheme material | :AirlineTheme material      ' , 'material'],
+      \ 'c' : [':colorscheme toast    | :set termguicolors background=dark | :AirlineTheme seoul256      ' , 'toast'],
+      \ 'd' : [':colorscheme toast    | :set termguicolors background=light | :AirlineTheme seoul256      ' , 'light'],
+      \ 'e' : [':colorscheme material | :AirlineTheme material' , 'material'],
       \}
 
 "p is for Plug
