@@ -15,8 +15,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
     " colorizer-lua
     Plug 'norcalli/nvim-colorizer.lua'
-    " daycula colorscheme
-    Plug 'ghifarit53/daycula-vim' , {'branch' : 'main'}
     "bar bar
     Plug 'romgrk/barbar.nvim'
     " Status Line airline

@@ -41,89 +41,85 @@ let g:which_key_map['m'] = [ ':MarkdownPreview'                                ,
 let g:which_key_map['M'] = [ ':MarkdownPreviewStop'                            , 'README preview stop']
 let g:which_key_map['f'] = [ '<Plug>(coc-format)'                              , 'format code']
 
-
 " Group mappings
 
 " a is for actions
 let g:which_key_map.a = {
       \ 'name' : '+actions' ,
-      \ 'a' : [':ColorizerAttachToBuffer'                   , 'Colorizer'],
-      \ 'c' : ['<Plug>(coc-rename)'                         , 'rename'],
-      \ 'd' : [':Bdelete'                                   , 'close tab'],
-      \ 'n' : [':set nonumber!'                             , 'line-numbers'],
-      \ 's' : [':Startify'                                  , 'Start Page']     ,
-      \ 'r' : [':set norelativenumber!'                     , 'relative line nums'],
+      \ 'a' : [':ColorizerAttachToBuffer'    , 'Colorizer'],
+      \ 'c' : ['<Plug>(coc-rename)'          , 'rename'],
+      \ 'd' : [':Bdelete'                    , 'close tab'],
+      \ 'n' : [':set nonumber!'              , 'line-numbers'],
+      \ 's' : [':Startify'                   , 'Start Page']     ,
+      \ 'r' : [':set norelativenumber!'      , 'relative line nums'],
       \ }
-      " \ 't' : [':FloatermNew --wintype=normal --height=6'   , 'terminal'],
 
 "c is for colorscheme
 let g:which_key_map.c = {
       \ 'name':'+colorschemes',
-      \ 'a' : [':colorscheme default      | :AirlineTheme base16_default'      , 'terminal colors' ],
-      \ 'b' : [':colorscheme onedark      | :AirlineTheme base16_snazzy '      , 'onedark'],
-      \ 'c' : [':colorscheme toast        | :AirlineTheme seoul256      '      , 'toast dark'],
-      \ 'd' : [':colorscheme ltoast       | :AirlineTheme atomic        '      , 'toast light'],
-      \ 'e' : [':colorscheme material     | :AirlineTheme zenburn       '      , 'material'],
-      \ 'f' : [':colorscheme daycula      | :AirlineTheme daycula       '      , 'daycula'],
-      \ 'g' : [':colorscheme dracula      | :AirlineTheme base16_snazzy  '      , 'dracula']
+      \ 'a' : [':colorscheme default  | :AirlineTheme base16_default' , 'termguicolors'],
+      \ 'b' : [':colorscheme onedark  | :AirlineTheme base16_snazzy ' , 'onedark'],
+      \ 'c' : [':colorscheme toast    | :AirlineTheme seoul256      ' , 'toast'],
+      \ 'd' : [':colorscheme ltoast   | :AirlineTheme atomic        ' , 'light'],
+      \ 'e' : [':colorscheme material | :AirlineTheme material      ' , 'material'],
       \}
 
 "p is for Plug
 let g:which_key_map.p = {
       \ 'name' : '+PlugConf',
-      \ 'a' : [':PlugClean'                     ,'PlugClean'],
-      \ 'b' : [':PlugInstall'                   ,'PlugInstall'],
-      \ 'c' : [':PlugStatus'                    ,'PlugStatus'],
-      \ 'd' : [':PlugUpdate'                    ,'PlugUpdate'],
-      \ 'e' : [':PlugUpgrade'                   ,'PlugUpgrade'],
-      \ 'f' : [':PlugSnapshot'                  ,'PlugSnapshot'],
-      \ 'g' : [':PlugDiff'                      ,'PlugDiff']
+      \ 'a' : [':PlugClean'       ,'PlugClean'],
+      \ 'b' : [':PlugInstall'     ,'PlugInstall'],
+      \ 'c' : [':PlugStatus'      ,'PlugStatus'],
+      \ 'd' : [':PlugUpdate'      ,'PlugUpdate'],
+      \ 'e' : [':PlugUpgrade'     ,'PlugUpgrade'],
+      \ 'f' : [':PlugSnapshot'    ,'PlugSnapshot'],
+      \ 'g' : [':PlugDiff'        ,'PlugDiff']
       \}
 
 " g is for git
 let g:which_key_map.g = {
       \ 'name' : '+git' ,
-      \ 'a' : [':Git add .'                                             , 'add all'],
-      \ 'b' : [':Git blame'                                             , 'blame'],
-      \ 'B' : [':Git branch -a'                                         , 'branches'],
-      \ 'c' : [':Git commit'                                            , 'commit'],
-      \ 'C' : [':Git commit --amend'                                    , 'commit --amend'],
-      \ 'd' : [':Git diff'                                              , 'diff'],
-      \ 'e' : [':Gstatus'                                               , 'status'],
-      \ 'f' : [':GV'                                                    , 'log'],
-      \ 'g' : [':Gpush origin master'                                   , 'push Mater'],
-      \ 'h' : [':Gpull origin master'                                   , 'pull Mater'],
-      \ 'i' : [':GV!'                                                   , 'log --oneline'],
-      \ 'j' : [':Git log --stat'                                        , 'log --stat'],
-      \ 'k' : [':Git log --all --graph --decorate --oneline'            , 'log all graph decorate'],
-      \ 'l' : [':Git show'                                              , 'show'],
-      \ 'm' : [':Git checkout master'                                   , 'move to Master'],
-      \ 'n' : [':Git branch development'                                , 'create branch development'],
-      \ 'o' : [':Git branch hotfix'                                     , 'create branch hotfix'],
-      \ 'N' : [':Git checkout development'                              , 'move to development'],
-      \ 'O' : [':Git checkout hotfix'                                   , 'move to hotfix'],
-      \ 'p' : [':Git merge development'                                 , 'merge development'],
-      \ 'q' : [':Git merge hotfix'                                      , 'merge hotfix'],
-      \ 'r' : [':Gpush origin development'                              , 'push development'],
-      \ 's' : [':Gpush origin hotfix'                                   , 'push hotfix'],
-      \ 't' : [':Git reflog'                                            , 'history(reflog)'],
+      \ 'a' : [':Git add .'                                    , 'add all'],
+      \ 'b' : [':Git blame'                                    , 'blame'],
+      \ 'B' : [':Git branch -a'                                , 'branches'],
+      \ 'c' : [':Git commit'                                   , 'commit'],
+      \ 'C' : [':Git commit --amend'                           , 'commit --amend'],
+      \ 'd' : [':Git diff'                                     , 'diff'],
+      \ 'e' : [':Gstatus'                                      , 'status'],
+      \ 'f' : [':GV'                                           , 'log'],
+      \ 'g' : [':Gpush origin master'                          , 'push Mater'],
+      \ 'h' : [':Gpull origin master'                          , 'pull Mater'],
+      \ 'i' : [':GV!'                                          , 'log --oneline'],
+      \ 'j' : [':Git log --stat'                               , 'log --stat'],
+      \ 'k' : [':Git log --all --graph --decorate --oneline'   , 'log all graph decorate'],
+      \ 'l' : [':Git show'                                     , 'show'],
+      \ 'm' : [':Git checkout master'                          , 'move to Master'],
+      \ 'n' : [':Git branch development'                       , 'create branch development'],
+      \ 'o' : [':Git branch hotfix'                            , 'create branch hotfix'],
+      \ 'N' : [':Git checkout development'                     , 'move to development'],
+      \ 'O' : [':Git checkout hotfix'                          , 'move to hotfix'],
+      \ 'p' : [':Git merge development'                        , 'merge development'],
+      \ 'q' : [':Git merge hotfix'                             , 'merge hotfix'],
+      \ 'r' : [':Gpush origin development'                     , 'push development'],
+      \ 's' : [':Gpush origin hotfix'                          , 'push hotfix'],
+      \ 't' : [':Git reflog'                                   , 'history(reflog)'],
       \ }
 
 " l is for language server protocol
 let g:which_key_map.l = {
       \ 'name' : '+lsp' ,
-      \ '.' : [':CocConfig'                          , 'config'],
-      \ ';' : ['<Plug>(coc-refactor)'                , 'refactor'],
-      \ 'e' : [':CocList extensions'                 , 'extensions'],
-      \ 'h' : ['<Plug>(coc-float-hide)'              , 'hide'],
-      \ 'i' : ['<Plug>(coc-implementation)'          , 'implementation'],
-      \ 'I' : [':CocList diagnostics'                , 'diagnostics'],
-      \ 'j' : ['<Plug>(coc-float-jump)'              , 'float jump'],
-      \ 'l' : ['<Plug>(coc-codelens-action)'         , 'code lens'],
-      \ 'q' : ['<Plug>(coc-fix-current)'             , 'quickfix'],
-      \ 'S' : [':CocList snippets'                   , 'snippets'],
-      \ 'u' : [':CocListResume'                      , 'resume list'],
-      \ 'U' : [':CocUpdate'                          , 'update CoC'],
+      \ '.' : [':CocConfig'                     , 'config'],
+      \ ';' : ['<Plug>(coc-refactor)'           , 'refactor'],
+      \ 'e' : [':CocList extensions'            , 'extensions'],
+      \ 'h' : ['<Plug>(coc-float-hide)'         , 'hide'],
+      \ 'i' : ['<Plug>(coc-implementation)'     , 'implementation'],
+      \ 'I' : [':CocList diagnostics'           , 'diagnostics'],
+      \ 'j' : ['<Plug>(coc-float-jump)'         , 'float jump'],
+      \ 'l' : ['<Plug>(coc-codelens-action)'    , 'code lens'],
+      \ 'q' : ['<Plug>(coc-fix-current)'        , 'quickfix'],
+      \ 'S' : [':CocList snippets'              , 'snippets'],
+      \ 'u' : [':CocListResume'                 , 'resume list'],
+      \ 'U' : [':CocUpdate'                     , 'update CoC'],
       \ }
 
 call which_key#register('<Space>', "g:which_key_map")

@@ -2,6 +2,8 @@ set iskeyword+=-                      	" treat dash separated words as a word te
 set formatoptions-=cro                  " Stop newline continution of comments
 set norelativenumber!
 set foldmethod=syntax
+colorscheme material
+let g:material_theme_style = 'ocean'
 let g:rainbow_active = 1
 let g:rainbow_load_separately = [
     \ [ '*' , [['(', ')'], ['\[', '\]'], ['{', '}']] ],

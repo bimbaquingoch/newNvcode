@@ -14,15 +14,20 @@ source $HOME/.config/nvim/general/settings.vim
 source $HOME/.config/nvim/general/functions.vim
 source $HOME/.config/nvim/keys/mappings.vim
 
+if(has('nvim'))
+  let $NVIM_TUI_ENABLE_TRUE_COLOR=1
+endif
+
+if(has('termguicolors'))
+  set termguicolors
+endif
+
 if exists('g:vscode')
   " VS Code extension
   source $HOME/.config/nvim/vscode/settings.vim
   source $HOME/.config/nvim/plug-config/easymotion.vim
   source $HOME/.config/nvim/plug-config/highlightyank.vim
 else
-
-  " Themes
-  source $HOME/.config/nvim/themes/material.vim
 
   " Plugin Configuration
   source $HOME/.config/nvim/plug-config/barbar.vim
