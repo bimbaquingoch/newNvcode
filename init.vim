@@ -29,6 +29,7 @@ if exists('g:vscode')
   source $HOME/.config/nvim/plug-config/highlightyank.vim
 else
 
+  source $HOME/.config/nvim/themes/syntax.vim
   " Plugin Configuration
   source $HOME/.config/nvim/plug-config/barbar.vim
   source $HOME/.config/nvim/plug-config/better-whitespace.vim
