@@ -38,8 +38,8 @@ set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
 set laststatus=2                        " Always display the status line
 set number                              " Line numbers
-set cursorline                          " Enable highlighting of the current line
-set cursorcolumn
+" set cursorline                          " Enable highlighting of the current line
+" set cursorcolumn
 set guicursor+=n-v-c:blinkon1           " blinking enable
 set background=dark                     " tell vim what the background color looks like
 set showtabline=2                       " Always show tabs

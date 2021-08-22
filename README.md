@@ -1,5 +1,4 @@
-![NVCode pic](./utils/images/neovim.png)
-![NVCode pic](./utils/images/collage.png)
+![NVCode pic](./utils/images/nvcode.png)
 
 ## Commands
 
@@ -9,40 +8,25 @@
 
 ## Install Neovim
 
-- Mac
+Ubuntu
 
-  ```
-  brew install --HEAD neovim # Nightly version
-
-  brew upgrade neovim --fetch-HEAD # Sometimes you need to update
-  ```
-
-- Ubuntu
-
-  ```
-  sudo apt-get update
-  bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/LunarVim/rolling/utils/bin/install-latest-neovim)
-  nvim -v
-
-  ```
-
-- Arch
-
-  ```
-  yay -S neovim-git # Latest
-  ```
-
-### Install in one command this script only supports Mac, Ubuntu and Arch
-
-- The following will install this config if you have an existing config it will move it to `~/.config/nvim.old`
-
+```sh
+sudo apt-get update
+bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/LunarVim/rolling/utils/bin/install-latest-neovim)
+nvim -v
 ```
+
+ <h4>
+  Install in one command (this script only supports Mac, Ubuntu and Arch)
+ </h4>
+
+```sh
 bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
 ```
 
 - Or Clone this repo into your config
 
-```
+```sh
 git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 ```
 
@@ -62,18 +46,18 @@ git clone https://github.com/bimbaquingoch/newNvcode.git ~/.config/nvim
 
 ### Nerd Font
 
-> To see all files icons you must be installed nerd font [Nerd Font](https://www.nerdfonts.com/font-downloads), I recommend download JetBrainsMono Nerd Font
+> To see all files icons, you must be installed nerd font [Nerd Font](https://www.nerdfonts.com/font-downloads), I recommend download JetBrainsMono Nerd Font
 
 ##### Download your font
 
-```
+```sh
 unzip ~/Downloads/JetBrainsMono.zip
 sudo mv *.ttf /usr/share/fonts
 ```
 
 ## Install python, node support and extra plugs
 
-```
+```sh
 sudo pip3 install pynvim
 sudo npm i -g neovim
 sudo npm i -g pyright

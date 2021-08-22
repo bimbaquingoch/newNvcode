@@ -57,19 +57,19 @@ let g:which_key_map.a = {
 "c is for colorscheme
 let g:which_key_map.c = {
       \ 'name':'+colorschemes',
-      \ 'a' : [':colorscheme default   | :AirlineTheme base16_default'                                          , 'termguicolors'],
-      \ 'b' : [':colorscheme onedark   | :AirlineTheme base16_snazzy '                                          , 'onedark'],
-      \ 'c' : [':colorscheme toast     | :AirlineTheme seoul256          | :set termguicolors background=dark'  , 'toast'],
-      \ 'd' : [':colorscheme toast     | :AirlineTheme seoul256          | :set termguicolors background=light' , 'light'],
-      \ 'e' : [':colorscheme material  | :AirlineTheme material'                                                , 'material'],
-      \ 'f' : [':colorscheme gruvbox   | :AirlineTheme apprentice        | :set termguicolors background=light' , 'gruvbox'],
-      \ 'g' : [':colorscheme dracula   | :AirlineTheme material'                                                , 'dracula'],
-      \ 'h' : [':colorscheme evening   | :AirlineTheme alduin'                                                  , 'evening'],
-      \ 'i' : [':colorscheme metanoia  | :AirlineTheme apprentice        | :set termguicolors background=dark'  , 'metanoia'],
-      \ 'j' : [':colorscheme nvcode    | :AirlineTheme zenburn           | :set termguicolors background=dark'  , 'nvcode'],
-      \ 'k' : [':colorscheme palenight | :AirlineTheme zenburn           | :set termguicolors background=dark'  , 'palenight'],
-      \ 'l' : [':colorscheme lunar     | :AirlineTheme ayu_mirage        | :set termguicolors background=dark'  , 'lunar'],
-      \ 'm' : [':colorscheme snazzy    | :AirlineTheme ayu_mirage        | :set termguicolors background=dark'  , 'snazzy'],
+      \ 'a' : [':colorscheme default   | :AirlineTheme base16_snazzy'                                         , 'termguicolors'],
+      \ 'b' : [':colorscheme onedark   | :AirlineTheme base16_snazzy'                                         , 'onedark'],
+      \ 'c' : [':colorscheme toast     | :AirlineTheme seoul256        | :set termguicolors background=dark'  , 'toast'],
+      \ 'd' : [':colorscheme toast     | :AirlineTheme seoul256        | :set termguicolors background=light' , 'light'],
+      \ 'e' : [':colorscheme material  | :AirlineTheme material'                                              , 'material'],
+      \ 'f' : [':colorscheme gruvbox   | :AirlineTheme apprentice      | :set termguicolors background=light' , 'gruvbox'],
+      \ 'g' : [':colorscheme dracula   | :AirlineTheme material'                                              , 'dracula'],
+      \ 'h' : [':colorscheme evening   | :AirlineTheme alduin'                                                , 'evening'],
+      \ 'i' : [':colorscheme metanoia  | :AirlineTheme apprentice      | :set termguicolors background=dark'  , 'metanoia'],
+      \ 'j' : [':colorscheme nvcode    | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'nvcode'],
+      \ 'k' : [':colorscheme palenight | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'palenight'],
+      \ 'l' : [':colorscheme lunar     | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'lunar'],
+      \ 'm' : [':colorscheme snazzy    | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'snazzy'],
       \}
 
 "p is for Plug
