@@ -15,6 +15,7 @@ let g:coc_global_extensions = [
   \ 'coc-marketplace',
   \ 'coc-pairs',
   \ 'coc-prettier',
+  \ 'coc-python',
   \ 'coc-pyright',
   \ 'coc-react-refactor',
   \ 'coc-sh',

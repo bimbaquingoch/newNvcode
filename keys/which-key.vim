@@ -46,13 +46,13 @@ let g:which_key_map['f'] = [ '<Plug>(coc-format)'                              ,
 " a is for actions
 let g:which_key_map.a = {
       \ 'name' : '+actions' ,
-      \ 'a' : [':ColorizerAttachToBuffer'    , 'Colorizer'],
       \ 'c' : ['<Plug>(coc-rename)'          , 'rename'],
       \ 'd' : [':Bdelete'                    , 'close tab'],
       \ 'n' : [':set nonumber!'              , 'line-numbers'],
       \ 's' : [':Startify'                   , 'Start Page']     ,
       \ 'r' : [':set norelativenumber!'      , 'relative line nums'],
       \ }
+" \ 'a' : [':ColorizerAttachToBuffer'    , 'Colorizer'],
 
 "c is for colorscheme
 let g:which_key_map.c = {

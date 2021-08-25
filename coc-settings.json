@@ -98,7 +98,7 @@
   "explorer.file.root.template": "[icon] [git] [hidden & 1][root]",
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
-  "explorer.icon.enableVimDevicons": false,
+  //"explorer.icon.enableVimDevicons": false,
   "explorer.file.showHiddenFiles": true,
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
@@ -106,6 +106,23 @@
   },
 
   //coc-emoji
-  "coc.source.emoji.filetypes": ["markdown"],
-  "coc.preferences.extensionUpdateCheck": "daily"
+  "coc.source.emoji.filetypes": [
+    "css",
+    "markdown",
+    "javascript",
+    "typescript",
+    "jsx",
+    "graphql",
+    "php",
+    "html",
+    "yaml",
+    "json",
+    "python",
+    "java",
+    "bash",
+    "c++",
+    "c#"
+  ],
+
+  "coc.preferences.extensionUpdateCheck": "never"
 }
