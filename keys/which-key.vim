@@ -48,6 +48,7 @@ let g:which_key_map.a = {
       \ 'name' : '+actions' ,
       \ 'c' : ['<Plug>(coc-rename)'          , 'rename'],
       \ 'd' : [':Bdelete'                    , 'close tab'],
+      \ 'f' : [':Telescope find_files'       , 'find file'],
       \ 'n' : [':set nonumber!'              , 'line-numbers'],
       \ 's' : [':Dashboard'                  , 'Start Page']     ,
       \ 'r' : [':set norelativenumber!'      , 'relative line nums'],

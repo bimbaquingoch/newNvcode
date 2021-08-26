@@ -19,7 +19,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'dominikduda/vim_es7_javascript_react_snippets'
     Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
     " colorizer-lua
-    Plug 'norcalli/nvim-colorizer.lua'
+    " Plug 'norcalli/nvim-colorizer.lua'
     "bar bar
     Plug 'romgrk/barbar.nvim'
     " Status Line airline
@@ -29,16 +29,12 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     " Toast colorscheme
     Plug 'jsit/toast.vim'
-    " Json
-    Plug 'elzr/vim-json'
     " WakaTime
     Plug 'wakatime/vim-wakatime'
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Text Navigation
     Plug 'unblevable/quick-scope'
-    " Useful for React Commenting 
-    Plug 'suy/vim-context-commentstring'
 
   if exists('g:vscode')
     " Plug 'ChristianChiarulli/vscode-easymotion'
@@ -48,8 +44,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " LSP
     Plug 'neovim/nvim-lspconfig'
     Plug 'hrsh7th/nvim-compe'
-    " auto set indent settings
-    Plug 'tpope/vim-sleuth'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Cool Icons
