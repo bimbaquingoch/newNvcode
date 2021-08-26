@@ -8,6 +8,11 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
     
+    " Dashboard
+    Plug 'glepnir/dashboard-nvim'
+    " telescope
+    Plug 'nvim-lua/plenary.nvim'
+    Plug 'nvim-telescope/telescope.nvim'
     " rainbow
     Plug 'frazrepo/vim-rainbow'
     " Snippeds JS
@@ -36,7 +41,7 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'suy/vim-context-commentstring'
 
   if exists('g:vscode')
-    Plug 'ChristianChiarulli/vscode-easymotion'
+    " Plug 'ChristianChiarulli/vscode-easymotion'
     Plug 'machakann/vim-highlightedyank'
   else
 
@@ -64,8 +69,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'rhysd/git-messenger.vim'
     " Terminal
     Plug 'voldikss/vim-floaterm'
-    " Start Screen
-    Plug 'mhinz/vim-startify'
     " See what keys do like in emacs
     Plug 'liuchengxu/vim-which-key'
     " Markdown prewview

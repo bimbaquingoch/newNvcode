@@ -1,6 +1,7 @@
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set formatoptions-=cro                  " Stop newline continution of comments
 set norelativenumber!
+let g:dashboard_default_executive ='telescope'
 set foldmethod=syntax
 colorscheme material
 let g:material_theme_style = 'ocean'

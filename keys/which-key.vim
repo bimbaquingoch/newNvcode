@@ -49,10 +49,10 @@ let g:which_key_map.a = {
       \ 'c' : ['<Plug>(coc-rename)'          , 'rename'],
       \ 'd' : [':Bdelete'                    , 'close tab'],
       \ 'n' : [':set nonumber!'              , 'line-numbers'],
-      \ 's' : [':Startify'                   , 'Start Page']     ,
+      \ 's' : [':Dashboard'                  , 'Start Page']     ,
       \ 'r' : [':set norelativenumber!'      , 'relative line nums'],
+      \ 'w' : [':SessionSave'                , 'save session'],
       \ }
-" \ 'a' : [':ColorizerAttachToBuffer'    , 'Colorizer'],
 
 "c is for colorscheme
 let g:which_key_map.c = {
