@@ -13,50 +13,45 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " telescope
     Plug 'nvim-lua/plenary.nvim'
     Plug 'nvim-telescope/telescope.nvim'
-    " rainbow
+    " CSS color
+    Plug 'ap/vim-css-color'
+    " rainbow brackets
     Plug 'frazrepo/vim-rainbow'
     " Snippeds JS
     Plug 'dominikduda/vim_es7_javascript_react_snippets'
     Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
-    " colorizer-lua
-    " Plug 'norcalli/nvim-colorizer.lua'
-    "bar bar
+    " nav tabs
     Plug 'romgrk/barbar.nvim'
     " Status Line airline
     Plug 'vim-airline/vim-airline'
     Plug 'vim-airline/vim-airline-themes'
-    " Material
-    Plug 'kaicataldo/material.vim', { 'branch': 'main' }
-    " Toast colorscheme
-    Plug 'jsit/toast.vim'
     " WakaTime
     Plug 'wakatime/vim-wakatime'
     " Better Comments
     Plug 'tpope/vim-commentary'
     " Text Navigation
     Plug 'unblevable/quick-scope'
-
-  if exists('g:vscode')
-    " Plug 'ChristianChiarulli/vscode-easymotion'
-    Plug 'machakann/vim-highlightedyank'
-  else
-
     " LSP
     Plug 'neovim/nvim-lspconfig'
-    Plug 'hrsh7th/nvim-compe'
+    " Plug 'hrsh7th/nvim-compe'
     " Better Syntax Support
     Plug 'sheerun/vim-polyglot'
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
+    " Nerd Tree
+    Plug 'preservim/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
     Plug 'christianchiarulli/nvcode-color-schemes.vim'
+    Plug 'kaicataldo/material.vim', { 'branch': 'main' }
+    Plug 'jsit/toast.vim'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
    " Git
-    Plug 'airblade/vim-gitgutter'
+    " Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
@@ -74,7 +69,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Intuitive buffer closing
     Plug 'moll/vim-bbye'
    
-  endif
 
 call plug#end()
 

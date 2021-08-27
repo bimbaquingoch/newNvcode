@@ -28,18 +28,18 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 
 
 " Single mappings
-let g:which_key_map['.'] = [ ':e $MYVIMRC'                                     , 'open init' ]
-let g:which_key_map['/'] = [ ':call Comment()'                                 , 'comment' ]
-let g:which_key_map['='] = [ '<C-W>='                                          , 'balance windows' ]
-let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'   , 'explorer' ]
-let g:which_key_map['h'] = [ '<C-W>s'                                          , 'split below']
-let g:which_key_map['n'] = [ ':let @/ = ""'                                    , 'no highlight' ]
-let g:which_key_map['q'] = [ ':q'                                              , 'quit']
-let g:which_key_map['v'] = [ '<C-W>v'                                          , 'split right']
-let g:which_key_map['w'] = [ ':w'                                              , 'save']
-let g:which_key_map['m'] = [ ':MarkdownPreview'                                , 'README preview']
-let g:which_key_map['M'] = [ ':MarkdownPreviewStop'                            , 'README preview stop']
-let g:which_key_map['f'] = [ '<Plug>(coc-format)'                              , 'format code']
+let g:which_key_map['.'] = [ ':e $MYVIMRC'           , 'open init' ]
+let g:which_key_map['/'] = [ ':call Comment()'       , 'comment' ]
+let g:which_key_map['='] = [ '<C-W>='                , 'balance windows' ]
+let g:which_key_map['e'] = [ ':NERDTree'             , 'explorer' ]
+let g:which_key_map['h'] = [ '<C-W>s'                , 'split below']
+let g:which_key_map['n'] = [ ':let @/ = ""'          , 'no highlight' ]
+let g:which_key_map['q'] = [ ':q'                    , 'quit']
+let g:which_key_map['v'] = [ '<C-W>v'                , 'split right']
+let g:which_key_map['w'] = [ ':w'                    , 'save']
+let g:which_key_map['m'] = [ ':MarkdownPreview'      , 'README preview']
+let g:which_key_map['M'] = [ ':MarkdownPreviewStop'  , 'README preview stop']
+let g:which_key_map['f'] = [ '<Plug>(coc-format)'    , 'format code']
 
 " Group mappings
 
@@ -49,6 +49,7 @@ let g:which_key_map.a = {
       \ 'c' : ['<Plug>(coc-rename)'          , 'rename'],
       \ 'd' : [':Bdelete'                    , 'close tab'],
       \ 'f' : [':Telescope find_files'       , 'find file'],
+      \ 'l' : [':SessionLoad'                , 'load session'],
       \ 'n' : [':set nonumber!'              , 'line-numbers'],
       \ 's' : [':Dashboard'                  , 'Start Page']     ,
       \ 'r' : [':set norelativenumber!'      , 'relative line nums'],
@@ -65,12 +66,11 @@ let g:which_key_map.c = {
       \ 'e' : [':colorscheme material  | :AirlineTheme material'                                              , 'material'],
       \ 'f' : [':colorscheme gruvbox   | :AirlineTheme apprentice      | :set termguicolors background=light' , 'gruvbox'],
       \ 'g' : [':colorscheme dracula   | :AirlineTheme material'                                              , 'dracula'],
-      \ 'h' : [':colorscheme evening   | :AirlineTheme alduin'                                                , 'evening'],
-      \ 'i' : [':colorscheme metanoia  | :AirlineTheme apprentice      | :set termguicolors background=dark'  , 'metanoia'],
-      \ 'j' : [':colorscheme nvcode    | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'nvcode'],
-      \ 'k' : [':colorscheme palenight | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'palenight'],
-      \ 'l' : [':colorscheme lunar     | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'lunar'],
-      \ 'm' : [':colorscheme snazzy    | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'snazzy'],
+      \ 'h' : [':colorscheme metanoia  | :AirlineTheme apprentice      | :set termguicolors background=dark'  , 'metanoia'],
+      \ 'i' : [':colorscheme nvcode    | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'nvcode'],
+      \ 'j' : [':colorscheme palenight | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'palenight'],
+      \ 'k' : [':colorscheme lunar     | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'lunar'],
+      \ 'l' : [':colorscheme snazzy    | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'snazzy'],
       \}
 
 "p is for Plug
@@ -98,13 +98,12 @@ let g:which_key_map.g = {
       \ 'f' : [':GV'                                           , 'log'],
       \ 'g' : [':Git push origin master'                       , 'push Mater'],
       \ 'h' : [':Git pull origin master'                       , 'pull Mater'],
-      \ 'i' : [':GV!'                                          , 'log --oneline'],
-      \ 'j' : [':Git log --stat'                               , 'log --stat'],
-      \ 'k' : [':Git log --all --graph --decorate --oneline'   , 'log all graph decorate'],
-      \ 'l' : [':Git show'                                     , 'show'],
-      \ 'm' : [':Git checkout master'                          , 'move to Master'],
-      \ 'n' : [':Git branch development'                       , 'create branch development'],
-      \ 'o' : [':Git branch hotfix'                            , 'create branch hotfix'],
+      \ 'i' : [':Git log --stat'                               , 'log --stat'],
+      \ 'j' : [':Git log --all --graph --decorate --oneline'   , 'log all graph decorate'],
+      \ 'k' : [':Git show'                                     , 'show'],
+      \ 'l' : [':Git checkout master'                          , 'move to Master'],
+      \ 'm' : [':Git branch development'                       , 'create branch development'],
+      \ 'n' : [':Git branch hotfix'                            , 'create branch hotfix'],
       \ 'N' : [':Git checkout development'                     , 'move to development'],
       \ 'O' : [':Git checkout hotfix'                          , 'move to hotfix'],
       \ 'p' : [':Git merge development'                        , 'merge development'],
