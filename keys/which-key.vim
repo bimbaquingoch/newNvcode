@@ -31,7 +31,7 @@ autocmd  FileType which_key set laststatus=0 noshowmode noruler
 let g:which_key_map['.'] = [ ':e $MYVIMRC'           , 'open init' ]
 let g:which_key_map['/'] = [ ':call Comment()'       , 'comment' ]
 let g:which_key_map['='] = [ '<C-W>='                , 'balance windows' ]
-let g:which_key_map['e'] = [ ':NERDTree'             , 'explorer' ]
+let g:which_key_map['e'] = [ ':CocCommand explorer --toggle --sources=file+'             , 'explorer' ]
 let g:which_key_map['h'] = [ '<C-W>s'                , 'split below']
 let g:which_key_map['n'] = [ ':let @/ = ""'          , 'no highlight' ]
 let g:which_key_map['q'] = [ ':q'                    , 'quit']
@@ -59,18 +59,19 @@ let g:which_key_map.a = {
 "c is for colorscheme
 let g:which_key_map.c = {
       \ 'name':'+colorschemes',
-      \ 'a' : [':colorscheme default   | :AirlineTheme base16_snazzy'                                         , 'termguicolors'],
-      \ 'b' : [':colorscheme onedark   | :AirlineTheme base16_snazzy'                                         , 'onedark'],
-      \ 'c' : [':colorscheme toast     | :AirlineTheme seoul256        | :set termguicolors background=dark'  , 'toast'],
-      \ 'd' : [':colorscheme toast     | :AirlineTheme seoul256        | :set termguicolors background=light' , 'light'],
-      \ 'e' : [':colorscheme material  | :AirlineTheme material'                                              , 'material'],
-      \ 'f' : [':colorscheme gruvbox   | :AirlineTheme apprentice      | :set termguicolors background=light' , 'gruvbox'],
-      \ 'g' : [':colorscheme dracula   | :AirlineTheme material'                                              , 'dracula'],
-      \ 'h' : [':colorscheme metanoia  | :AirlineTheme apprentice      | :set termguicolors background=dark'  , 'metanoia'],
-      \ 'i' : [':colorscheme nvcode    | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'nvcode'],
-      \ 'j' : [':colorscheme palenight | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'palenight'],
-      \ 'k' : [':colorscheme lunar     | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'lunar'],
-      \ 'l' : [':colorscheme snazzy    | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'snazzy'],
+      \ 'a' : [':colorscheme default    | :AirlineTheme base16_snazzy'                                         , 'termguicolors'],
+      \ 'b' : [':colorscheme onedark    | :AirlineTheme base16_snazzy'                                         , 'onedark'],
+      \ 'c' : [':colorscheme toast      | :AirlineTheme seoul256        | :set termguicolors background=dark'  , 'toast'],
+      \ 'd' : [':colorscheme toast      | :AirlineTheme seoul256        | :set termguicolors background=light' , 'light'],
+      \ 'e' : [':colorscheme material   | :AirlineTheme material'                                              , 'material'],
+      \ 'f' : [':colorscheme gruvbox    | :AirlineTheme apprentice      | :set termguicolors background=light' , 'gruvbox'],
+      \ 'g' : [':colorscheme dracula    | :AirlineTheme material'                                              , 'dracula'],
+      \ 'h' : [':colorscheme metanoia   | :AirlineTheme apprentice      | :set termguicolors background=dark'  , 'metanoia'],
+      \ 'i' : [':colorscheme nvcode     | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'nvcode'],
+      \ 'j' : [':colorscheme palenight  | :AirlineTheme zenburn         | :set termguicolors background=dark'  , 'palenight'],
+      \ 'k' : [':colorscheme lunar      | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'lunar'],
+      \ 'l' : [':colorscheme snazzy     | :AirlineTheme ayu_mirage      | :set termguicolors background=dark'  , 'snazzy'],
+      \ 'm' : [':colorscheme tokyonight | :AirlineTheme tokyonight'                                         , 'tokyonight'],
       \}
 
 "p is for Plug

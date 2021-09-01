@@ -1,27 +1,19 @@
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set formatoptions-=cro                  " Stop newline continution of comments
 set norelativenumber!
+" tokyonight-vim
+let g:tokyonight_enable_italic = 1
 let g:cssColorVimDoNotMessMyUpdatetime = 1 "Css color
+set termguicolors
+let g:tokyonight_style = 'storm'
+let g:lightline = {'colorscheme' : 'tokyonight'}
+colorscheme tokyonight
+let g:airline_theme = "tokyonight"
 "git
-let g:NERDTreeGitStatusUntrackedFilesMode = 'all'
-let g:NERDTreeGitStatusUseNerdFonts = 1
-let g:NERDTreeGitStatusIndicatorMapCustom = {
-                \ 'Modified'  :'✹',
-                \ 'Staged'    :'✚',
-                \ 'Untracked' :'✭',
-                \ 'Renamed'   :'➜',
-                \ 'Unmerged'  :'═',
-                \ 'Deleted'   :'✖',
-                \ 'Dirty'     :'✗',
-                \ 'Ignored'   :'☒',
-                \ 'Clean'     :'✔︎',
-                \ 'Unknown'   :'?',
-                \ }
-let g:NERDTreeGitStatusConcealBrackets = 0
 
 let g:dashboard_default_executive ='telescope'
 set foldmethod=syntax
-colorscheme material
+
 let g:material_theme_style = 'ocean'
 let g:rainbow_active = 1
 let g:rainbow_load_separately = [

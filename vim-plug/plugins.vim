@@ -39,19 +39,17 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'
-    " Nerd Tree
-    Plug 'preservim/nerdtree'
-    Plug 'Xuyuanp/nerdtree-git-plugin'
     " Closetags
     Plug 'alvan/vim-closetag'
     " Themes
     Plug 'christianchiarulli/nvcode-color-schemes.vim'
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'jsit/toast.vim'
+    Plug 'ghifarit53/tokyonight-vim'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
    " Git
-    " Plug 'airblade/vim-gitgutter'
+    Plug 'airblade/vim-gitgutter'
     Plug 'tpope/vim-fugitive'
     Plug 'tpope/vim-rhubarb'
     Plug 'junegunn/gv.vim'
@@ -68,7 +66,6 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'psliwka/vim-smoothie'
     " Intuitive buffer closing
     Plug 'moll/vim-bbye'
-   
 
 call plug#end()
 
