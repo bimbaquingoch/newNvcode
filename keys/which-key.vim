@@ -95,7 +95,7 @@ let g:which_key_map.g = {
       \ 'c' : [':Git commit'                                   , 'commit'],
       \ 'C' : [':Git commit --amend'                           , 'commit --amend'],
       \ 'd' : [':Git diff'                                     , 'diff'],
-      \ 'e' : [':Git status'                                   , 'status'],
+      \ 'e' : [':Telescope git_status'                                   , 'status'],
       \ 'f' : [':GV'                                           , 'log'],
       \ 'g' : [':Git push origin master'                       , 'push Mater'],
       \ 'h' : [':Git pull origin master'                       , 'pull Mater'],
