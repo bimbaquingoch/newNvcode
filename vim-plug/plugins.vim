@@ -20,6 +20,9 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     " Snippeds JS
     Plug 'dominikduda/vim_es7_javascript_react_snippets'
     Plug 'dsznajder/vscode-es7-javascript-react-snippets', { 'do': 'yarn install --frozen-lockfile && yarn compile' }
+    Plug 'yuezk/vim-js'
+    Plug 'maxmellon/vim-jsx-pretty'
+    Plug 'HerringtonDarkholme/yats.vim'
     " nav tabs
     Plug 'romgrk/barbar.nvim'
     " Status Line airline
