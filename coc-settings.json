@@ -107,21 +107,7 @@
 
   //coc-emoji
   "coc.source.emoji.filetypes": [
-    "css",
-    "markdown",
-    "javascript",
-    "typescript",
-    "jsx",
-    "graphql",
-    "php",
-    "html",
-    "yaml",
-    "json",
-    "python",
-    "java",
-    "bash",
-    "c++",
-    "c#"
+    "markdown"
   ],
 
   "coc.preferences.extensionUpdateCheck": "never"
