@@ -32,13 +32,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'wakatime/vim-wakatime'
     " Better Comments
     Plug 'tpope/vim-commentary'
-    " Text Navigation
-    Plug 'unblevable/quick-scope'
     " LSP
     Plug 'neovim/nvim-lspconfig'
-    " Plug 'hrsh7th/nvim-compe'
-    " Better Syntax Support
-    Plug 'sheerun/vim-polyglot'
     " Cool Icons
     Plug 'kyazdani42/nvim-web-devicons'
     Plug 'ryanoasis/vim-devicons'

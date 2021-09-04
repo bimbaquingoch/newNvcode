@@ -9,7 +9,16 @@ let g:tokyonight_style = 'storm'
 let g:lightline = {'colorscheme' : 'tokyonight'}
 colorscheme tokyonight
 let g:airline_theme = "tokyonight"
-"git
+
+" neovim dashboard
+let g:dashboard_custom_header = [
+     \' ██╗    ██╗ ███████╗  ██████╗  ██╗   ██╗ ██████╗ ██╗    ██╗ ',
+     \' ████╗  ██║ ██╔════╝ ██╔═══██╗ ██║   ██║ ╚═██╔═╝ ████╗████║ ',
+     \' ██╔██╗ ██║ ██████╗  ██║   ██║ ██║   ██║   ██║   ██╚███╗██║ ',
+     \' ██║╚██╗██║ ██╔═══╝  ██║   ██║ ╚██╗ ██╔╝   ██║   ██║╚══╝██║ ',
+     \' ██║  ╚███║ ███████╗ ╚██████╔╝  ╚████╔╝  ██████╗ ██║    ██║ ',
+     \' ╚═╝   ╚══╝ ╚══════╝  ╚═════╝    ╚═══╝   ╚═════╝ ╚═╝    ╚═╝ ',
+		\]
 
 let g:dashboard_default_executive ='telescope'
 set foldmethod=syntax
@@ -18,6 +27,7 @@ let g:material_theme_style = 'ocean'
 let g:rainbow_active = 1
 let g:rainbow_load_separately = [
     \ [ '*' , [['(', ')'], ['\[', '\]'], ['{', '}']] ],
+    \ [ '*.*' , [['(', ')'], ['\[', '\]'], ['{', '}']] ],
     \ [ '*.tex' , [['(', ')'], ['\[', '\]']] ],
     \ [ '*.cpp' , [['(', ')'], ['\[', '\]'], ['{', '}']] ],
     \ [ '*.{html,htm}' , [['(', ')'], ['\[', '\]'], ['{', '}'], ['<\a[^>]*>', '</[^>]*>']] ],
