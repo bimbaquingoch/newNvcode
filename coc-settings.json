@@ -106,9 +106,7 @@
   },
 
   //coc-emoji
-  "coc.source.emoji.filetypes": [
-    "markdown"
-  ],
+  "coc.source.emoji.filetypes": ["markdown"],
 
   "coc.preferences.extensionUpdateCheck": "never"
 }

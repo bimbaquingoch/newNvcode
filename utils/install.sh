@@ -12,7 +12,6 @@ installnodemac() { \
 installnodeubuntu() { \
   sudo apt-get install nodejs
   sudo apt-get install npm
-  sudo apt-get install ranger
   pip3 install ueberzug
 }
 
@@ -170,7 +169,9 @@ installcocextensions
 
 echo "I recommend you also install and activate a font from here: https://www.nerdfonts.com/font-downloads"
 
-echo "I also recommend you add 'set preview_images_method ueberzug' to ~/.config/ranger/rc.conf"
+echo "Please install yarn before start nvim"
+
+echo "  sudo npm install --global yarn "
 
 echo "
 

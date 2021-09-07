@@ -1,3 +1,5 @@
+# This project is forked from [LunarVim](https://github.com/LunarVim/LunarVim)
+
 ![NVCode pic](./utils/images/nvcode.png)
 
 ## Commands
@@ -6,19 +8,18 @@
 
 > [Commands Linux](https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/)
 
-## Install Neovim
+## Install the latest version of Neovim
 
 Ubuntu
 
 ```sh
+sudo add-apt-repository ppa:neovim-ppa/unstable
 sudo apt-get update
-bash <(curl -s https://raw.githubusercontent.com/ChristianChiarulli/LunarVim/rolling/utils/bin/install-latest-neovim)
+sudo apt-get install neovim
 nvim -v
 ```
 
- <h4>
-  Install in one command (this script only supports Mac, Ubuntu and Arch)
- </h4>
+#### Install in one command (this script only supports Mac, Ubuntu and Arch)
 
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
