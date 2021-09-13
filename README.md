@@ -8,6 +8,8 @@
 
 > [Commands Linux](https://blog.desdelinux.net/mas-de-400-comandos-para-gnulinux-que-deberias-conocer/)
 
+# Firts make sure have installed neovim 0.5 or higher, nodejs and python 3
+
 ## Install the latest version of Neovim
 
 Ubuntu
@@ -19,7 +21,7 @@ sudo apt-get install neovim
 nvim -v
 ```
 
-#### Install in one command (this script only supports Mac, Ubuntu and Arch)
+#### Install in one command (this script supports Mac, Ubuntu)
 
 ```sh
 bash <(curl -s https://raw.githubusercontent.com/bimbaquingoch/newNvcode/master/utils/install.sh)
