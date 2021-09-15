@@ -86,33 +86,33 @@ let g:which_key_map.p = {
       \ 'g' : [':PlugDiff'        ,'PlugDiff']
       \}
 
-" g is for git
-let g:which_key_map.g = {
-      \ 'name' : '+git' ,
-      \ 'a' : [':Git add .'                                    , 'add all'],
-      \ 'b' : [':Git blame'                                    , 'blame'],
-      \ 'B' : [':Git branch -a'                                , 'branches'],
-      \ 'c' : [':Git commit'                                   , 'commit'],
-      \ 'C' : [':Git commit --amend'                           , 'commit --amend'],
-      \ 'd' : [':Git diff'                                     , 'diff'],
-      \ 'e' : [':Telescope git_status'                                   , 'status'],
-      \ 'f' : [':GV'                                           , 'log'],
-      \ 'g' : [':Git push origin master'                       , 'push Mater'],
-      \ 'h' : [':Git pull origin master'                       , 'pull Mater'],
-      \ 'i' : [':Git log --stat'                               , 'log --stat'],
-      \ 'j' : [':Git log --all --graph --decorate --oneline'   , 'log all graph decorate'],
-      \ 'k' : [':Git show'                                     , 'show'],
-      \ 'l' : [':Git checkout master'                          , 'move to Master'],
-      \ 'm' : [':Git branch development'                       , 'create branch development'],
-      \ 'n' : [':Git branch hotfix'                            , 'create branch hotfix'],
-      \ 'N' : [':Git checkout development'                     , 'move to development'],
-      \ 'O' : [':Git checkout hotfix'                          , 'move to hotfix'],
-      \ 'p' : [':Git merge development'                        , 'merge development'],
-      \ 'q' : [':Git merge hotfix'                             , 'merge hotfix'],
-      \ 'r' : [':Gpush origin development'                     , 'push development'],
-      \ 's' : [':Gpush origin hotfix'                          , 'push hotfix'],
-      \ 't' : [':Git reflog'                                   , 'history(reflog)'],
-      \ }
+" " g is for git
+" let g:which_key_map.g = {
+"       \ 'name' : '+git' ,
+"       \ 'a' : [':Git add .'                                    , 'add all'],
+"       \ 'b' : [':Git blame'                                    , 'blame'],
+"       \ 'B' : [':Git branch -a'                                , 'branches'],
+"       \ 'c' : [':Git commit'                                   , 'commit'],
+"       \ 'C' : [':Git commit --amend'                           , 'commit --amend'],
+"       \ 'd' : [':Git diff'                                     , 'diff'],
+"       \ 'e' : [':Telescope git_status'                                   , 'status'],
+"       \ 'f' : [':GV'                                           , 'log'],
+"       \ 'g' : [':Git push origin master'                       , 'push Mater'],
+"       \ 'h' : [':Git pull origin master'                       , 'pull Mater'],
+"       \ 'i' : [':Git log --stat'                               , 'log --stat'],
+"       \ 'j' : [':Git log --all --graph --decorate --oneline'   , 'log all graph decorate'],
+"       \ 'k' : [':Git show'                                     , 'show'],
+"       \ 'l' : [':Git checkout master'                          , 'move to Master'],
+"       \ 'm' : [':Git branch development'                       , 'create branch development'],
+"       \ 'n' : [':Git branch hotfix'                            , 'create branch hotfix'],
+"       \ 'N' : [':Git checkout development'                     , 'move to development'],
+"       \ 'O' : [':Git checkout hotfix'                          , 'move to hotfix'],
+"       \ 'p' : [':Git merge development'                        , 'merge development'],
+"       \ 'q' : [':Git merge hotfix'                             , 'merge hotfix'],
+"       \ 'r' : [':Gpush origin development'                     , 'push development'],
+"       \ 's' : [':Gpush origin hotfix'                          , 'push hotfix'],
+"       \ 't' : [':Git reflog'                                   , 'history(reflog)'],
+"       \ }
 
 " l is for language server protocol
 let g:which_key_map.l = {

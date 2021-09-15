@@ -44,6 +44,8 @@ call plug#begin('~/.config/nvim/autoload/plugged')
     Plug 'kaicataldo/material.vim', { 'branch': 'main' }
     Plug 'jsit/toast.vim'
     Plug 'ghifarit53/tokyonight-vim'
+    " Polyglot
+    Plug 'sheerun/vim-polyglot'
     " Intellisense
     Plug 'neoclide/coc.nvim', {'branch': 'release'}
    " Git

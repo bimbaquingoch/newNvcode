@@ -1,6 +1,9 @@
 set iskeyword+=-                      	" treat dash separated words as a word text object"
 set formatoptions-=cro                  " Stop newline continution of comments
 set norelativenumber!
+set termguicolors
+set foldmethod=syntax
+
 "markdown
 let g:mkdp_auto_start = 0
 let g:mkdp_auto_close = 1
@@ -33,7 +36,6 @@ let g:mkdp_filetypes = ['markdown']
 " tokyonight-vim
 let g:tokyonight_enable_italic = 1
 let g:cssColorVimDoNotMessMyUpdatetime = 1 "Css color
-set termguicolors
 let g:tokyonight_style = 'storm'
 let g:lightline = {'colorscheme' : 'tokyonight'}
 colorscheme tokyonight
@@ -50,8 +52,6 @@ let g:dashboard_custom_header = [
 		\]
 
 let g:dashboard_default_executive ='telescope'
-set foldmethod=syntax
-
 let g:material_theme_style = 'ocean'
 let g:rainbow_active = 1
 let g:rainbow_load_separately = [
@@ -80,7 +80,6 @@ set splitright                          " Vertical splits will automatically be 
 set t_Co=256                            " Support 256 colors
 set conceallevel=0                      " So that I can see `` in markdown files
 set tabstop=2                           " Insert 2 spaces for a tab
-let g:airline_theme='zenburn'
 set shiftwidth=2                        " Change the number of space characters inserted for indentation
 set smarttab                            " Makes tabbing smarter will realize you have 2 vs 4
 set expandtab                           " Converts tabs to spaces
