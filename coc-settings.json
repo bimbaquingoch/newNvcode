@@ -33,7 +33,8 @@
     "scss",
     "javascript",
     "typescript",
-    "jsx",
+    "javascriptreact",
+    "typescriptreact",
     "graphql",
     "html",
     "yaml",
@@ -43,6 +44,12 @@
     "c++",
     "c#"
   ],
+  // "prettier.eslintIntegration": true,
+  // "prettier.tslintIntegration": true,
+  // "prettier.stylelintIntegration": true,
+  "eslint.run": "onSave",
+  "tslint.run": "onSave",
+  "styled-components.validate": true,
 
   // snippets
   "snippets.ultisnips.directories": ["UltiSnips", "~/.config/nvim/snips"],
